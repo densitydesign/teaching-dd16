@@ -95,8 +95,8 @@ g.style("stroke-dasharray", length);
 
 
 // Starter pack cover
-let coverWidth = d3.select("aside").node().getBoundingClientRect().width,
-coverHeight = window.innerHeight / 1.5;
+let coverWidth = window.innerWidth - (window.innerWidth / 10),
+coverHeight = window.innerHeight / 2;
 
 
 const scaleX = d3.scaleBand()
@@ -125,15 +125,15 @@ console.log(scaleX.step());
 
 let nodes = [{
   id: "Syllabus",
-  link: "link",
+  link: "/syllabus/",
 },
 {
   id: "Starter Pack",
-  link: "link",
+  link: "/starter-pack/",
 },
 {
   id: "Course Results",
-  link: "link",
+  link: "/course-results/",
 }];
 
 let links = [
@@ -151,7 +151,7 @@ const simulation = d3.forceSimulation(nodes)
 .force("link", d3.forceLink(links).id(d => d.id).distance(300))
 .force("charge", d3.forceManyBody())
 .force("x", d3.forceX(d => scaleX(d.id)))
-.force("center", d3.forceCenter(coverWidth / 2, coverHeight / 2))
+.force("center", d3.forceCenter(coverWidth / 2, 180))
 .force("collide", d3.forceCollide(coverWidth / 16).iterations(5))
 .alpha(1)
 .alphaDecay(0.02);
@@ -184,13 +184,29 @@ const drag = simulation => {
 
 const node = cover.selectAll("circle")
 .data(nodes)
-.join("circle")
+.enter()
+.append("a")
+.attr("xlink:href", d => d.link)
+.append("circle")
 .attr("cx", coverWidth / 2)
 .attr("cy", 400 / 2)
 .attr("r", d => 150)
 .attr("fill", "url(#radial-gradient)")
 .attr("stroke", "#404eff")
 .call(drag(simulation));
+
+node.on('mouseenter', function(d, i) {
+      d3.select(this)
+        .transition()
+        .ease(d3.easeCubicOut)
+        .attr('r', 170);
+    })
+    .on('mouseleave', function(d, i) {
+          d3.select(this)
+            .transition()
+            .ease(d3.easeCubicOut)
+            .attr('r', 150);
+        });
 
 const label = cover.selectAll("text")
     .append("text")
@@ -200,7 +216,10 @@ const label = cover.selectAll("text")
     .text(d => d.id)
     .attr("text-anchor", "middle")
     .attr("alignment-baseline", "middle")
-    .style("font-size", "1rem")
+    .style("font-size", "1.1rem")
+    .style("text-transform", "uppercase")
+    .style("font-weight", 700)
+    .style("fill", "#ffdbee")
     .style("pointer-events", "none");
 
 simulation.on("tick", () => {
