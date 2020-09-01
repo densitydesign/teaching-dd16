@@ -24,13 +24,8 @@ body {
   min-height: 100%;
 }
 
-em {
-  background: #AEBED1;
-  padding: 0 0.2rem;
-}
-
 ::selection {
-  background: var(--accent);
+  background: #FFFFFF;
 }
 
 header {
@@ -153,7 +148,6 @@ table {
   font-weight: 400;
   text-indent: 0;
   border-spacing: 0;
-  border: 1px solid var(--accent);
   max-width: 100%;
 }
 
