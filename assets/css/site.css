@@ -1,10 +1,10 @@
 :root {
-  --accent: #E0FF4F;
+  --accent: #404eff;
   --accent-tr: #E0FF4F80;
   --darker-accent: #98C103;
-  --background: #BFD1E5;
-  --main-color: #0B0D2C;
-  --main-lighter: #4D4F65;
+  --background: #ffdbee;
+  --main-color: #000000;
+  --main-lighter: #333;
   --main-lightest: #E1EAF3;
 }
 
@@ -41,8 +41,8 @@ header {
   top: 0;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  background: #BFD1E5;
-  background: linear-gradient(180deg, #BFD1E5 0%, #BFD1E5 60%, #BFD1E500 100%);
+  background: var(--background);
+  background: linear-gradient(180deg, var(--background) 0%, var(--background) 60%, #ffdbee00 100%);
 }
 
 header p {
@@ -99,8 +99,8 @@ main h1:first-child {
 
 main p, main ul, main ol {
   font-family: "Crimson Pro", "Georgia", serif;
-  line-height: 1.4;
-  font-size: 1.35rem;
+  line-height: 1.3;
+  font-size: 1.3rem;
 }
 
 main a {

@@ -95,98 +95,119 @@ g.style("stroke-dasharray", length);
 
 
 // Starter pack cover
-
-let bookletWidth = d3.select(".link--booklet").node().getBoundingClientRect().width,
-bookletHeight = d3.select(".link--booklet").node().getBoundingClientRect().height;
-
-let cover = d3.selectAll(".link--booklet").append("svg")
-.attr("width", bookletWidth)
-.attr("height", bookletHeight);
-
-var numNodes = 300;
-var nodes = d3.range(numNodes).map(function(d) {
-  return {radius: 3 + Math.random() * 35}
-})
-
-var simulation = d3.forceSimulation(nodes)
-.force('charge', d3.forceManyBody().strength(1))
-.force('center', d3.forceCenter(bookletWidth / 2, bookletHeight / 2))
-.force('collision', d3.forceCollide().radius(function(d) {
-  return d.radius + 1
-}))
-.on('tick', ticked);
+let coverWidth = d3.select("aside").node().getBoundingClientRect().width,
+coverHeight = window.innerHeight / 1.5;
 
 
-function ticked() {
+const scaleX = d3.scaleBand()
+.range([0, coverWidth])
+.round("true")
+.domain(["Syllabus", "Starter Pack", "Course Results"]);
 
-  var p = d3.select('#pack svg')
-  .selectAll('circle')
-  .data(nodes)
 
-  p.enter()
-  .append('circle')
-  .attr('r', function(d) {
-    return d.radius
-  })
-  .merge(p)
-  .attr('cx', function(d) {
-    return d.x
-  })
-  .attr('cy', function(d) {
-    return d.y
-  })
-  .classed("circles", true)
+let cover = d3.selectAll("#playground").append("svg")
+.attr("width", coverWidth)
+.attr("height", coverHeight);
 
-  p.exit().remove()
+var radialGradient = cover.append("defs")
+  .append("radialGradient")
+    .attr("id", "radial-gradient");
 
-}
+radialGradient.append("stop")
+    .attr("offset", "0%")
+    .attr("stop-color", "#404eff");
 
-// Syllabus cover
-let syllabus = d3.select("#syllabus svg")
-.append("g");
+radialGradient.append("stop")
+    .attr("offset", "100%")
+    .attr("stop-color", "#ffdbee");
 
-// Populate a grid of n×m values where -2 ≤ x ≤ 2 and -2 ≤ y ≤ 1.
-var n = Math.round(bookletWidth), m = Math.round(bookletHeight), values = new Array(n * m);
-// for (var j = 0.5, k = 0; j < m; ++j) {
-//   for (var i = 0.5; i < n; ++i, ++k) {
-//     values[k] = goldsteinPrice(i / n * 4 - 2, 1 - j / m * 3);
-//   }
-// }
+console.log(scaleX.step());
 
-for (var j = 0, k = 0; j < m; ++j) {
-  for (var i = 0; i < n; ++i, ++k) {
-    values[k] = j * k * (i / j);
+let nodes = [{
+  id: "Syllabus",
+  link: "link",
+},
+{
+  id: "Starter Pack",
+  link: "link",
+},
+{
+  id: "Course Results",
+  link: "link",
+}];
+
+let links = [
+  {
+    source: "Syllabus",
+    target: "Starter Pack"
+  },
+  {
+    source: "Starter Pack",
+    target: "Course Results"
+  },
+]
+
+const simulation = d3.forceSimulation(nodes)
+.force("link", d3.forceLink(links).id(d => d.id).distance(300))
+.force("charge", d3.forceManyBody())
+.force("x", d3.forceX(d => scaleX(d.id)))
+.force("center", d3.forceCenter(coverWidth / 2, coverHeight / 2))
+.force("collide", d3.forceCollide(coverWidth / 16).iterations(5))
+.alpha(1)
+.alphaDecay(0.02);
+
+
+const drag = simulation => {
+
+  function dragstarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
   }
-}
 
-// Compute the contour polygons at log-spaced intervals; returns an array of MultiPolygon.
-var contours = d3.contours()
-.size([n, m])
-.thresholds(d3.range(2, 21).map(p => Math.pow(3, p)))
-(values);
-
-syllabus.selectAll("path")
-.data(contours)
-.enter()
-.append("path")
-.attr("d", d3.geoPath())
-.attr("fill", "none")
-.classed("stroke", true)
-.attr("stroke-linejoin", "round");
-
-// Course Results cover
-
-let course = d3.select("#course svg")
-.append("g");
-
-for (let x = 0; x < bookletWidth; x += (bookletWidth/5)) {
-  for (let y = 0; y < bookletHeight; y += (bookletWidth/5)) {
-    course.append("rect")
-    .attr("x", x)
-    .attr("y", y)
-    .attr("width", bookletWidth)
-    .attr("height", bookletHeight)
-    .attr("fill", "none")
-    .classed("stroke", true);
+  function dragged(event,d) {
+    d.fx = event.x;
+    d.fy = event.y;
   }
+
+  function dragended(event,d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+
+  return d3.drag()
+  .on("start", dragstarted)
+  .on("drag", dragged)
+  .on("end", dragended);
 }
+
+const node = cover.selectAll("circle")
+.data(nodes)
+.join("circle")
+.attr("cx", coverWidth / 2)
+.attr("cy", 400 / 2)
+.attr("r", d => 150)
+.attr("fill", "url(#radial-gradient)")
+.attr("stroke", "#404eff")
+.call(drag(simulation));
+
+const label = cover.selectAll("text")
+    .append("text")
+    .data(nodes)
+    .join("text")
+    .attr("dy", 0)
+    .text(d => d.id)
+    .attr("text-anchor", "middle")
+    .attr("alignment-baseline", "middle")
+    .style("font-size", "1rem")
+    .style("pointer-events", "none");
+
+simulation.on("tick", () => {
+  label
+    .attr("x", d => d.x)
+    .attr("y", d => d.y);
+  node
+  .attr("cx", d => d.x)
+  .attr("cy", d => d.y)
+});

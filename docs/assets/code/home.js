@@ -5,11 +5,9 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 	<html>
 	<main id="main--home">
 		{ _body }
+		<div id="playground">
+		</div>
 	</main>
-	<aside>
-	<div id="playground">
-	</div>
-	</aside>
 
 	</html>
 );
