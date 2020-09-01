@@ -195,6 +195,19 @@ const node = cover.selectAll("circle")
 .attr("stroke", "#404eff")
 .call(drag(simulation));
 
+node.on('mouseenter', function(d, i) {
+      d3.select(this)
+        .transition()
+        .ease(d3.easeCubicOut)
+        .attr('r', 170);
+    })
+    .on('mouseleave', function(d, i) {
+          d3.select(this)
+            .transition()
+            .ease(d3.easeCubicOut)
+            .attr('r', 150);
+        });
+
 const label = cover.selectAll("text")
     .append("text")
     .data(nodes)
@@ -203,7 +216,10 @@ const label = cover.selectAll("text")
     .text(d => d.id)
     .attr("text-anchor", "middle")
     .attr("alignment-baseline", "middle")
-    .style("font-size", "1rem")
+    .style("font-size", "1.1rem")
+    .style("text-transform", "uppercase")
+    .style("font-weight", 700)
+    .style("fill", "#ffdbee")
     .style("pointer-events", "none");
 
 simulation.on("tick", () => {

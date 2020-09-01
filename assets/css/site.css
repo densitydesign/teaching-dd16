@@ -19,7 +19,7 @@ body {
   margin: 0;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: "DM Sans", "Arial", "Helvetica", sans-serif;
+  font-family: "Karla", "Arial", "Helvetica", sans-serif;
   color: var(--main-color);
   min-height: 100%;
 }
@@ -177,7 +177,7 @@ footer {
 }
 
 footer a, footer a:visited {
-  font-family: "DM Sans", "Arial", "Helvetica", sans-serif;
+  font-family: "Karla", "Arial", "Helvetica", sans-serif;
   font-size: 0.9rem;
   text-decoration: none;
 }
@@ -287,6 +287,10 @@ aside {
 
 #playground {
   grid-column: 1 / 4;
+}
+
+#playground circle:hover {
+  /* transform: scale(1.1); */
 }
 
 .link--booklet {
