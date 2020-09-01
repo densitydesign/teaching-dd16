@@ -171,7 +171,7 @@ th {
 
 footer {
   font-size: 1rem;
-  margin-top: 6rem;
+  margin-top: 4rem;
   padding: 2rem 0 3rem 0;
   color: var(--main-lighter);
 }
@@ -283,6 +283,10 @@ aside {
 
 #right--align {
   grid-column: 2 / 5;
+}
+
+#playground {
+  grid-column: 1 / 4;
 }
 
 .link--booklet {
@@ -747,11 +751,11 @@ aside h4 {
     max-width: 90%;
   }
 
-  aside a, .link--booklet, .link--phase {
+  /* aside a, .link--booklet, .link--phase {
     grid-column: 1 / 6 !important;
     height: 15vh;
     margin-bottom: 1rem;
-  }
+  } */
 
   .phases--navigation .before, .phases--navigation .after {
     display: none;
