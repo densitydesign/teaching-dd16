@@ -30,7 +30,7 @@ At the end of the course, students will have gained:
 
 
 # Course structure and deliverables
-The course will be divided into three main phases in which students will be working in groups. In addition, every student will be challenged with two individual assignments.
+The course will be divided into three main phases in which students will be working in groups. In addition, every student will be challenged with one individual assignment.
 
 Students will be introduced to the information design and data visualization domain through iterations of a set of interrelated activities: picking appropriate sources, constructing a coherent narrative, dealing with unstructured data, communicate, share and engage by designing for advocacy.
 
@@ -44,13 +44,12 @@ In this phase students will be asked to identify datasets available from officia
 The first phase will tackle data handling and translation for the creation of visualizations; highlighting the theoretical and technical competences needed. It will acquaint students with how to work with data in a tabular format (cleaning, aggregation, lookup).
 There will be a basic introduction to Statistics, defining its objectives and highlighting why an information designer needs to master it. Traditional methods from the design field will be used in order to analyze and represent complex datasets. This module will also provide students with the basic theories of data visualization, following its development and core principles.
 
-Output of this phase is the design of a series of visualizations - both for a web format and a printed edition - that represent a first perspective or angle to access the chosen issue.
+Output of this phase is the design of a series of printed visualizations that represent a first perspective or angle to access the chosen issue.
 
 ## Learning goals
 1. *To manage data* from the choice of sources, to analysis and manipulation of the gathered data.
 2. To know the *theoretical context of information visualization* and how to apply it to the design of visualizations.
 3. To choose visual variables for mapping data, *design visualization*, provide needed context for tis reading/decoding.
-4. To create *simple HTML responsive pages* for presenting a design project.
 
 
 # Second phase: Data as Artifact
@@ -71,18 +70,18 @@ At the end of this phase, each group design and deliver an interactive research 
 ## Output
 Interactive research report. Examples from previous years:
 <div class="showcase">
+<a href="https://densitydesign.github.io/teaching-dd15/course-results/es02/group05"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/visible.png">
+<h3>Making the invisible Visible</h3>
+<p>Antonella Autuori, Agnese Bartolucci, Elena Catani, Mattia Cittadino, Anna Gazza, Barbara Vanoli</p></div></a>
+<a href="https://densitydesign.github.io/teaching-dd15/course-results/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/perfect.jpeg">
+<h3>Perfect Me: Algorithmic Human Adjustments</h3>
+<p>Matteo Bettini, Teresa Cremonesi, Alexandru Enache, Giovanni Lombardi, Valentina Pagano, Pengyuan Ren</p></div></a>
 <a href="https://densitydesign.github.io/teaching-dd14/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/amazon.png">
 <h3>The Amazon's Damnation</h3>
 <p>Alessandra Facchin, Alessandro Ferrari, Jingjing Gui, Paula Lozano, Nicolò Marchetti, Valeria Quiroga</p></div></a>
 <a href="https://densitydesign.github.io/teaching-dd14/es02/group09/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/hateshades.png">
 <h3>Hate Shades</h3>
 <p>Nicola Brignoli, Francesca Brotto, Lea Mara Fabiano, Elena Filippi, Edoardo Guido, Jacopo Poletto</p></div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group01/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/trump.png">
-<h3>The Trump Effect on Climate Change</h3>
-<p>Valeria Aufiero, Andrea Benedetti, Alessia Bissolotti, Simone Costagliola, Beatrice Gobbo</p></div></a>
-<a href="https://densitydesign.github.io/teaching-dd12/es02/group08/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/is.png">
-<h3>IS a brand</h3>
-<p>Serena Del Nero, Marco Mezzadra, Claudia Pazzaglia, Alessandro Riva, Alessandro Zotta</p></div></a>
 </div>
 
 # Third phase: Data Publics
@@ -100,6 +99,18 @@ The aim is for students to apply their communication design skills using data fo
 5. *To repurpose* data and data visualization as components of discursive artifacts
 
 ## Output
+### Discursive communication artifacts: examples from previous years
+<div class="showcase">
+<a href="https://episode1.donottrack-doc.com/en/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/cams.gif">
+<h3>I see u</h3>
+<p>Evansha Agrawal, Maria Almeida, Guilherme Appolinario, Natalia Malaver, Cristina Pita da Veiga, Rebeca Vittorazo</p>
+</div></a>
+<a href="https://densitydesign.github.io/teaching-dd15/course-results/es03/group02/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/deepfake.png">
+<h3>Deepfake Lab</h3>
+<p>Andrej Cattaneo, Ivana Riva, Noura Sammoura, Maria del Pilar Suarez Anzorena, Arthur van der Werf, Yueling Wu</p>
+</div></a>
+</div>
+
 ### Interactive documentary
 <div class="showcase">
 <a href="https://episode1.donottrack-doc.com/en/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/donottrack.jpg">
@@ -152,9 +163,6 @@ Choice of sources, analysis and manipulation of the  gathered data, completeness
 
 ### Communication effectiveness
 Ability to create a cohesive artifact that highlights general patterns while maintaining complexity and subtleties, that display synergy in the whole artifact and process.
-
-### Coherence of the webpage
-The web page is designed and developed according to the blueprint, it’s able to provide an overview on the work.
 
 ## Evaluation on phase 2
 ### Data visualization
