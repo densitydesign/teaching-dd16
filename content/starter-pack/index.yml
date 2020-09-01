@@ -1,0 +1,10 @@
+title: Homepage
+
+header:
+  - /_shared/header.md
+
+intro:
+  - /_shared/header.md
+
+main:
+  - body.md

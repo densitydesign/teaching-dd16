@@ -1,0 +1,44 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "DensityDesign Lab - Final Synthesis Design Studio 2019/2020. Course results and documentation for the fifteenth edition of the course held by DensityDesign Lab at Politecnico di Milano",
+  "main": "index.js",
+  "dependencies": {
+    "cuttlebelle": "^1.0.0-alpha.67",
+    "sass": "^1.23.0",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "cuttlebelle",
+    "watch": "cuttlebelle -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cuttlebelle": {
+    "folder": {
+      "site": "docs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/densitydesign/teaching-dd15.git"
+  },
+  "keywords": [
+    "course",
+    "results",
+    "densitydesign",
+    "data",
+    "visualization",
+    "information",
+    "design",
+    "politecnico",
+    "di",
+    "milano"
+  ],
+  "author": "DensityDesign Lab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/densitydesign/teaching-dd15/issues"
+  },
+  "homepage": "https://github.com/densitydesign/teaching-dd15#readme"
+}
