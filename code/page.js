@@ -42,8 +42,8 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 		: null
 	}
 
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Crimson+Pro:400,400i&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href={ _relativeURL( `/assets/css/site.css`, _ID ) } />
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5816319-18" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
