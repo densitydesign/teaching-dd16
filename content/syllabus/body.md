@@ -190,6 +190,12 @@ Objective of the assignment is the design of a defined “artifact” (without l
 
 The personal assignment will be evaluated with a value ranging from -1 to +1 that will be added to the final grade in thirtieths. Evaluation criteria are the originality of the work and the ability of representing the chosen topic.
 
+<div class="showcase">
+<a href="https://infopoetry.densitydesign.org/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/infopoetry.png">
+<h3>Infopoetry website</h3>
+<p>Density Design</p>
+</div></a>
+
 
 # Modules and professors
 The course is composed by five modules, representing the different competencies needed to train students in the information design field. The course is coordinated by professor Michele Mauri. The modules will be presented in parallel in order to provide all the necessary skills needed for a proper approach to the three phases.
