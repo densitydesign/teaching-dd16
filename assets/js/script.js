@@ -125,15 +125,15 @@ console.log(scaleX.step());
 
 let nodes = [{
   id: "Syllabus",
-  link: "/syllabus/",
+  link: "/teaching-dd16/syllabus/",
 },
 {
   id: "Starter Pack",
-  link: "/starter-pack/",
+  link: "/teaching-dd16/starter-pack/",
 },
 {
   id: "Course Results",
-  link: "/course-results/",
+  link: "/teaching-dd16/course-results/",
 }];
 
 let links = [
