@@ -190,7 +190,6 @@ Objective of the assignment is the design of a defined “artifact” (without l
 
 The personal assignment will be evaluated with a value ranging from -1 to +1 that will be added to the final grade in thirtieths. Evaluation criteria are the originality of the work and the ability of representing the chosen topic.
 
-### Infopoetry website: examples from previous years
 <div class="showcase">
 <a href="https://infopoetry.densitydesign.org/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/infopoetry.png">
 <h3>Infopoetry</h3>
