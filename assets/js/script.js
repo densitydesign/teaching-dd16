@@ -148,18 +148,30 @@ g.selectAll('text').data(data).enter().append('text')
 
 // Starter pack cover
 let coverWidth = window.innerWidth - (window.innerWidth / 10),
-coverHeight = window.innerHeight / 2;
+coverHeightD = 550,
+coverHeightM = 400;
 
+var x = window.matchMedia("(max-width: 700px)")
 
 const scaleX = d3.scaleBand()
 .range([0, coverWidth])
 .round("true")
 .domain(["Syllabus", "Starter Pack", "Course Results"]);
 
+const sizeDesktop = d3.scaleSqrt()
+.range([0, 170])
+.domain([0,1]);
+
+const sizeMobile = d3.scaleSqrt()
+.range([0, 80])
+.domain([0,1]);
 
 let cover = d3.selectAll("#playground").append("svg")
 .attr("width", coverWidth)
-.attr("height", coverHeight);
+.attr("height", () => {
+    if (x.matches) { return coverHeightM }
+    else { return coverHeightD }
+});
 
 var radialGradient = cover.append("defs")
   .append("radialGradient")
@@ -178,15 +190,19 @@ console.log(scaleX.step());
 let nodes = [{
   id: "Syllabus",
   link: "/teaching-dd16/syllabus/",
+  r: 1
 },
 {
   id: "Starter Pack",
   link: "/teaching-dd16/starter-pack/",
+  r: 1
 },
 {
   id: "Course Results",
   link: "/teaching-dd16/course-results/",
-}];
+  r: 0.2
+}
+];
 
 let links = [
   {
@@ -200,11 +216,14 @@ let links = [
 ]
 
 const simulation = d3.forceSimulation(nodes)
-.force("link", d3.forceLink(links).id(d => d.id).distance(300))
+.force("link", d3.forceLink(links).id(d => d.id).distance(200))
 .force("charge", d3.forceManyBody())
 .force("x", d3.forceX(d => scaleX(d.id)))
-.force("center", d3.forceCenter(coverWidth / 2, 180))
-.force("collide", d3.forceCollide(coverWidth / 16).iterations(5))
+.force("center", d3.forceCenter(d3.select("#playground svg").node().getBoundingClientRect().width / 2, d3.select("#playground svg").node().getBoundingClientRect().height / 2))
+.force("collide", d3.forceCollide(d => {
+  if (x.matches) { return sizeMobile(d.r) + 10 }
+  else { return sizeDesktop(d.r) + 10 }
+}).iterations(5))
 .alpha(1)
 .alphaDecay(0.02);
 
@@ -242,7 +261,10 @@ const node = cover.selectAll("circle")
 .append("circle")
 .attr("cx", coverWidth / 2)
 .attr("cy", 400 / 2)
-.attr("r", d => 150)
+.attr("r", d => {
+  if (x.matches) { return sizeMobile(d.r) }
+  else { return sizeDesktop(d.r) }
+})
 .attr("fill", "url(#radial-gradient)")
 .attr("stroke", "#404eff")
 .call(drag(simulation));
@@ -251,13 +273,13 @@ node.on('mouseenter', function(d, i) {
       d3.select(this)
         .transition()
         .ease(d3.easeCubicOut)
-        .attr('r', 170);
+        .attr('r', d => sizeDesktop(d.r) + 10);
     })
     .on('mouseleave', function(d, i) {
           d3.select(this)
             .transition()
             .ease(d3.easeCubicOut)
-            .attr('r', 150);
+            .attr('r', d => sizeDesktop(d.r));
         });
 
 const label = cover.selectAll("text")
@@ -271,7 +293,7 @@ const label = cover.selectAll("text")
     .style("font-size", "1.1rem")
     .style("text-transform", "uppercase")
     .style("font-weight", 700)
-    .style("fill", "#ffdbee")
+    .style("fill", "#000000")
     .style("pointer-events", "none");
 
 simulation.on("tick", () => {
