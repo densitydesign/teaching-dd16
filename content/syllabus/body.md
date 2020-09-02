@@ -70,7 +70,7 @@ At the end of this phase, each group design and deliver an interactive research 
 ## Output
 Interactive research report. Examples from previous years:
 <div class="showcase">
-<a href="https://densitydesign.github.io/teaching-dd15/course-results/es02/group05"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/visible.png">
+<a href="https://densitydesign.github.io/teaching-dd15/course-results/es02/group05"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/visible.gif">
 <h3>Making the invisible visible</h3>
 <p>Antonella Autuori, Agnese Bartolucci, Elena Catani, Mattia Cittadino, Anna Gazza, Barbara Vanoli</p></div></a>
 <a href="https://densitydesign.github.io/teaching-dd15/course-results/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/perfect.jpeg">
@@ -189,6 +189,14 @@ To use the possibilities of online digital media in a highly experimental way to
 Objective of the assignment is the design of a defined “artifact” (without limits of languages and materials) in which students will experiment a poetic approach to the representation of data. The objective is to make people “feel” the phenomenon behind the data and not only “see” the data.
 
 The personal assignment will be evaluated with a value ranging from -1 to +1 that will be added to the final grade in thirtieths. Evaluation criteria are the originality of the work and the ability of representing the chosen topic.
+
+### Infopoetry website: examples from previous years
+<div class="showcase">
+<a href="https://infopoetry.densitydesign.org/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/infopoetry.png">
+<h3>Infopoetry</h3>
+<p>Density Design</p>
+</div></a>
+
 
 # Modules and professors
 The course is composed by five modules, representing the different competencies needed to train students in the information design field. The course is coordinated by professor Michele Mauri. The modules will be presented in parallel in order to provide all the necessary skills needed for a proper approach to the three phases.
