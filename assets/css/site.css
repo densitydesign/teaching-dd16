@@ -53,7 +53,6 @@ header {
   position: sticky;
   top: 0;
   padding-top: 1rem;
-  padding-bottom: 2rem;
   background: #BFD1E5;
   background: linear-gradient(180deg, #ffdbee 0%, #ffdbee 60%, #ffdbee00 100%);
 }
