@@ -192,7 +192,7 @@ The personal assignment will be evaluated with a value ranging from -1 to +1 tha
 
 <div class="showcase">
 <a href="https://infopoetry.densitydesign.org/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/infopoetry.png">
-<h3>Infopoetry</h3>
+<h3>Infopoetry website</h3>
 <p>Density Design</p>
 </div></a>
 
