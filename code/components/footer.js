@@ -4,7 +4,7 @@ const logo = "https://andreabenedetti.github.io/dd-15/assets/img/Logo_DensityDes
 const polimi = "https://andreabenedetti.github.io/dd-15/assets/img/polimi.svg";
 
 const faculty = ["Michele Mauri", "Ángeles Briones", "Gabriele Colombo", "Simone Vantini", "Salvatore Zingale"],
-assistants = ["Andrea Benedetti", "Lea Mara Fabiano", "Alessandra Facchin", "Beatrice Gobbo", "Tommaso Elli", "Jacopo di Iorio", "Anna Riboldi"];
+assistants = ["Antonella Autuori", "Andrea Benedetti", "Matteo Bettini", "Tommaso Elli", "Andrea Elena Febres Medina", "Beatrice Gobbo"];
 
 class Footer extends React.Component {
   render() {
@@ -35,7 +35,7 @@ class Footer extends React.Component {
       </div>
 
       <div id="contacts">
-      <p>The FSDS is a Synthesis lab that takes place at Politecnico di Milano, in the last year of the Master's Degree in Communication Design between September 2019 and February 2020.</p>
+      <p>The FSDS is a Synthesis lab that takes place at Politecnico di Milano, in the last year of the Master's Degree in Communication Design between September 2020 and February 2021.</p>
       <ul>
       <li><a href="https://www.facebook.com/densitydesign"><i className="fab fa-facebook-f" style={{ marginRight: "1rem" }}></i></a> <a href="https://twitter.com/densitydesign"><i className="fab fa-twitter" style={{ marginRight: "1rem" }}></i></a> <a href="https://www.instagram.com/densitydesign/"><i className="fab fa-instagram"></i></a></li>
       <li><a href="http://densitydesign.org/"><i className="fas fa-globe-europe"></i> densitydesign.org</a></li>

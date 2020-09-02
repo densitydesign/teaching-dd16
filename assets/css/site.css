@@ -1,10 +1,10 @@
 :root {
-  --accent: #404eff;
-  --accent-tr: #E0FF4F80;
-  --darker-accent: #98C103;
+  --accent: #403eff;
+  --accent-tr: #eabcd5;
+  --darker-accent: #29298c;
   --background: #ffdbee;
-  --main-color: #000000;
-  --main-lighter: #333;
+  --main-color: #0B0D2C;
+  --main-lighter: #4D4F65;
   --main-lightest: #E1EAF3;
 }
 
@@ -24,8 +24,13 @@ body {
   min-height: 100%;
 }
 
+em {
+  background: #eabcd5;
+  padding: 0 0.2rem;
+}
+
 ::selection {
-  background: #FFFFFF;
+  background: var(--accent-tr);
 }
 
 header {
@@ -36,8 +41,8 @@ header {
   top: 0;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  background: var(--background);
-  background: linear-gradient(180deg, var(--background) 0%, var(--background) 60%, #ffdbee00 100%);
+  background: #BFD1E5;
+  background: linear-gradient(180deg, #ffdbee 0%, #ffdbee 60%, #ffdbee00 100%);
 }
 
 header p {

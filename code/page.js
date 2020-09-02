@@ -12,21 +12,21 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<meta name="author" content="DensityDesign Research Lab" />
-  <meta name="description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2019/2020" />
-  <meta property="og:title" content="DensityDesign F.S.D.S 2019/2020" />
-  <meta property="og:description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2019/2020" />
+  <meta name="description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2020/2021" />
+  <meta property="og:title" content="DensityDesign F.S.D.S 2020/2021" />
+  <meta property="og:description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2020/2021" />
   <meta property="og:image" content="https://densitydesign.github.io/teaching-dd15/assets/img/meta-main-1.png" />
-  <meta property="og:url" content="https://densitydesign.github.io/teaching-dd15/" />
+  <meta property="og:url" content="https://densitydesign.github.io/teaching-dd16/" />
 	<meta property="og:type" content="website" />
 
   <meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@densitydesign" />
 	<meta name="twitter:creator" content="@densitydesign" />
-  <meta property="og:site_name" content="DensityDesign F.S.D.S 2019/2020" />
+  <meta property="og:site_name" content="DensityDesign F.S.D.S 2020/2021" />
 	<meta name="twitter:image:src" content="https://densitydesign.github.io/teaching-dd15/assets/img/meta-main-1.png" />
 	<meta name="twitter:image:width" content= "280" />
 	<meta name="twitter:image:height" content= "480" />
-  <meta name="twitter:image:alt" content="Official website of the DensityDesign Final Synthesis Design Studio, 2019/2020" />
+  <meta name="twitter:image:alt" content="Official website of the DensityDesign Final Synthesis Design Studio, 2020/2021" />
 
 	<link rel="apple-touch-icon" sizes="180x180" href="https://densitydesign.github.io/teaching-dd15/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="https://densitydesign.github.io/teaching-dd15/favicon-32x32.png" />
