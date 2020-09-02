@@ -15,7 +15,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
   <meta name="description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2020/2021" />
   <meta property="og:title" content="DensityDesign F.S.D.S 2020/2021" />
   <meta property="og:description" content="Official website of the DensityDesign Final Synthesis Design Studio, 2020/2021" />
-  <meta property="og:image" content="https://densitydesign.github.io/teaching-dd15/assets/img/meta-main-1.png" />
+  <meta property="og:image" content="https://densitydesign.github.io/teaching-dd16/assets/img/meta-main-1.png" />
   <meta property="og:url" content="https://densitydesign.github.io/teaching-dd16/" />
 	<meta property="og:type" content="website" />
 
@@ -23,7 +23,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 	<meta name="twitter:site" content="@densitydesign" />
 	<meta name="twitter:creator" content="@densitydesign" />
   <meta property="og:site_name" content="DensityDesign F.S.D.S 2020/2021" />
-	<meta name="twitter:image:src" content="https://densitydesign.github.io/teaching-dd15/assets/img/meta-main-1.png" />
+	<meta name="twitter:image:src" content="https://densitydesign.github.io/teaching-dd16/assets/img/meta-main-1.png" />
 	<meta name="twitter:image:width" content= "280" />
 	<meta name="twitter:image:height" content= "480" />
   <meta name="twitter:image:alt" content="Official website of the DensityDesign Final Synthesis Design Studio, 2020/2021" />
