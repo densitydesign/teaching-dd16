@@ -49,18 +49,77 @@ path.moveTo(x, y);
 
 let g = svg.append("g");
 
-g.append("text")
-.attr("x", x0)
-.attr("y", y0)
-.text("1")
-.classed("text", true);
+// g.append("text")
+// .attr("x", x0)
+// .attr("y", y0)
+// .text("1")
+// .classed("text", true);
+const xScale = d3.scalePoint([0,1,2,3],[width*0.25,width*0.85]).padding(0.5)
+const yScale = d3.scalePoint([0,1,2,3],[height*0.1,height*0.49]).padding(0.5)
+const rScale = d3.scaleLinear([1,16],[width/24,width/8])
+const darkColor = d3.color(getComputedStyle(document.documentElement).getPropertyValue('--accent')).darker(2)
+const lightColor = getComputedStyle(document.documentElement).getPropertyValue('--accent')
+const colScale = d3.scaleLinear([1,16],[darkColor, lightColor])
 
-for (let i = 0; i < 14; i++) {
-  x += 60 * (Math.random() - 0.54);
-  y += 60 * (Math.random() - 0.54);
+let index = 0;
+// x=0;
+// y=0;
 
-  if (x >= width) {
-    x = width;
+// path.moveTo(xScale(0), yScale(0));
+
+let data=Array.from( Array(16), (x,i)=>i+1).sort(() => Math.random() - 0.5)
+
+for (let i = 0; i <4; i++) {
+
+  for (let j=0; j<4; j++) {
+
+    // x += 60 * (Math.random() - 0.54);
+    // y += 60 * (Math.random() - 0.54);
+
+    // if (x >= width) {
+    //   x = width;
+    // }
+
+    // if (y >= height) {
+    //   y = height;
+    // }
+
+    // if (x < 0) {
+    //   x = width/2;
+    // }
+
+    // if (y < 0) {
+    //   y = height/2;
+    // }
+
+    const x=xScale(j);
+    const y=yScale(i);
+    const nn = data[index]
+
+    data[index] = {
+      x:x,
+      y:y,
+      r:rScale(nn),
+      color:colScale(nn),
+      n:nn
+    }
+
+    // path.lineTo(x, y);
+
+    // g.append("circle")
+    //   .attr("cx",x)
+    //   .attr("cy",y)
+    //   .attr("r",rScale(nn))
+    //   .attr("fill",colScale(nn))
+
+    // g.append("text")
+    //   .attr("x", x)
+    //   .attr("y", y)
+    //   .attr("fill", getComputedStyle(document.documentElement).getPropertyValue('--background'))
+    //   .text(nn)
+    //   .classed("text", true);
+
+    index++;
   }
 
   if (y >= height) {

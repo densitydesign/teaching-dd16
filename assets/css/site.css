@@ -8,6 +8,19 @@
   --main-lightest: #E1EAF3;
 }
 
+@font-face {
+  font-family: "Paysage";
+  src: url("../fonts/Paysage-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Paysage";
+  src: url("../fonts/Paysage-Bold.woff2");
+  font-weight: 700;
+}
+
+
 html {
   height: 100%;
   background: var(--background);
@@ -19,7 +32,7 @@ body {
   margin: 0;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: "Karla", "Arial", "Helvetica", sans-serif;
+  font-family: "Paysage", "Arial", "Helvetica", sans-serif;
   color: var(--main-color);
   min-height: 100%;
 }
@@ -36,7 +49,7 @@ em {
 header {
   z-index: 9999;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   position: sticky;
   top: 0;
   padding-top: 1rem;
@@ -98,9 +111,9 @@ main h1:first-child {
 }
 
 main p, main ul, main ol {
-  font-family: "Crimson Pro", "Georgia", serif;
-  line-height: 1.3;
-  font-size: 1.3rem;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.5rem;
+  font-size: 1rem;
 }
 
 main a {
@@ -116,15 +129,15 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 2rem 0 1rem;
 }
 
@@ -169,27 +182,27 @@ th {
 }
 
 footer {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-top: 4rem;
   padding: 2rem 0 3rem 0;
   color: var(--main-lighter);
 }
 
 footer a, footer a:visited {
-  font-family: "Karla", "Arial", "Helvetica", sans-serif;
+  font-family: "Paysage", "Arial", "Helvetica", sans-serif;
   font-size: 0.9rem;
   text-decoration: none;
 }
 
 footer h3 {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   margin: 0;
   text-indent: 0;
 }
 
 footer p {
   margin: 0;
-  font-family: "Crimson Pro", "Georgia", serif;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
 }
 
 footer img {
@@ -200,7 +213,7 @@ footer img {
 footer h1 {
   text-indent: 0;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--main-color);
 }
 
@@ -217,7 +230,7 @@ footer ul {
 footer li {
   list-style: none;
   margin: 0;
-  font-family: "Crimson Pro", "Georgia", serif;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -384,7 +397,7 @@ aside a {
 
 .link--phase p {
   width: 100%;
-  font-family: "Crimson Pro", Georgia, sans-serif;
+  font-family: "Work Sans", Georgia, sans-serif;
   font-style: italic;
   font-size: 1.2rem;
   text-align: center;
@@ -604,9 +617,6 @@ aside h4 {
 }
 
 /* SYLLABUS */
-#syllabus--aside {
-  font-size: 0.9rem;
-}
 
 #table--of--content {
   margin-bottom: 3rem;
@@ -667,7 +677,6 @@ aside h4 {
 }
 
 .showcase p {
-  font-size: 1.2rem;
   text-indent: 0;
   font-style: italic;
 }
