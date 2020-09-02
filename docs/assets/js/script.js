@@ -55,7 +55,8 @@ let g = svg.append("g");
 const xScale = d3.scalePoint([0,1,2,3],[width*0.25,width*0.85]).padding(0.5)
 const yScale = d3.scalePoint([0,1,2,3],[height*0.1,height*0.49]).padding(0.5)
 const rScale = d3.scaleLinear([1,16],[width/24,width/8])
-const darkColor = d3.color(getComputedStyle(document.documentElement).getPropertyValue('--accent')).darker(2)
+const darkColor = d3.color(getComputedStyle(document.documentElement).getPropertyValue('--background'))
+//const darkColor = getComputedStyle(document.documentElement).getPropertyValue('--accent')
 const lightColor = getComputedStyle(document.documentElement).getPropertyValue('--accent')
 const colScale = d3.scaleLinear([1,16],[darkColor, lightColor])
 
@@ -128,13 +129,15 @@ g.selectAll('circle').data(data).enter().append('circle')
     .attr("cx",d=>d.x)
     .attr("cy",d=>d.y)
     .attr("r",d=>d.r)
-    .attr("fill",d=>d.color);
+    .attr("fill", "none")
+    .attr("stroke", getComputedStyle(document.documentElement).getPropertyValue('--accent'))
+    //.attr("fill",d=>d.color);
 
 g.selectAll('text').data(data).enter().append('text')
     .classed("text", true)
     .attr("x",d=>d.x)
     .attr("y",d=>d.y)
-    .attr("fill", getComputedStyle(document.documentElement).getPropertyValue('--background'))
+    .attr("fill", "#000")
     .text(d=>d.n)
 
 // g.append("path")
@@ -183,7 +186,7 @@ radialGradient.append("stop")
 
 radialGradient.append("stop")
     .attr("offset", "100%")
-    .attr("stop-color", "#ffdbee");
+    .attr("stop-color", "#404eff00");
 
 console.log(scaleX.step());
 
