@@ -6,9 +6,6 @@
   --main-color: #0B0D2C;
   --main-lighter: #4D4F65;
   --main-lightest: #E1EAF3;
-
-  /* --accent: #ffdbee;
-  --background: #404eff; */
 }
 
 html {
@@ -75,9 +72,6 @@ header a:hover {
 
 header #intro {
   grid-column: 1 / 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 main {

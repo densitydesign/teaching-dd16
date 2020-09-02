@@ -52,8 +52,8 @@ let g = svg.append("g");
 // .attr("y", y0)
 // .text("1")
 // .classed("text", true);
-const xScale = d3.scalePoint([0,1,2,3],[width*0.25,width*0.75]).padding(0.5)
-const yScale = d3.scalePoint([0,1,2,3],[height*0.25,height*0.75]).padding(0.5)
+const xScale = d3.scalePoint([0,1,2,3],[width*0.25,width*0.85]).padding(0.5)
+const yScale = d3.scalePoint([0,1,2,3],[height*0.1,height*0.49]).padding(0.5)
 const rScale = d3.scaleLinear([1,16],[width/24,width/8])
 const darkColor = d3.color(getComputedStyle(document.documentElement).getPropertyValue('--accent')).darker(2)
 const lightColor = getComputedStyle(document.documentElement).getPropertyValue('--accent')
@@ -77,15 +77,15 @@ for (let i = 0; i <4; i++) {
     // if (x >= width) {
     //   x = width;
     // }
-  
+
     // if (y >= height) {
     //   y = height;
     // }
-  
+
     // if (x < 0) {
     //   x = width/2;
     // }
-  
+
     // if (y < 0) {
     //   y = height/2;
     // }
@@ -101,7 +101,7 @@ for (let i = 0; i <4; i++) {
       color:colScale(nn),
       n:nn
     }
-  
+
     // path.lineTo(x, y);
 
     // g.append("circle")
@@ -109,7 +109,7 @@ for (let i = 0; i <4; i++) {
     //   .attr("cy",y)
     //   .attr("r",rScale(nn))
     //   .attr("fill",colScale(nn))
-  
+
     // g.append("text")
     //   .attr("x", x)
     //   .attr("y", y)
