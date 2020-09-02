@@ -29,21 +29,23 @@ d3.select("#phase3").on("mouseout", () => {
 })
 
 // let width = d3.select("#intro").node().getBoundingClientRect().width;
-let width = d3.select("header").node().getBoundingClientRect().width / 8;
-let height = width;
+let width = d3.select("header").node().getBoundingClientRect().width / 5;
+let height = 100;
 
-// let x0 = 60 * (Math.random());
-// let y0 = 60 * (Math.random());
+let x0 = 60 * (Math.random());
+let y0 = 60 * (Math.random());
 
-// let x = x0,
-//     y = y0;
+let x = x0,
+y = y0;
 
 let svg = d3.select("#intro")
 .append("svg")
-.attr("width", width)
+.attr("width", width - 40)
 .attr("height", height);
 
-// let path = d3.path();
+let path = d3.path();
+
+path.moveTo(x, y);
 
 let g = svg.append("g");
 
@@ -120,30 +122,35 @@ for (let i = 0; i <4; i++) {
     index++;
   }
 
+  if (y >= height) {
+    y = height;
+  }
+
+  if (x < 0) {
+    x = width/2;
+  }
+
+  if (y < 0) {
+    y = height/2;
+  }
+
+  path.lineTo(x, y);
+
+  g.append("text")
+  .attr("x", x)
+  .attr("y", y)
+  .text(i + 2)
+  .classed("text", true);
+
 }
 
-data = data.sort((a,b)=>b.n-a.n)
+g.append("path")
+.attr("d", path)
+.attr("fill", "none");
 
-g.selectAll('circle').data(data).enter().append('circle')
-    .attr("cx",d=>d.x)
-    .attr("cy",d=>d.y)
-    .attr("r",d=>d.r)
-    .attr("fill",d=>d.color);
+let length = d3.select("path").node().getTotalLength();
 
-g.selectAll('text').data(data).enter().append('text')
-    .classed("text", true)
-    .attr("x",d=>d.x)
-    .attr("y",d=>d.y)
-    .attr("fill", getComputedStyle(document.documentElement).getPropertyValue('--background'))
-    .text(d=>d.n)
-
-// g.append("path")
-// .attr("d", path)
-// .attr("fill", "none");
-
-// let length = d3.select("path").node().getTotalLength();
-
-// g.style("stroke-dasharray", length);
+g.style("stroke-dasharray", length);
 
 
 // Starter pack cover

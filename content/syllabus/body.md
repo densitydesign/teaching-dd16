@@ -71,7 +71,7 @@ At the end of this phase, each group design and deliver an interactive research 
 Interactive research report. Examples from previous years:
 <div class="showcase">
 <a href="https://densitydesign.github.io/teaching-dd15/course-results/es02/group05"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/visible.png">
-<h3>Making the invisible Visible</h3>
+<h3>Making the invisible visible</h3>
 <p>Antonella Autuori, Agnese Bartolucci, Elena Catani, Mattia Cittadino, Anna Gazza, Barbara Vanoli</p></div></a>
 <a href="https://densitydesign.github.io/teaching-dd15/course-results/es02/group07/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/perfect.jpeg">
 <h3>Perfect Me: Algorithmic Human Adjustments</h3>
@@ -101,11 +101,11 @@ The aim is for students to apply their communication design skills using data fo
 ## Output
 ### Discursive communication artifacts: examples from previous years
 <div class="showcase">
-<a href="https://episode1.donottrack-doc.com/en/"><div><img src="https://densitydesign.github.io/teaching-dd15/assets/img/cams.gif">
+<a href="https://episode1.donottrack-doc.com/en/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/cams.gif">
 <h3>I see u</h3>
 <p>Evansha Agrawal, Maria Almeida, Guilherme Appolinario, Natalia Malaver, Cristina Pita da Veiga, Rebeca Vittorazo</p>
 </div></a>
-<a href="https://densitydesign.github.io/teaching-dd15/course-results/es03/group02/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/deepfake.png">
+<a href="https://densitydesign.github.io/teaching-dd15/course-results/es03/group02/"><div><img src="https://densitydesign.github.io/teaching-dd16/assets/img/deepfake.jpg">
 <h3>Deepfake Lab</h3>
 <p>Andrej Cattaneo, Ivana Riva, Noura Sammoura, Maria del Pilar Suarez Anzorena, Arthur van der Werf, Yueling Wu</p>
 </div></a>
