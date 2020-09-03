@@ -30,7 +30,7 @@ d3.select("#phase3").on("mouseout", () => {
 
 // let width = d3.select("#intro").node().getBoundingClientRect().width;
 let width = d3.select("header").node().getBoundingClientRect().width / 8;
-let height = width;
+let height = width / 2;
 
 // let x0 = 60 * (Math.random());
 // let y0 = 60 * (Math.random());
@@ -47,13 +47,8 @@ let svg = d3.select("#intro")
 
 let g = svg.append("g");
 
-// g.append("text")
-// .attr("x", x0)
-// .attr("y", y0)
-// .text("1")
-// .classed("text", true);
 const xScale = d3.scalePoint([0,1,2,3],[width*0.25,width*0.85]).padding(0.5)
-const yScale = d3.scalePoint([0,1,2,3],[height*0.1,height*0.49]).padding(0.5)
+const yScale = d3.scalePoint([0,1,2,3],[height*0.2,height*0.9]).padding(0.5)
 const rScale = d3.scaleLinear([1,16],[width/24,width/8])
 const darkColor = d3.color(getComputedStyle(document.documentElement).getPropertyValue('--background'))
 //const darkColor = getComputedStyle(document.documentElement).getPropertyValue('--accent')
@@ -61,35 +56,12 @@ const lightColor = getComputedStyle(document.documentElement).getPropertyValue('
 const colScale = d3.scaleLinear([1,16],[darkColor, lightColor])
 
 let index = 0;
-// x=0;
-// y=0;
-
-// path.moveTo(xScale(0), yScale(0));
 
 let data=Array.from( Array(16), (x,i)=>i+1).sort(() => Math.random() - 0.5)
 
 for (let i = 0; i <4; i++) {
 
   for (let j=0; j<4; j++) {
-
-    // x += 60 * (Math.random() - 0.54);
-    // y += 60 * (Math.random() - 0.54);
-
-    // if (x >= width) {
-    //   x = width;
-    // }
-
-    // if (y >= height) {
-    //   y = height;
-    // }
-
-    // if (x < 0) {
-    //   x = width/2;
-    // }
-
-    // if (y < 0) {
-    //   y = height/2;
-    // }
 
     const x=xScale(j);
     const y=yScale(i);
@@ -102,21 +74,6 @@ for (let i = 0; i <4; i++) {
       color:colScale(nn),
       n:nn
     }
-
-    // path.lineTo(x, y);
-
-    // g.append("circle")
-    //   .attr("cx",x)
-    //   .attr("cy",y)
-    //   .attr("r",rScale(nn))
-    //   .attr("fill",colScale(nn))
-
-    // g.append("text")
-    //   .attr("x", x)
-    //   .attr("y", y)
-    //   .attr("fill", getComputedStyle(document.documentElement).getPropertyValue('--background'))
-    //   .text(nn)
-    //   .classed("text", true);
 
     index++;
   }
