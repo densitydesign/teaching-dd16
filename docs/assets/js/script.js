@@ -48,7 +48,7 @@ let svg = d3.select("#intro")
 let g = svg.append("g");
 
 const xScale = d3.scalePoint([0,1,2,3],[width*0.25,width*0.85]).padding(0.5)
-const yScale = d3.scalePoint([0,1,2,3],[height*0.2,height*0.9]).padding(0.5)
+const yScale = d3.scalePoint([0,1,2,3],[height*0.2,height*0.85]).padding(0.5)
 const rScale = d3.scaleLinear([1,16],[width/24,width/8])
 const darkColor = d3.color(getComputedStyle(document.documentElement).getPropertyValue('--background'))
 //const darkColor = getComputedStyle(document.documentElement).getPropertyValue('--accent')
