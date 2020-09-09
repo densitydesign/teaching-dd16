@@ -123,7 +123,7 @@ const sizeDesktop = d3.scaleSqrt()
 .domain([0,1]);
 
 const sizeMobile = d3.scaleSqrt()
-.range([0, 80])
+.range([0, 60])
 .domain([0,1]);
 
 let cover = d3.selectAll("#playground").append("svg")
@@ -160,7 +160,7 @@ let nodes = [{
 {
   id: "Course Results",
   link: "/teaching-dd16/course-results/",
-  r: 0.2
+  r: 1
 }
 ];
 
