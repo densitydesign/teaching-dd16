@@ -119,7 +119,7 @@ const scaleX = d3.scaleBand()
 .domain(["Syllabus", "Starter Pack", "Course Results"]);
 
 const sizeDesktop = d3.scaleSqrt()
-.range([0, 170])
+.range([0, 130])
 .domain([0,1]);
 
 const sizeMobile = d3.scaleSqrt()
