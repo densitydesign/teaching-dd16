@@ -361,6 +361,10 @@ aside {
   text-decoration: none;
 }
 
+.external--link{
+  color:var(--accent);
+}
+
 aside a {
   background: none !important;
   text-decoration: none;
@@ -796,6 +800,10 @@ aside h4 {
 
   #table--of--content a {
     font-size: 1.1rem;
+  }
+
+  .external--link{
+    color:var(--background);
   }
 
   #right--align {
