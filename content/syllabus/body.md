@@ -37,6 +37,10 @@ Students will be introduced to the information design and data visualization dom
 The three phases have different goals and outputs, giving students the chance to experiment on how to design visualizations for different kinds of purposes and publics.
 The supporting themes, tackled from a different perspective in each phase, are: the role of the designer as an author, data handling and its implications, the rhetorical value of data visualization.
 
+# Course folder and calendar
+The course will be divided into three main phases in which students will be working in groups. In addition, every student will be challenged with one individual assignment.
+
+
 # First phase: Data as Material
 ### Creating an infographic from reputable official sources
 In this phase students will be asked to identify datasets available from official sources (Eurostat, governmental open data portals, scientific publications, etc.) and from those they will have to design visualizations to provide an overall view, “institutional” of the chosen issue.
