@@ -9,9 +9,7 @@ const Syllabus = ({ _body, _relativeURL, _ID }) => (
 	<aside id="syllabus--aside">
 	<div id="table--of--content">
 	<a className="external--link" href="https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=711242&polij_device_category=DESKTOP&__pj0=0&__pj1=1d66ef3d240ce3c2c72179cd04e6221a" target="_blank"><i className="fas fa-external-link-square-alt"></i> Course Manifesto</a>
-
 	<a className="external--link" href="https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=711242&polij_device_category=DESKTOP&__pj0=0&__pj1=1d66ef3d240ce3c2c72179cd04e6221a" target="_blank"><i className="fas fa-external-link-square-alt"></i> Course Google Drive Folder</a>
-
 	<a className="external--link" href="https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=711242&polij_device_category=DESKTOP&__pj0=0&__pj1=1d66ef3d240ce3c2c72179cd04e6221a" target="_blank"><i className="fas fa-external-link-square-alt"></i> Course Calendar</a>
 	</div>
 	</aside>
