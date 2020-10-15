@@ -18,7 +18,6 @@ The different phases of the course require to identify the most suitable communi
 
 Transversally, the concepts of social complexity, the role of statistics tools and methods in the visualization process, and the idea of visualization as intersemiotic translation - such as narrative and discourse - will be deepened. The "visual discourse" in its various forms of manifestation will be then considered as an argumentative strategy, in which narration and dramatization complement the direct communication of data and information. Rhetorical-argumentative figures, in particular those based on analogy and metaphor, will be applied - consistently with the different design moments of the lab - as both knowledge tools and communicative devices, exploiting the potential for facilitating access to cognition.
 
-
 # Objectives
 At the end of the course, students will have gained:
 1. Knowledge in the data visualization, information visualization, information design disciplines, and the role of communication design;
@@ -36,10 +35,6 @@ Students will be introduced to the information design and data visualization dom
 
 The three phases have different goals and outputs, giving students the chance to experiment on how to design visualizations for different kinds of purposes and publics.
 The supporting themes, tackled from a different perspective in each phase, are: the role of the designer as an author, data handling and its implications, the rhetorical value of data visualization.
-
-# Course folder and calendar
-The course will be divided into three main phases in which students will be working in groups. In addition, every student will be challenged with one individual assignment.
-
 
 # First phase: Data as Material
 ### Creating an infographic from reputable official sources

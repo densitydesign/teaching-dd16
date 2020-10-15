@@ -364,6 +364,8 @@ aside {
 aside a {
   background: none !important;
   text-decoration: none;
+  display: block;
+  margin-top:1rem;
 }
 
 #phases {
