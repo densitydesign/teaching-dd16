@@ -362,7 +362,7 @@ aside {
 }
 
 .external--link{
-  color:var(--accent);
+  color:var(--accent) !important;
 }
 
 aside a {
@@ -802,7 +802,7 @@ aside h4 {
   }
 
   .external--link a{
-    color:var(--background);
+    color:var(--background) !important;
   }
 
   #right--align {
