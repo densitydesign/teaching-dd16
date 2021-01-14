@@ -1,0 +1,45 @@
+- index:
+  title: How are images edited in order to create a visual imagery on the r/conspiracy subreddit in the last year?
+  description: Images, in order to convey messages related to conspiracy theories, are edited through different techniques. These interventions can modify the original meaning of an image and add possible layers of interpretation. Reddit was chosen as the research environment since the platform tends to stimulate debates around conspiracies using images as a starting point. Through the analysis of the images shared in the most followed subreddit regarding conspiracies is shown how much is the treatment of images used and which are the main techniques.
+  cover: cover.png
+  folder: question-1
+  datasets:
+    - name: Methods of editing
+      description: The dataset contains the first 997 top posts of the conspiracy subreddit on reddit.com that contain an image. Moreover, it describes the type of image treatment and is grouped by conspiracy. Dataset retrieved on 03/11/2020.
+      src: Reddit.xltx
+      size: 84 KB
+      format: .xltx
+- index:
+  title: Which objects, through the spreading of images on Instagram profiles with more than 50K followers in the last year, became part of conspiracies’ symbology?
+  description: Conspiracy theories are generated building a symbology around actions or objects. In particular, some items are so strongly linked to a conspiracy theory that their perception in people’s mind can change. Animals, technology, shapes but also people are taken out of their usual context and used to create an imagery for the conspiracy. Instagram, as a mainly visual social network, uses images, and in particular the object they represent, to vehicle a message. In order to have a general overview  we selected the 10 most influential conspiracy pages on Instagram.
+  cover: cover.png
+  folder: question-2
+  datasets:
+    - name: Conspiracy instagram
+      description: The dataset maintains a collection of 350 image URLs from Instagram dealing with conspiracies. All images are tagged with based on the objects they show and grouped according to their conspiracy theory. Dataset retrieved on 07/11/2020.
+      src: Instagram.xlsx
+      size: 231 KB
+      format: .xlsx
+- index:
+  title: Does the Keanu conspiracy meme use more subjects from widely recognized theories or unusual subjects that become protagonists of brand new ironical theories?
+  description: “Conspiracy Keanu” is a meme series starring the Hollywood actor Keanu Reeves. This series offers a pattern, represented by a fixed image and a recurring sentence structure. This template allows both to share already existing conspiracies and different objects to become subjects of new absurd conspiracy theories. In fact, it’s exactly by mixing the common rhetoric of conspiracies and the aesthetic of the meme that many people on social media manage to make jokes about different subjects and at the same time to raise existential questions that mimic the style of real conspiracy theories.
+  folder: question-3
+  cover: cover.png
+  datasets:
+    - name: Conspiracy Keanu
+      description: The dataset contains the URLs of 200 images known as the “Conspiracy Keanu”. The images are retrieved from tineye.com and are clustered by their textual subject. Dataset retrieved on 05/11/2020.
+      src: Keanu.xlsx
+      size: 38 KB
+      format: .xlsx
+- index:
+  title: "Which are the most used video formats on TikTok in order to make viral the #Covidhoax, #Wayfair and #Freebritney in the first 100 results?"
+  description: TikTok is a new social platform that is becoming more and more popular. It introduced new visual formats for conveying information through the usage of short videos. Conspiracy theories as entertaining content have found in the platform a place in which their believer can share content and spread their ideas. Through the analysis of three different major hashtags related to conspiracy theories it can be highlighted if TikTok with its trend formats can influence the way users share conspiracy theories. 
+  folder: question-4
+  cover: cover.png
+
+  datasets:
+    - name: Tiktok conspiracy hashtags
+      description: "The dataset contains URLs of the 100 most popular videos of the #Wayfair, #Freebritney and #Covidhoax hashtags. Moreover, it contains a content category and the aesthetic format of each video. Dataset retrieved on 03/11/2020."
+      src: TikTok.xlsx
+      size: 118 KB
+      format: .xlsx

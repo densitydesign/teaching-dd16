@@ -1,0 +1,751 @@
+@import url('https://use.typekit.net/feq1jav.css');
+html {
+  --color-main: #692dff;
+  --color-main-lighter: #db00b6;
+  --color-text: #505359;
+  --color-text-lighter: #c77dff;
+  --color-background: #e8e8eb;
+  --font-display: 'Nimbus Sans', sans-serif;
+  --font-text: 'Nimbus Sans', sans-serif;
+  --middle-gray:  #c3c1c9;
+
+  --color-legend-1: #7800ff;
+  --color-legend-2: #2bfdaf;
+  --color-legend-3: #0b24fa;
+  --color-legend-4: #80fefe;
+  --color-legend-5: #4af42f;
+  --color-legend-6: #fffd97;
+  --color-legend-7: #fc0e1f;
+  --color-legend-8: #a582fb;
+  --color-legend-9: #ff9f7f;
+  --color-legend-10: #feb5e8;
+  --color-legend-11: #fc29f4;
+  --color-legend-12: #d8fd5c;
+  --color-legend-13: #9d9fac;
+  --color-legend-14: #a582fb;
+  --color-legend-15: #ff4a5f;
+  --color-legend-16: #839fff;
+  --color-legend-17: #f066ff;
+
+}
+
+
+
+
+
+.cover div {
+width: 60vw;
+}
+
+.cover .cover__background {
+  background: #e8e8eb;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem 0;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.cover__title, #question-container .question-title h1 {
+  font-family: "avarabold" !important;
+}
+
+.cover__heading, .cover__title, .cover__subtitle, .authors {
+  color: var(--color-main) !important;
+}
+
+#questions-navigation {
+  grid-template-columns: repeat(6, 1fr)!important;
+  grid-column-gap: 1.4rem !important;
+  grid-column: 1 / span 6 !important;
+}
+
+#questions-navigation .questions--list {
+  /* width: 80% */
+  grid-column: 2 / span 4;
+}
+
+.intro p {
+  text-indent: 0;
+}
+
+.main-text-title {
+  text-transform: uppercase;
+}
+
+.main-text {
+  grid-column: 2 / span 4 !important;
+  margin-top: 0 !important;
+}
+
+#questions-navigation .questions--list ol{
+  /* padding-inline-start: 0 !important;
+  padding-inline: 0 !important; */
+  margin: 0 !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 991px) {
+  .question__title {
+    grid-column: 1 / span 2 !important;
+    color: var(--color-text) !important;
+  }
+  .cover .cover__title {
+    font-size: 4rem;
+    line-height: 1;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 992px) {
+  .question__title {
+    /* grid-column: 1 / span 1 !important; */
+    color: var(--color-text) !important;
+
+  }
+  .cover .cover__title {
+    font-size: 6rem;
+    line-height: 1.2;
+  }
+}
+
+#question-container .intro-text {
+  color: var(--color-text) !important;
+}
+
+
+hr {
+  border: 1px solid var(--color-main);
+  width: 100%;
+}
+
+/* GIFS IN PROTOL 4*/
+.video1 {
+  margin-left: 1vw;
+  width: 15vw;
+}
+
+.video2 {
+  width: 15vw;
+}
+.video3 {
+  width: 15vw;
+}
+.video4 {
+  width: 15vw;
+}
+
+
+/*******************/
+/* Image Magnifier */
+/*******************/
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  /* border-radius: 50%; */
+  cursor: none;
+  width: 300px;
+  height: 200px;
+}
+
+/*******************/
+/*   Thumbnails    */
+/*******************/
+
+.thumbnail {
+  position: absolute;
+}
+
+.thumbnail img {
+  width: 400px;
+  height: auto;
+}
+
+
+/*******************/
+/*     Legend      */
+/*******************/
+
+#all, #_9_11_attack, #corporations, #covid_19, #death_and_disappearances, #extraterrestrials, #false_people, #false_history, #future_predictions, #government_secrets, #illuminati, #new_world_order, #space_agencies, #vaccinations{
+  cursor: pointer;
+}
+
+#legend_2 {
+  grid-column:1 / span 6;
+  font-family: "avarabold" !important;
+  text-transform: uppercase;
+}
+
+.scrollmagic-pin-spacer {
+  grid-column: 1 / span 6 !important;
+  min-height: 50px !important;
+}
+
+.option {
+  cursor: pointer;
+}
+
+#legend-container {
+  background-color: #ced0db;
+  color: #000;
+  z-index: 10;
+  padding: 2px 25px;
+}
+
+#legend-container ul {
+  list-style-type: none;
+    display: flex;
+      max-width: 980px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+}
+
+ #legend-container ul li{
+  width: 25%;
+  text-align: left;
+}
+
+#legend-container ul li div {
+    margin-bottom: 2px;
+      font-size: 0.6rem;
+}
+
+
+#legend-container div:before  {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+#q2-all:before, #q1-no-treatment:before  {
+  background-color: #fff;
+}
+
+#q2-9-11-attack:before, #q1-symbol:before {
+  background-color: var(--color-legend-2);
+}
+
+#q2-corporation-conspiracy:before, #q1-collage:before {
+  background-color: var(--color-legend-10);
+}
+
+#q2-covid:before {
+  background-color: var(--color-legend-12);
+}
+
+#q2-deaths:before {
+  background-color: var(--color-legend-4);
+}
+
+#q2-extraterrestrial:before {
+  background-color: var(--color-legend-5);
+}
+
+#q2-false-history:before, #q1-drawing:before {
+  background-color: var(--color-legend-6);
+}
+
+#q2-false-people:before, #q1-photoshopped:before {
+  background-color: var(--color-legend-8);
+}
+
+#q2-future-predictions:before {
+  background-color: var(--color-legend-9);
+}
+
+#q2-government-secrets:before {
+  background-color: var(--color-legend-13);
+}
+
+#q2-illuminati:before, #q1-crop:before {
+  background-color: var(--color-legend-3);
+  color: #fff;
+}
+
+#q2-new-world-order:before {
+  background-color: var(--color-legend-11);
+  color: #fff;
+}
+
+#q2-space-agencies:before, #q1-text:before {
+  background-color: var(--color-legend-7);
+  color: #fff;
+}
+
+#q2-vaccination:before {
+  background-color: var(--color-legend-1);
+  color: #fff;
+}
+
+#q1-all:before {
+  background-color: #000;
+  color: #fff;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-size: 1rem;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/*******************/
+/* Question 3 Table*/
+/*******************/
+
+.table-wrapper {
+  padding: 0 10px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+  width: 10%;
+  transition: width 2s ease-in-out;
+  overflow-x: hidden;
+  cursor: pointer;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow:  row wrap;
+  white-space: nowrap;
+}
+
+.flex-container:before, .flex-container:after {
+    content: none;
+}
+
+.border {
+  border: .5px solid rgb(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+
+.flex-start {
+  -webkit-align-content: flex-start;
+  align-content: flex-start;
+  color: #1e1e1e;
+}
+
+.flex-end {
+  -webkit-align-content: flex-end;
+  align-content: flex-end;
+  color: #1e1e1e;
+}
+
+.center {
+  -webkit-align-content: center;
+  align-content: center;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 100vw;
+  display: block;
+  line-height: 9px;
+  font-size: 0.7em;
+  vertical-align: middle;
+
+    justify-content: space-between;
+}
+
+.image-wrapper {
+  position: sticky;
+  right: 0;
+}
+
+.image-wrapper img{
+  width: auto;
+  height: 200px;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+
+.absurd .flex-container {
+  height: 620px;
+  background-color: #c3c1c9;
+
+}
+
+.real .flex-container {
+  height: 450px;
+
+}
+
+.legend .flex-container {
+  height: 88px;
+}
+
+.category .animals {
+  background-color: var(--color-legend-14);
+
+}
+
+.legend .animals {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.legend #animals-description {
+  line-height: 12px;
+  font-weight: normal;
+  color: #1e1e1e;
+}
+
+.animals span {
+  background-color: var(--color-legend-14);
+
+}
+.category .animals:hover{
+  opacity: 0.5;
+}
+.animals span:hover {
+  opacity: 0.5;
+}
+
+.legend .animals.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-14);
+}
+
+.category .companies {
+    background-color: var(--color-legend-2);
+    color: #1e1e1e;
+
+}
+
+.legend .companies {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.companies span {
+  background-color: var(--color-legend-2);
+}
+
+.category .companies:hover{
+  opacity: 0.5;
+}
+
+.companies span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .companies.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-2);
+}
+
+.category .cultures {
+  background-color: var(--color-legend-6);
+  color: #1e1e1e;
+
+}
+
+.legend .cultures {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.cultures span {
+  background-color: var(--color-legend-6);
+}
+
+.category .cultures:hover{
+  opacity: 0.5;
+}
+
+.cultures span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .cultures.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-6);
+}
+
+.category .entertainment {
+  background-color: var(--color-legend-15);
+  color: #1e1e1e;
+
+}
+
+.legend .entertainment {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.entertainment span {
+  background-color: var(--color-legend-15);
+}
+
+.category .entertainment:hover{
+  opacity: 0.5;
+}
+
+.entertainment span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .entertainment.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-15);
+}
+
+.category .general {
+  background-color: var(--color-legend-10);
+  color: #1e1e1e;
+
+}
+
+.legend .general {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.general span {
+  background-color: var(--color-legend-10);
+}
+.category .general:hover{
+  opacity: 0.5;
+}
+.general span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .general.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-10);
+}
+
+.category .internet {
+  background-color: var(--color-legend-9);
+  color: #1e1e1e;
+
+}
+
+.legend .internet {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.internet span {
+  background-color: var(--color-legend-9);
+}
+.category .internet:hover{
+  opacity: 0.5;
+}
+.internet span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .internet.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-9);
+}
+
+.category .politics {
+  background-color: var(--color-legend-16);
+  color: #1e1e1e;
+}
+
+.legend .politics {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.politics span {
+  background-color: var(--color-legend-16);
+}
+
+.category .politics:hover{
+  opacity: 0.5;
+}
+
+.politics span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .politics.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-16);
+}
+
+.category .religion {
+  background-color: var(--color-legend-12);
+  color: #1e1e1e;
+}
+
+.legend .religion {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.religion span {
+  background-color: var(--color-legend-12);
+}
+
+.category .religion:hover{
+  opacity: 0.5;
+}
+
+.religion span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .religion.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-12);
+}
+
+.category .science {
+  background-color: var(--color-legend-17);
+  color: #1e1e1e;
+
+}
+
+.legend .science {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.science span {
+  background-color: var(--color-legend-17);
+}
+
+.category .science:hover{
+  opacity: 0.5;
+}
+
+.science span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .science.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-17);
+}
+
+.category .supernatural {
+  background-color: var(--color-legend-4);
+  color: #1e1e1e;
+}
+
+.legend .supernatural {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.supernatural span {
+  background-color: var(--color-legend-4);
+}
+
+.category .supernatural:hover{
+  opacity: 0.5;
+}
+
+.supernatural span:hover {
+  opacity: 0.5;
+
+}
+
+.legend .supernatural.flex-item:before{
+  display: inline-flex;
+ content: "";
+ position: relative;
+ top: 0;
+ width: 15px;
+ height: 15px;
+ background-color: var(--color-legend-4);
+}

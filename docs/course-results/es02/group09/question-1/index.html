@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>@conspiracy sent you a pic</title>
+  <!-- Manually insert your metadata -->
+  <meta property="title" content="@conspiracy sent you a pic"/>
+  <meta property="description" content="Conspiracy theories are studied from a variety of angles. One aspect which is understudied is the role that images play in contemporary conspiracy theory communities.">
+  <meta property="og:title" content="@conspiracy sent you a pic"/>
+  <meta property="og:description" content="Conspiracy theories are studied from a variety of angles. One aspect which is understudied is the role that images play in contemporary conspiracy theory communities.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Copy and paste styles from main index.html file -->
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Commissioner:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/fonts/avara/stylesheet.css">
+    <style> #Sections #Verde_vuoto , #Blu_vuoto , #Rosso_vuoto , #Giallo_vuoto , #Grigio_vuoto , #Rosa_vuoto, #Viola_vuoto {
+    cursor: pointer;
+  }
+  </style>
+  </head>
+  <body>
+    <!-- Qua bisognerebbe mettere "go to next qeustion" -->
+    <header id="questions-navigation"></header>
+    <main class="container" id="question-container">
+        <!-- from question.html -->
+    </main>
+    <main class="container" id="datasets-container">
+      <div class="main-text-title"><h3>Datasets</h3></div>
+        <!-- populated by load-templates.js -->
+    </main>
+    <main class="container footer">
+      <!-- contents cards will be generated here from info.yml -->
+    </main>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.0/js-yaml.min.js"
+      integrity="sha512-ia9gcZkLHA+lkNST5XlseHz/No5++YBneMsDp1IZRJSbi1YqQvBeskJuG1kR+PH1w7E0bFgEZegcj0EwpXQnww=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../load-templates-questions.js"></script>
+    <!-- <script>
+        d3.html("./question.html").then(html=>{
+            const questionContent = d3.select(html).selectAll('body > *');
+            questionContent.each(function(d){
+                d3.select("#question-container").node().appendChild(this);
+            })
+        });
+    </script> -->
+    <script src="./interactive/script.js"></script>
+  </body>
+</html>
