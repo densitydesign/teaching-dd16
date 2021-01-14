@@ -1,0 +1,56 @@
+<html>
+<head>
+  <title>Kids on Youtube content farm</title>
+  <!-- Manually insert your metadata -->
+  <meta property="title" content="THE TUBE TRAP | An analysis on Youtube's Content Farms made for Kids" />
+  <meta property="description" content="A recent study published on Research Gate, shows how an incredible amount of inappropriate videos is actually reached by children on Youtube, collecting millions of views before they even get discovered, reported and removed from the platform. The danger for kids is real and YT does not provide content curation service to prevent it. r/Elsagate sub-Reddit still seems to be the right place to speak about those problems, targeting the right ways to make a report, even if not all users respect the rules." />
+  <meta property="og:title" content="THE TUBE TRAP | An analysis on Youtube's Content Farms made for Kids" />
+  <meta property="og:description" content="A recent study published on Research Gate, shows how an incredible amount of inappropriate videos is actually reached by children on Youtube, collecting millions of views before they even get discovered, reported and removed from the platform. The danger for kids is real and YT does not provide content curation service to prevent it. r/Elsagate sub-Reddit still seems to be the right place to speak about those problems, targeting the right ways to make a report, even if not all users respect the rules." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Copy and paste styles from main index.html file -->
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Commissioner:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <style>
+g#anni > g {
+  cursor: pointer;
+}
+g#legenda {
+  pointer-events: none;
+}
+
+
+</style>
+  </head>
+  <body>
+    <!-- Qua bisognerebbe mettere "go to next qeustion" -->
+    <header id="questions-navigation"></header>
+    <main class="container" id="question-container">
+        <!-- from question.html -->
+    </main>
+    <main class="container" id="datasets-container">
+      <div class="main-text-title"><h3>Datasets</h3></div>
+        <!-- populated by load-templates.js -->
+    </main>
+    <main class="container footer">
+      <!-- contents cards will be generated here from info.yml -->
+      <div id="u" style="width:10px ; height:10px ;  "></div>
+      <div id="ee"></div>
+    </main>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.0/js-yaml.min.js"
+      integrity="sha512-ia9gcZkLHA+lkNST5XlseHz/No5++YBneMsDp1IZRJSbi1YqQvBeskJuG1kR+PH1w7E0bFgEZegcj0EwpXQnww=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+        var rot=0;
+        document.getElementById("u").addEventListener("click", function(){document.getElementById("ee").innerHTML += "<img id='bau' src='./ee.png' width=30px height=30px></img>";
+        var id=setInterval(frame,20); function frame(){if(rot==720){ rot=0; document.getElementById("ee").innerHTML="" ; clearInterval(id); return;} rot+=10;document.getElementById("bau").style.transform= "rotate("+rot +"deg)";}
+      })</script>
+    <script src="../load-templates-questions.js"></script>
+    <script src="./script3.js"></script>
+  </body>
+</html>

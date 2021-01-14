@@ -1,0 +1,33 @@
+# insert here genreal information about your project website
+
+title: The Tube Trap
+subtitle: An analysis on Youtube's Content Farms made for Kids
+
+description: "YouTube is one of the most used platforms to entertain kids, so popular that it overcame television and this does not necessarily happen under supervision. Parents and babysitters give their children access to it, trusting its system and educational purposes. Left alone in front of the screen, children go through a great amount of videos, consuming anything recommended, as decided by YouTube’s algorithm. Even considering just videos "for kids", a label that channels arbitrarily choose and that is not under strict control of YouTube, some peculiar aspects can be detected and this study aims to analyze them. Channels’ owners know exactly how its algorithm works and this also comes to match easily with what children like. It is not a matter of quality, but just automation to make everyone happy with the least effort. Poor quality of contents is not the only problem to face: some channels create misleading videos, managing to be reached by young users and shock them ▎"
+
+cover-image: cover.png
+logoPoli: logo_poli.png
+logoDensity: logo_density.png
+
+authors:
+- name: Claudia Maria Cutrupi
+- name: Sara Ferrini
+- name: Beatrice Maggi
+- name: Gaia Panfoli
+- name: Isabella Possaghi
+- name: Virgilia Ramella
+
+faculty:
+- name: Michele Mauri
+- name: Gabriele Colombo
+- name: Angeles Briones
+- name: Simone Vantini
+- name: Salvatore Zingale
+
+assistants:
+- name: Antonella Autuori
+- name: Andrea Benedetti
+- name: Matteo Bettini
+- name: Tommaso Elli
+- name: Andrea Febres
+- name: Beatrice Gobbo

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
+@import url("https://use.typekit.net/oiz5icx.css");
+@import url("https://use.typekit.net/oiz5icx.css");
+@import url("https://use.typekit.net/oiz5icx.css");
+@import url("https://use.typekit.net/oiz5icx.css");
+@import url("https://use.typekit.net/dxo3itn.css");
+@import url("https://use.typekit.net/dxo3itn.css");
+@import url("https://use.typekit.net/dxo3itn.css");
+
+
+html {
+  --color-main: #FF00B1;
+  --color-main-lighter: #C77DFF;
+  --color-text: #191819;
+  --color-text-lighter: #F7EDF7;
+  --color-background: #CACCCE;
+ --font-display: 'rigid-square', sans-serif;
+  --font-text: 'Space Grotesk', sans-serif;
+}
+
+mark{
+    color:white;
+    background-color:#FF00B1;
+}
+.cover .cover__heading {
+  color: #fafafa;
+}
+.cover .cover__title {
+  font-size: 80px;
+  word-wrap: break-word;
+}
+.cover .cover__subtitle {
+  word-wrap: break-word;
+}
+
+.cover .authors {
+  color: #fafafa;
+}
+
+svg {
+
+}
+
+p.border {
+    border-style:  solid;
+    border-color: #191819;
+    padding: 2%;
+    border-width: 0.1em;
+    box-shadow: 0.2em 0.2em #191819;
+}
+
+.shadow {
+    border-style:  solid;
+    border-color: #191819;
+    border-width: 0.1em;
+    box-shadow: 0.2em 0.2em #191819;
+}
+
+
+.dots {
+  width: 50%;
+  margin: 5rem auto 5rem auto;
+  border-bottom: 1.7px solid;
+  border-color: black;
+}
+
+.link {
+   text-decoration: underline;
+}
+
+.link:hover {
+  color: #00ff8b;
+}

@@ -1,0 +1,80 @@
+- index: 1
+  title: Which words have been used the most in the titles of top YouTube channels for kids during last month?
+  description: One of the first operations to get more views is choosing the right title. In this study we demonstrate how top 10 channels “Made for kids” choose theirs in a short period of time, revealing their strategy. Patterns have been put under the spotlight, not only in terms of words used, but even in successful channels’ behaviours. A comparative study has been done, eased by a full visualisation of channels’ titles, taken from YT and just set side by side.
+  cover: cover1.gif
+  folder: question-1
+  datasets:
+    - name: Youtube
+      description: This dataset is composed of two pages. In the first sheet repetitions are counted, while in the second the full last 25 titles of each channel are shown (from 1st November 2020 backwards), together with their publication date.
+      src: https://docs.google.com/spreadsheets/d/1ncH8jt87CR7rGphdj_ILrw60ZRJVnFQ4z6iY6TM6AAI/edit?usp=sharing
+      size: 62 KB
+      format: .xlsx
+    - name: Webliography
+      description: Online Research Sources
+      src: https://docs.google.com/document/d/1sm-FCTYqjz_K9K7iwyMRHVSii1J6MSqVLmIL48QyW9M/edit
+      size: 7 KB
+      format: .doc
+
+- index: 2
+  title: How has Cocomelon YouTube channel been re-using its most popular song format from May 2017 until now with almost no variation?
+  description: Cocomelon is the second most watched channel on Youtube and it is specialised in songs. Its popularity is so great that it got into merchandising and, from June 2020, it collects views even on Netflix. Anyhow, like most of the channels, it does not lose occasions to exploit trends, setting quality aside. In this study we argue how it is possible to hide behind children’s love for repetitions, to work less and appeal the algorithm more.
+  cover: cover2.gif
+  folder: question-2
+  datasets:
+    - name: YouTube
+      description: In this dataset information on the three different versions of the format are provided in three separated sheets (data collection closing date 30 October 2020). Together with videos lyrics, titles, data of publication, views, descriptions, id and duration, variant of the format is specified. In the last column, presence of the video in a compilation or single song video publication is pointed out.
+      src: https://docs.google.com/spreadsheets/d/19P1RSdbuKL4xOmIjm4j7nUiGsHNr5VO0E_ygRKvRKa8/edit?usp=sharing
+      size: 121 KB
+      format: .xlsx
+    - name: Webliography
+      description: Online Research Sources
+      src: https://docs.google.com/document/d/1j-x_x7jj97RHLqDdyx2CzWmZZsRKfWo-o850J0KoDgU/edit
+      size: 7 KB
+      format: .doc
+    # - name: Google News
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    #   src: ugly-data.csv
+    #   size: 0.0 KB
+    #   format: .csv
+- index: 3
+  title: How did Cocomelon’s thumbnails evolve from 2006 until now and which strategies could be detected?
+  description: Since its great success, combined with a blurry ownership past, it seemed interesting to us to go deeper into Cocomelon’s mechanisms. We then went back in history to check how the channel changed its thumbnails over time, until it found the perfect format. Thumbnails are indeed fundamental to set an aesthetic and to reach early age children, still not able to read.
+  folder: question-3
+  cover: cover3.gif
+  datasets:
+    - name: YouTube
+      description: From this dataset it is possible to see all video publications of Cocomelon (data collection closing date 30 October 2020), in a separated sheet for each year, from 2006 until now. For each video thumbnail’s image is provided together with id, data of publication, title, description, duration and some other data regarding engagement and popularity.
+      src: https://drive.google.com/file/d/199ojEaSR8WZwklAVGNu6CejPdyRccuB5/view?usp=sharing
+      size: 62,2 MB
+      format: .xlsx
+    - name: Webliography
+      description: Online Research Sources
+      src: https://docs.google.com/document/d/1KDwj8ezcHhmnoLqtU-VGgLnumQdZBrxkTudfQjlPknk/edit
+      size: 7 KB
+      format: .doc
+    # - name: Google News
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
+    #   src: ugly-data.csv
+    #   size: 0.0 KB
+    #   format: .csv
+- index: 4
+  title: What are the most common reasons why a YouTube video is reported on r/ElsaGate sub-Reddit?
+  description: The phenomenon of channels tricking children using their favourite cartoons characters to convey wrong messages, unfortunately has a long life. r/Elsagate sub-Reddit was one of the first to mobilize people against this and still now represents a good option to raise consciousness. Here all “parental warning” posts of the platform are analysed, offering visual references and questioning the usefulness of this tool.
+  folder: question-4
+  cover: cover4.gif
+  datasets:
+    - name: Reddit
+      description: This dataset contains all the posts ever published on the dedicated sub-Reddit (data collection closing date 14 November 2020), labeled with “parental warning” tag. Each post is presented together with the image used to report, its title, related link, number of upvotes and its current situation on Youtube (with link to YT when still online). Some posts are listed more than once, because they belong to more than one problematic.
+      src: https://docs.google.com/spreadsheets/d/1fztGRY69S85yC0AMC9kaT69trSXNEp1x0ElO7HJOlYA/edit?usp=sharing
+      size: 22,4 MB
+      format: .xlsx
+    - name: Webliography
+      description: Online Research Sources
+      src: https://docs.google.com/document/d/18Tgh4Uu1FU2my2Lhyxg1N0czw2k-VJGYf2YUiJp0X6E/edit
+      size: 8 KB
+      format: .doc
+    # - name: Google News
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dataset retrieved on 01/02/2003.
+    #   src: ugly-data.csv
+    #   size: 0.0 KB
+    #   format: .csv
