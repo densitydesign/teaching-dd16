@@ -1,0 +1,44 @@
+- index: 1
+  title: Which are the specific hashtags associated with the hijacked “#StopHateForProfit” and which other hashtags are they related to?
+  description: “#StopHateforProfit” was used, even by celebrities, to draw attention to the spread of hate and misinformation. However, after the release of “Borat Subsequent Moviefilm”, it was hijacked and used against one of these celebrities, Sacha Baron Cohen and his portrayal of Kazakhstan. The visualization provides insights into the association of hashtags and how events can affect their use.
+  cover: thumbnail1.gif
+  folder: question-1
+  datasets:
+    - name: Posts with the hashtag on Instagram
+      description: This database was retrieved from instagram using Instaloader. 6101 posts were downloaded for the hashtag "#StopHateforProfit", later a selection of associated hashtags was done and scraped with the same tool. Data retrieved on Nov 1st 2020
+      src: data\1_invisible_battleground_of_hashtag_hijacking.xlsx
+      size: 10.023 KB
+      format: .xlsx
+- index: 2
+  title: What are the differences and similarities between the content posted with the “#ProudBoys” on three different platforms?
+  description: The hashtag “#ProudBoys” was hijacked with love and pride content to drown out the voices of the far-right US-American group. The phenomenon started on Twitter, but quickly reached other social media. This protocol was designed to better understand and compare hashtag hijacking across platforms as well as specificities of the cross-hashtagged content for each of them.
+  cover: thumbnail2.gif
+  folder: question-2
+  datasets:
+    - name: Posts with the hashtag on Twitter, Instagram and Tiktok
+      description: The dataset contains the 100 most liked posts donwloaded from Instagram manually, TikTok with tiktok-scraper and Twitter with Twint. The posts were mainly classified in three categories according to their content.
+      src: data\2_invisible_battleground_of_hashtag_hijacking.xlsx
+      size: 86 KB
+      format: .xlsx
+- index: 3
+  title: Which words were used to describe the hijacking of “#ProudBoys” on Twitter in other languages besides English?
+  description: Protesting against the far-right group, users started filling Twitter with messages of love. By analyzing keywords, emojis, and types of accounts that engaged in the hijacking, this protocol gives insights on different language speakers' opinions and on the differences between them in terms of speech and culture.
+  folder: question-3
+  cover: thumbnail3.gif
+  datasets:
+    - name: Tweets with the hashtag
+      description: The following database contains the data from all the posts using the hashtag “#ProudBoys” in  8 different languages from the 2nd to 16th of october 2020. The data was scraped using twint. Data retrieved on Nov 14th 2020
+      src: data\3_invisible_battleground_of_hashtag_hijacking.xlsx
+      size: 967 KB
+      format: .xlsx
+- index: 4
+  title: Who were the most retweeted users of the “#millionMAGAmarch” on the week of the Trump-supporting march and what did they use the hashtag for?
+  description: In the week after the US Elections, Trump supporters organized a so-called ‘Million MAGA March’ to manifest against what they believe to be election fraud. They used Twitter to spread information about the event, but it did not take long for the k-pop stan to start using the hashtag to spread pancake pictures. This protocol aims to observe the presence of hijackers and Trump supporters among the most engaged with tweets.
+  folder: question-4
+  cover: thumbnail4.gif
+  datasets:
+    - name: Users of the hashtag on Twitter
+      description: This database contains the top 20 retweeted posts using "#millionMAGAmarch" from the 8th to the 15th of november. It also contains the categorization of users that posted and a list of the main retweeted accounts. The data was scraped using Twint. Data retrieved on Nov 16th 2020
+      src: data\4_invisible_battleground_of_hashtag_hijacking.xlsx
+      size: 27.618 KB
+      format: .xlsx

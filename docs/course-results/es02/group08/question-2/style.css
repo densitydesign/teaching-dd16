@@ -1,0 +1,12 @@
+#visualization-container {
+  width: 130%;
+  margin-left: -15%;
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 85%;
+}
+
+#infobar {
+  display: inline-block;
+  width: 15%;
+}

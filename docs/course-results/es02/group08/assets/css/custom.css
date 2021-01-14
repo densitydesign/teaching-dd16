@@ -1,0 +1,47 @@
+html {
+  --color-main: #8282e8;
+  --color-main-lighter: #8282e8;
+  --color-text: #3b445e;
+  --color-text-lighter: #8282e8;
+  --color-background: #f3f4f7;
+  --font-display: 'Work Sans', sans-serif;
+  --font-text: 'Work Sans', sans-serif;
+}
+
+p {
+
+}
+
+/*intro paragraph (home)*/
+.intro p {
+  font-size: 160%;
+}
+
+/*Questions (title)*/
+h1 {
+  font-size: 250% !important;
+  font-weight: 600 !important;
+}
+
+/*intro colored text*/
+.intro-text {
+  font-size: 160% !important;
+}
+
+/*title*/
+.cover__title {
+  font-size: 350% !important;
+}
+
+/*subtitle*/
+.cover__subtitle {
+  font-size: 150% !important;
+}
+
+.cover__heading {
+  font-size: 110% !important;
+}
+
+.authors {
+  font-size: 100% !important;
+}
