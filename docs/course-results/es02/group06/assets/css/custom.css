@@ -1,0 +1,9 @@
+html {
+  --color-main: #f90a7a;
+  --color-main-lighter: #ffd4e9;
+  --color-text: #FBFBFD;
+  --color-text-lighter: #AAAAAA;
+  --color-background: #000000;
+  --font-display: 'Commissioner', sans-serif;
+  --font-text: 'Commissioner', sans-serif;
+}

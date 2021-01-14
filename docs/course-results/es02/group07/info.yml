@@ -1,0 +1,33 @@
+# insert here genreal information about your project website
+
+title: The Algorithmic Body:Fitness Apps And Photo Editors
+subtitle: The research of photo editing and taking based on popular fitness and editor applications through images analysis
+
+description: "Under this subject, we conducted a systematic study on the algorithmic body of fitness app and photo editor through 4 protocols. First, we compared the aesthetic differences between East and West, represented by China and the United States, on Douyin and Tiktok. Then in China’s most popular application, the Meitu Xiuxiu community, we compared the changes before and after Chinese photo editing to study the changes in face data and analyze the algorithms. Then we collected a lot of pictures in Keep, China's largest fitness community, to summarize the most popular ways of taking pictures for the Chinese fitness crowd, and used interactive visualization to show the results. Finally, we collected 50 popular editing applications on Google Drive, analyzed the main functions and user ratings of the editing applications on the market from a macro perspective, and then obtained user needs and evaluations. Our research is very vertical and covers users and applications. In research, we made a comparison between East and West, before and after editing. We analyzed the pictures and text. And our analysis is very complete from editing needs, to tools, to methods, to behaviors, to algorithms, to results."
+
+cover-image: cover.png
+logoPoli: logo_poli.png
+logoDensity: logo_density.png
+
+authors:
+- name: Songwei Duan
+- name: Yuting Jiang
+- name: Ruting Lin
+- name: Chunhai Liu
+- name: Yuan Liu
+- name: Xueyue Wu
+
+faculty:
+- name: Michele Mauri
+- name: Gabriele Colombo
+- name: Angeles Briones
+- name: Simone Vantini
+- name: Salvatore Zingale
+
+assistants:
+- name: Antonella Autuori
+- name: Andrea Benedetti
+- name: Matteo Bettini
+- name: Tommaso Elli
+- name: Andrea Febres
+- name: Beatrice Gobbo

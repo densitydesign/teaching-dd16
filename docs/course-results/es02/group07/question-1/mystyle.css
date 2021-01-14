@@ -1,0 +1,261 @@
+html {
+    --color-main: #fd8d74;
+    --color-main-lighter: #C3C2FF;
+    --color-text: #e9d9c2;
+    --color-text-lighter: #fd8d74;
+    --color-background: #000000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "DM Sans", sans-serif;
+}
+.top{
+    background-color: #fd8d74;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 5%;
+}
+.one{
+    position: absolute;
+    top:5%;
+    left: 50%;
+    height: 40%;
+    width: 70%;
+    transform: translateX(-50%);
+   /* background-color: #e9d9c2;*/
+}
+.one1 {
+    position: relative;
+    top:5%;
+    /*background-color: #fd8d74;*/
+    color: #fd8d74;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.one2{
+    position: relative;
+    top:20%;
+   /* background-color: #fd8d74;*/
+    color: #e9d9c2;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+.frame{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: rgba(255,255,255,0.7) solid 2px;
+    border-radius: 3px;
+    width: 95%;
+    height: 90%;
+}
+.end{
+    position: absolute;
+    top:150%;
+    width: 100%;
+}
+.but1{
+    border: rgba(255,255,255,0.8) solid 2px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 5px 5px 3px rgba(255,255,255,0.7);
+    width: 180px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: color 0.5s, background-color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s, background-color 0.5s;
+}
+.but1:hover{
+    color: black !important;
+    background-color: #e9d9c2 !important;
+    cursor: pointer!important;/*加!improtant防止jq调用css后hover失效*/
+}
+.but2{
+    border: rgba(255,255,255,0.5) solid 1px;
+    border-radius: 1px;
+    color: white;
+   /* box-shadow: 5px 5px 3px rgba(255,255,255,0.7);*/
+    width:33.1%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: color 0.5s, background-color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s, background-color 0.5s;
+}
+.but2:hover{
+    color: black !important;
+    background-color: #e9d9c2 !important;
+    cursor: pointer !important;
+}
+.b11{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+.b12{
+    position: absolute;
+    left: 5%;
+    top:40%;
+}
+.f1{
+    border: rgba(255,255,255,0.8) solid 2px;
+    border-radius: 3px;
+    width: 25%;
+    height: 40%;
+    position: absolute;
+    left: 5%;
+    bottom: 2%;
+}
+.f2{
+    border: rgba(255,255,255,0.8) solid 2px;
+    border-radius: 3px;
+    width: 65%;
+    height: 95%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+.b21{
+    position: relative;
+    top:0;
+    float: left;
+}
+.f3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height:27%;
+    border: rgba(255,255,255,0.5) solid 1px;
+    border-radius: 1px;
+}
+.tr1{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    border-right: 25px solid #e9d9c2;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+    -webkit-transition: transform 500ms; /* For Safari 3.1 to 6.0 */
+    transition: transform 500ms;
+}
+.tr1:hover{
+    transform: scale(2) translate(-15%,-25%) !important;
+    cursor: pointer !important;
+}
+.tr2{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    border-left: 25px solid #e9d9c2;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+    -webkit-transition: transform 300ms; /* For Safari 3.1 to 6.0 */
+    transition: transform 300ms;
+}
+.tr2:hover{
+    transform: scale(2) translate(15%,-25%) !important;
+    cursor: pointer !important;
+}
+.mid{
+    border: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 63%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #e9d9c2;
+    text-align: center;
+    letter-spacing: -1px;
+}
+.img1{
+    border: none;
+    position: absolute;
+    left: 50%;
+    top:30%;
+    width: 90%;
+    height:65%;
+   /* background-color: white;*/
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+.img2{
+    border: none;
+    position: absolute;
+    top:12%;
+    left: 50%;
+    transform:translateX(-50%);
+    width: 95%;
+    height: 85%;
+   /* background-color: white;*/
+    overflow: hidden;
+}
+.end2{
+    position: absolute;
+    top:780%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.end22{
+    position: absolute;
+    top: 700%;
+    width: 100%;
+}
+.end2nt1{
+    margin-left: 3%;
+    flex: 4;
+    color: #fd8674;
+    font-size: 30px;
+}
+.end2nt2{
+    flex: 6;
+    margin-right: 3%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.end2nt2 span{
+    margin: 0;
+    margin-bottom: 2%;
+    flex: 1;
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+.end2nt2 span:nth-child(1){
+    flex: 2;
+    color: #fd8674;
+    font-size: 25px;
+}
+.end2nt2 span div{
+    flex: 1;
+}
+#mytr{
+    visibility: hidden;
+}

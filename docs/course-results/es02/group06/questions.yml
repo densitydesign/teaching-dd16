@@ -1,0 +1,74 @@
+- index: 1
+  title: "Where are the companies that need content moderators? Where are those posts located？"
+  description: "As some new jobs brought by the Internet's prosperity, content moderation has been prevalent in many cointries worldwide. In most cases, companies hire content moderators in their own countries. But the Internet has no boundaries. Many companies recruit content moderators in other countries. In Southeast Asia, where the labor force is relatively low-priced, content moderation has become an industry. The first protocol shows whrere companies need content moderators from and where their jobs are."
+  cover: cover.jpg
+  folder: question-1
+  datasets:
+    - name: 18 Job Sites
+      description: The data came from 18 job sites in 22 countries, indeed.ca(CA), 51job.com(CN), adzuna.com(UK), Naukri.com（IN)，求人ボックス.com(JPN), hellofresh.com(FR), monster.com(GER), jooble.com(USA), mx.jooble(MX), careerjet.com(SA), jobstreet.com(IDN), indeed.com(IR), hh.ru(RU), adzuna.com(UK), indeed.com(BRA), yenibiris.com(TUR), infojobs.com(ESP), sg.jobsdb.commorning (SG), linkedin.com(NL), jobstore.com(MYS), jobjet.com(PH), jobcoconut.com(POR).
+      src: all.csv
+      size: 92.0 KB
+      format: .csv
+    - name: Location of Companies/Jobs
+      description: Based on the original data ,for the “Location of Company/Job" special, do the further screening and composite table.
+      src: location.csv
+      size: 13.0 KB
+      format: .csv
+- index: 2
+  title: "What are the differences in the skill and academic requirements of content moderators in different countries?"
+  description: "Different countries have different cultural backgrounds, political conditions, and development conditions. Content moderators' work is to review the platform content’s appropriateness based on national policies and platform standards. The research aims to define the differences in content moderators’ requirements in different countries through worldwide job sites."
+  cover: cover.jpg
+  folder: question-2
+  datasets:
+    - name: 18 Job Sites
+      description: The data came from 18 job sites in 22 countries, indeed.ca(CA), 51job.com(CN), adzuna.com(UK), Naukri.com（IN)，求人ボックス.com(JPN), hellofresh.com(FR), monster.com(GER), jooble.com(USA), mx.jooble(MX), careerjet.com(SA), jobstreet.com(IDN), indeed.com(IR), hh.ru(RU), adzuna.com(UK), indeed.com(BRA), yenibiris.com(TUR), infojobs.com(ESP), sg.jobsdb.commorning (SG), linkedin.com(NL), jobstore.com(MYS), jobjet.com(PH), jobcoconut.com(POR).
+      src: all.csv
+      size: 92.0 KB
+      format: .csv
+    - name: Skills
+      description: Based on the original data above, for the "skills" special, do the further screening and composite table.
+      src: skills.csv
+      size: 3.0 KB
+      format: .csv
+    - name: Degree
+      description: Based on the original data above, for the "degree/major" special, do the further screening and composite table.
+      src: degree.csv
+      size: 3.0 KB
+      format: .csv
+- index: 3
+  title: "How do the companies emphasize the high risk of mental illness associated with job content in disclaimers? And how many companies offer mental health care for their moderators?"
+  description: "After witnessing thousands of extreme and graphic violent acts, the unsafe work environment led many moderators to the development of PTSD (Post Traumatic Stress Disorder). Some companies have mentioned the high risk of mental illness associated with the job content and the working environment declared in the job descriptions."
+  folder: question-3
+  cover: cover.jpg
+  datasets:
+    - name: 18 Job Sites
+      description: The data came from 18 job sites in 22 countries, indeed.ca(CA), 51job.com(CN), adzuna.com(UK), Naukri.com（IN)，求人ボックス.com(JPN), hellofresh.com(FR), monster.com(GER), jooble.com(USA), mx.jooble(MX), careerjet.com(SA), jobstreet.com(IDN), indeed.com(IR), hh.ru(RU), adzuna.com(UK), indeed.com(BRA), yenibiris.com(TUR), infojobs.com(ESP), sg.jobsdb.commorning (SG), linkedin.com(NL), jobstore.com(MYS), jobjet.com(PH), jobcoconut.com(POR).
+      src: all.csv
+      size: 92.0 KB
+      format: .csv
+    - name: Disclaimers
+      description: Based on the original data , select keywords from the disclaimer in the job description and count the word frequency.
+      src: disclaimers.csv
+      size: 2.0 KB
+      format: .csv
+- index: 4
+  title: "Did users of YouTube, Facebook, and Twitter discuss more content moderator disputes caused by the platforms they use? Are these issues more visible or less visible on different platforms?"
+  description: Although some jobs have emphasized the mental impact of content moderators, when we search for "content moderators" on social platforms, there are still many reports of disputes and adverse reports. And most of them are related to Facebook, Youtube, and Twitter. Therefore, the fourth research question aims to study how users on these three platforms view these disputes, especially disputes caused by the platforms where their accounts are.
+  folder: question-4
+  cover: cover.jpg
+  datasets:
+    - name: YouTube
+      description: This file includes top 50 videos sorted by popularity and relevance from YouTube. Dataset retrieved on 01/11/2020.
+      src: YouTube.csv
+      size: 67.0 KB
+      format: .csv
+    - name: Facebook
+      description: This file includes top 50 videos or posts sorted by popularity and relevance from Facebook. Dataset retrieved on 01/11/2020.
+      src: 11.csv
+      size: 0.0 KB
+      format: .csv
+    - name: Twitter
+      description: This file includes top 50 posts sorted by popularity and relevance from Twitter. Dataset retrieved on 01/11/2020.
+      src: twitter.csv
+      size: 13.0 KB
+      format: .csv
