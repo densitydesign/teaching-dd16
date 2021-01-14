@@ -1,0 +1,45 @@
+- index: 1
+  title: What parts of the female body are used the most in the thumbnails of the last 200 videos on the 5-minute crafts channel on YouTube and how many views do these videos have?
+  description: Objectification of women in the media is not a new concept. However, given the channel’s large audience of 70 million subscribers and billions of views, the phenomenon takes an uncomfortable turn. This research seeks to answer if certain body parts have more appeal than others and subconsciously or consciously affect the viewer’s decision to click on it.
+  cover: cover.png
+  folder: question-1
+  datasets:
+    - name: Videos list categorised by parts of woman body presented on thumbnails
+      description: latest 200 videos sorted by date and categorised by which body part is portrayed on thumbnail.
+      src: https://drive.google.com/file/d/1tFCGXS4EiIlGmbDeh1ajn1JPvk4jaENp/view?usp=sharing
+      format: .xlsx
+      
+- index: 2
+  title: How are women portrayed in the thumbnails of the last 200 videos on the 5-minute crafts channel on YouTube and how many views do these videos have?
+  description: Social media has a very negative impact on self-esteem and mental health, especially for young women. This problem is influenced by many factors, among others the appearance and behavior of women promoted on such platforms. Content farms are strongly focused on profit, putting the well-being of the recipients in the next place. This research looks at the context in which women are portrayed in thumbnails of videos that reaches millions of people.
+  cover: cover.png
+  folder: question-2
+  datasets:
+    - name: Videos list categorised by thumbnail context
+      description: latest 200 videos sorted by date categorised by context in which woman is portrayed on thumbnail.
+      src: https://drive.google.com/file/d/1eZOSKdJmzcmAjFhnqCk87hLgP1QgHaIc/view?usp=sharing
+      format: .xlsx
+- index: 3
+  title: What are the human emotions portrayed in the thumbnails of the top 100 videos of each year (2016-2020) on the 5-minute crafts channel on YouTube?
+  description: Being a content farm, the thumbnails here play a huge role in attracting viewers. The expressions used in these thumbnails are both extremes of positive (happy/satisfied) and negative (angry/disgusted), mixed in with some neutral expressions. The aim here is to check if certain human expressions play a bigger role than others in affecting the viewer’s decision of clicking on it.
+  cover: cover.png
+  folder: question-3
+  datasets:
+    - name: Videos list with emotion categorisation 
+      description: 475 videos categorised by criteria if human emotion exists and by emotion type on the video thumbnail.
+      src: https://docs.google.com/spreadsheets/d/1BwL04gbMBp6YUmoPM53DVI3QPfpleITCCe7QyTmzCtk/edit#gid=0
+      size: 0.0 KB
+      format: .xlsx
+- index: 4
+  title: What are the distinctive formats of titles used in the top 50 videos of each year (2016-2020) on the 5-minute crafts channel on YouTube?
+  description: Videos on YouTube gain traction when they appear on most search results. Customising titles and adding keywords that game YouTube’s algorithm rank such videos higher. However, YouTube updates its algorithm constantly and has made several changes in recent times to suppress clickbait titles. The data here studies how this channel has attempted to adapt to these changes over the years.
+  cover: cover.png
+  folder: question-4
+  datasets:
+    - name: Videos titles 
+      description: 50 titles for each year and 250 titles in total deconstructed by keyword type.
+      src: https://docs.google.com/spreadsheets/d/1rVluFaikWer2hVfCpSOfEJvRTVKO77M8LxbRcxIHfVY/edit?usp=sharing
+      size: 0.0 KB
+      format: .xlsx
+
+
