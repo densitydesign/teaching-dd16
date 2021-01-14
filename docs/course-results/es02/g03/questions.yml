@@ -1,0 +1,53 @@
+- index: 1
+  title: How are conspiracy theories hidden in the Instagram profiles of influencer moms in 2020?
+  description: During the first lockdown due to Covid-19, many American influencer moms’ profiles started posting more frequently spreading conspiracy theory messages in their feed. These posts, in a short time, have dramatically increased the profiles' engagement, reaching popularity also thanks to the aesthetics behind which the conspiracy theories’ messages are hidden. Colors, fonts, illustrations, patterns, and screenshots are here the main protagonists. To understand how this phenomenon is spreading we scraped the last 30 posts of top influencer moms to analyze which visual formats they use to convey conspiracy theories in their IG profiles.
+  cover: cover.gif
+  folder: question-1
+  datasets:
+    - name: Instagram
+      description: This dataset contains information about 5 Instagram profiles and the corresponding first 30 posts updated to 28/10/2020.  The posts were classified by ID, type of conspiracy, type of non-conspiracy post, type of image, number of likes, and number of profile's followers.
+      src: Protocol1-dataset.csv
+      size: 10.0 KB
+      format: .csv
+- index: 2
+  title: How do conspiracy theories’ main concepts translate into gadget designs on Etsy?
+  description: On e-commerce platform Etsy various gadgets related to conspiracy theories are available and it’s interesting to understand how they look like. We focused on different QAnon sub-conspiracy theories. How do they communicate? Do they communicate in different ways? The aim of this study is therefore to identify the recurrent visual and conceptual elements for each of the QAnon sub-theories considered, to show how gadgets can be clustered according to which elements they present in their graphics and finally to analyze how some common aspects work as connections between sub-conspiracies.
+
+  cover: cover.gif
+  folder: question-2
+  datasets:
+    - name: Etsy
+      description: This dataset contains the images used and the relative links. For each of them is also indicated other information such as the query used for the research, the image name, the categorization label, the number of reviews and finally the product description.
+      src: P2-dataset.xlsx
+      size: 2.5 MB
+      format: .xslx
+
+- index: 3
+  title: How is the aesthetic of conspiracy theories’ stickers on RedBubble inspired by mass culture?
+
+  description: Conspiracy theories often communicate by using mass culture references such as movies, books, political issues, memes, etc. visual languages and imagery taken from various sources are reinterpreted in order to convey different messages. We investigated this phenomenon by analyzing the e-commerce platform RedBubble, and especially in the “Stickers” section of the website, by searching using different queries related to popular conspiracy theories. We selected the top-50 best selling results for each query and grouped them into categories, in order to have an overview of the references and to spot the most recurrent ones.
+
+  folder: question-3
+  cover: cover.gif
+  datasets:
+    - name: RedBubble
+      description: This dataset contains the links to the images used, their research queries (related to conspiracy theories) and their classification in references and cultural areas. All the images were labelled manually. The images in these dataset represent the top-50 best selling stickers results on RedBubble for each query.
+
+      src: P3_dataset.csv
+      size: 35 KB
+      format: .csv
+
+- index: 4
+  title: Which are the most spread fictional characters on Covid-related conspiracy threads on 4chan from August to November 2020?
+
+  description: Since the beginning of the Covid-19 pandemic a lot of conspiracy theorists have been trying to point out some possible causes. Some of the main assumptions involve the advent of 5G, the spreading of GMOs or a plan to vaccinate the world population. Most of these topics are widely discussed on 4chan and often expressed using pictures and reinterpretations of fictional characters. This is a classification of the most recurrent ones from August to November 2020.
+
+  cover: cover.gif
+  folder: question-4
+  datasets:
+    - name: 4Plebs
+      description: The dataset includes all of the metadata of images collected from 4chan.plebs and the manual clusterization based on the visual topics. Each file is identified with the corresponding URL, the 4chan board and the nationality (real or fictional) of the writer. About the content, pictures are classified by character and in some cases sub-groups.
+
+      src: protocol4_Dataset.csv
+      size: 839 KB
+      format: .csv
