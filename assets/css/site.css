@@ -147,6 +147,10 @@ a, a:visited {
   transition: opacity 0.3s ease;
 }
 
+.external--link {
+  color: var(--accent) !important;
+}
+
 a:hover {
   background: var(--accent);
 }
@@ -361,15 +365,9 @@ aside {
   text-decoration: none;
 }
 
-.external--link{
-  color:var(--accent) !important;
-}
-
 aside a {
   background: none !important;
   text-decoration: none;
-  display: block;
-  margin-top:1rem;
 }
 
 #phases {
@@ -597,14 +595,15 @@ aside h4 {
 
 .projects--directory .phase--2 *, .projects--directory .phase--2 .project--members {
   width: 100%;
-  color: var(--main-color);
+  color: var(--accent);
   text-align: left;
 }
 
 .project--meta {
-  padding: 3rem 1rem 1rem 1rem;
-  background: var(--accent);
-  background: linear-gradient(0deg, var(--accent) 30%, var(--accent-tr) 60%, rgba(224,255,79,0) 100%);
+  padding: 1rem;
+  border-radius: 0 0 6px 6px;
+  border-top: 1px solid var(--accent);
+  background: var(--accent-tr);
 }
 
 .projects--directory .phase--2 h2 {
@@ -643,6 +642,7 @@ aside h4 {
 
 #table--of--content .active {
   color: var(--main-lighter);
+  left: 0.5rem;
 }
 
 .drawer--button {
@@ -799,10 +799,6 @@ aside h4 {
 
   #table--of--content a {
     font-size: 1.1rem;
-  }
-
-  .external--link a{
-    color:var(--background) !important;
   }
 
   #right--align {

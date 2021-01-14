@@ -21,23 +21,24 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 		</main>
 			<main className="hero--text">
 				<div className="projects--directory">
-	 			 {
-	 				 Object.keys(groups).map((item, i) => (
-						 <>
-						 <div key={item} id={groups[item].group} class="project--block">
-						 <div class="project--cover">
-						 <img key={item} src={groups[item].image}/>
-						 <a key={item} href={ _relativeURL( '/course-results/es01/', _ID), groups[item].group + "/" + groups[item].group + ".pdf"}><p><i class="fas fa-arrow-circle-down"></i> Download the visualization</p></a>
-						 </div>
+				{
+					Object.keys(groups).map((item, i) => (
+						<>
+						<div key={item} id={groups[item].group} class="project--block">
+						<div class="project--cover phase--2" key={item} style={{
+							backgroundImage: `url(${groups[item].image})`
+						}}>
+						<div className="project--meta">
+						<h2 key={item}><a key={item} href={ _relativeURL( '/course-results/es01/', _ID), groups[item].group + "/" + groups[item].group + ".pdf"}>{groups[item].title}</a></h2>
+						<p className="project--members" key={item}>{groups[item].names}</p>
+						</div>
+						</div>
 
-						 <h3 key={item}>{"Group " + (i + 1)}</h3>
-						 <h2 key={item}><a key={item} href={ _relativeURL( '/course-results/es01/', _ID), groups[item].group} target="_blank">{groups[item].title}</a></h2>
-						 <p className="project--members" key={item}>{groups[item].names}</p>
-						 <p className="project--description" key={item}>{groups[item].desc}</p>
-						 </div>
-						 </>
-	 				 ))
-	 			 }
+						<p className="project--description" key={item}>{groups[item].desc}</p>
+						</div>
+						</>
+					))
+				}
  			 </div>
 			</main>
 			<aside id="single--phase">

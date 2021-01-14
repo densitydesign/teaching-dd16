@@ -30,7 +30,6 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 							 backgroundImage: `url(${groups[item].image})`
 						 }}>
 						 <div className="project--meta">
-						 <h3 key={item}>{"Group " + (i + 1)}</h3>
 						 <h2 key={item}><a key={item} href={ _relativeURL( '/course-results/es01/', _ID), groups[item].group} target="_blank">{groups[item].title}</a></h2>
 						 <p className="project--members" key={item}>{groups[item].names}</p>
 						 </div>
