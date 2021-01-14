@@ -1,0 +1,44 @@
+- index: 1
+  title: "Which are the most digitally relevant tourism categories based on Instagram hashtags?"
+  description: Social media contributed in boosting the travel industry (The contribution of social media in boosting the tourism industry - Travel Dosti Etc, 2018), and most kinds of tourism are represented in the social environment. The biggest tourism categories are not the only one growing over time, but also many other specific and peculiar types of tourism gained popularity on the platform. We investigated Instagram hashtags related to tourism in order to understand which category is represented the most on Instagram. We also analyzed the most recent images per category  in order to see what type content is shared through these hashtags.
+  cover: cover1.gif
+  folder: question-1
+  datasets:
+    - name: Protocol_1
+      description: In this dataset you can find the complete collection of tourism categories and related hashtags used to compile the visualization.
+      src: P1-typeoftourism.xlsx
+      size: 118 KB
+      format: .xls
+- index: 2
+  title: "How do Instagram touristic trends influence the popularity of places on Tripadvisor?"
+  description: "“Wait, I’ve seen that picture before! It’s trending on social media!” Instagram has rapidly and steadily changed the way we perceive places and choose our destinations. We analyzed three places that became popular around the world thanks to Instagram to understand how they became digitally and famous on TripAdvisor. Could a photographic trend boost tourism and challenge people to travel and take part in an iconic location?"
+  cover: cover2.gif
+  folder: question-2
+  datasets:
+    - name: Protocol_2
+      description: In this dataset you can find the amount of images related to the analyzed places on both Instagram and Tripadvisor.
+      src: P2-Touristic trend.xlsx
+      size: 31 KB
+      format: .xls
+- index: 3
+  title: "Which are the topics related to #darktourism and defined by main co-hashtags found in the first 300 posts on Instagram?"
+  description: "Dark tourism is a movement of people that travel to places historically associated with death and tragedy. We examined the #darktourism Instagram co-hashtags found in the pictures posted on the platform to define which topics are related to this kind of tourism. Every co-hashtag creates a network around itself that defines a sub-topic of dark tourism. Clusters are deeply related one to another and the distribution of relationships is overall homogeneous."
+  folder: question-3
+  cover: cover3.gif
+  datasets:
+    - name: Protocol_3
+      description: "In this dataset you can find the complete collection of tourism topics and the related co-hashtags of #darktourism used to compile the visualization."
+      src: P3-darktourism.xlsx
+      size: 232 KB
+      format: .xls
+- index: 4
+  title: "What are the most popular medical tourism destinations according to the first 400 Instagram posts on #medicaltourism hashtag?"
+  description: "Medical tourism refers to people traveling abroad to obtain medical treatment. You might know this kind of tourism already, but what if you could know where to go in order to get a specific surgical intervention? We analyze a couple hundred posts with the #medicaltourism Instagram hashtag in order to map locations that offer specific treatments around the world. Medical tourism helps people getting medical treatment at a lower price compared to their country of origin."
+  folder: question-4
+  cover: cover4.gif
+  datasets:
+    - name: Protocol_4
+      description: "In this dataset you can find the complete collection of all posts related to #medicaltourism with the correspondent locations and treatment options."
+      src: P4-medicaltourism.xlsx
+      size: 80 KB
+      format: .xls

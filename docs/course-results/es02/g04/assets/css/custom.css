@@ -1,0 +1,133 @@
+html {
+  --color-main: #587ef9;
+  --color-main-lighter: #C3C2FF;
+  --color-text: #333333;
+  --color-text-lighter: #AAAAAA;
+  --color-background: #FBFBFD;
+  --font-display: 'Favorit Medium', sans-serif;
+  --font-text: 'Favorit Regular', sans-serif;
+}
+
+/* Load custom font face - Favorit*/
+@font-face {
+  font-family: 'Favorit Regular';
+  src: local('☺'), url('../font/Favorit_Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Favorit Medium';
+  src: local('☺'), url('../font/Favorit_Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Favorit Bold';
+  src: local('☺'), url('../font/Favorit_Bold.woff') format('woff');
+}
+
+/* PROTOCOL 3*/
+/*cursor pointer protocol_3*/
+#on-hover>g {
+  cursor: pointer;
+}
+
+#Body-on>g {
+  cursor: pointer;
+}
+
+#SEZIONI-ON>g {
+  cursor: pointer;
+}
+
+#SEZIONI {
+  cursor: pointer;
+}
+
+#bottoni {
+  cursor: pointer;
+}
+
+#Arbol_Switch {
+  cursor: pointer;
+}
+
+#Pig_Switch {
+  cursor: pointer;
+}
+
+#Lempuyang_Switch {
+  cursor: pointer;
+}
+#SEZIONI-ON-hover{
+  cursor:pointer;
+}
+#on{
+  cursor:pointer;
+}
+
+#interazione_etichette > g{
+  cursor: none;
+}
+
+#Body-on-hover{
+  cursor:pointer;
+}
+.cover .cover__title {
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'Favorit Bold';
+}
+
+.main-text-title>h3 {
+  color: #e21e6e;
+}
+
+.container>div>h3 {
+  color: #e21e6e;
+}
+
+.footer__item>h5 {
+  color: #e21e6e;
+}
+
+hr {
+  border: 1px solid #303BF5;
+}
+
+/* dirty data is the unofficial name for group 4 */
+.footer__container div:nth-child(3)  {
+  cursor: url('./cursors/cursor.png'), auto;
+}
+
+.footer__container div:nth-child(4) > p:nth-child(2) {
+  cursor: url('./cursors/mauri.png'), auto;
+}
+
+.footer__container div:nth-child(4) > p:nth-child(3) {
+  cursor: url('./cursors/colombo.png'), auto;
+}
+
+.footer__container div:nth-child(4) > p:nth-child(4) {
+  cursor: url('./cursors/briones.png'), auto;
+}
+
+.footer__container div:nth-child(4) > p:nth-child(5) {
+  cursor: url('./cursors/vantini.png'), auto;
+}
+
+.footer__container div:nth-child(4) > p:nth-child(6) {
+  cursor: url('./cursors/zingale.png'), auto;
+}
+
+.footer__container div:nth-child(5) > p:nth-child(7) {
+  cursor: url('./cursors/bea.png'), auto;
+}
+
+.footer__container div:nth-child(5) > p:nth-child(3) {
+  cursor: url('./cursors/andre.png'), auto;
+}
+
+.footer__container div:nth-child(5) > p:nth-child(5) {
+  cursor: url('./cursors/tommi.png'), auto;
+}
