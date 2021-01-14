@@ -1,0 +1,44 @@
+- index: 1
+  title: "Through which hashtags did the video that started the takeover of Trump’s Tulsa rally spread across TikTok between June 12th and 20th 2020?"
+  description: "In June 2020, during his presidential re-election campaign, Donald Trump organized a rally, despite protests from the African American community and recommendations about possible Covid-19 infections. It was boycotted through a collective action initiated by a video on TikTok, posted on June 12, which went viral. This visualization aims to analyze which hashtags were the most effective in spreading the video on the platform."
+  cover: cover.png
+  folder: question-1
+  datasets:
+    - name: Tiktok scraper
+      description: "The dataset contains information about the videos that shared Laupp's original Tiktok between June 12th and June 20th. For each video, the dataset presents the author, the description, the timestamp, the hashtags and the number of shares. It also contains, per each hashtag, the number of mentions, the shares and the average number of shares for each mention. Dataset retrieved on 28/10/2020."
+      src: Dataset_01.xlsx
+      size: 77.2 KB
+      format: .xlsx
+- index: 2
+  title: "Which were the most popular visual contents during the first two weeks of the #WhiteOutWednesday hijacking on Twitter and which were the recurrent features?"
+  description: "On June 2020 the #WhiteoutWednesday was created to oppose the #BlackOutTuesday, but the hashtag was quickly hijacked by BTS stans and Twitter was flooded with posts. During a takeover, images play an important role because they reinforce the mockery of the original meaning. The research studies  visual content posted during the hijacking in order to identify recurrent and most popular features."
+  cover: cover.png
+  folder: question-2
+  datasets:
+    - name: Twitter scraper
+      description: "The dataset contains data related to the most popular visual contents on Twitter posted between June 2nd and June 14th considering usernames, dates, tweets, interactions and types of content. It also presents the whole number of posts shared in that time frame and the percentage of posts that has been analysed in detail with the visualisation. Dataset retrieved on 12/12/2020."
+      src: Dataset_02.xlsx
+      size: 1320.0 KB
+      format: .xlsx
+- index: 3
+  title: "Which are the topics that the most active users in the hijacking of #calmikirkland on Instagram sympathize with?"
+  description: "On 28th June 2020, Kirkland police requested to use the hashtag #calminkirkland to denounce the protesters in the public riots for the murder of George Floyd. After having been immediately hijacked by some K-pop fans, a lot of users started mentioning this hashtag for different purposes. The research aims to show all these authors, the different types of their profile, and the topics they supported, in order to give an overview of those who have hijacked knowingly or not."
+  folder: question-3
+  cover: cover.png
+  datasets:
+    - name: Instagram scraper
+      description: "It contains data related to the Ig users mentioning the hashtag #calminkirkland, in more than 4 posts, from June 28th to October 28th. For each user, dataset presents amount of posts mentioning the hashtag, tags and keywords from captions and the topics supported by users through the already quoted hashtags and keywords. It also contains the authors' names, as sources, the amount of posts mentioning the hashtag, as weight, and the topics supported by these authors, as target: these data has been processed by Gephi. Dataset retrieved on 13/12/2020."
+      src: Dataset_03.xlsx
+      size: 29.5 KB
+      format: .xlsx
+- index: 4
+  title: "Which were the types of terms used in the titles of articles on Google News describing K-Pop stans' digital activism from May to August 2020?"
+  description: "The phenomenon of digital activism carried out by K-pop stans to support BLM and sabotage Trump’s rallies did not go unnoticed: the main online news websites covered their actions with critique pieces, describing this group as a force of social and political action, and acknowledging their power given by the internet used as a weapon."
+  folder: question-4
+  cover: cover.svg
+  datasets:
+    - name: Google news
+      description: "It contains data regarding all the articles about K-pop stans activism from May to August 2020. For each article, the dataset acquires the source and its classification, the titles, and the words contained in them. It also contains all the terms sorted in order to let Gephi understands the nodes with their frequencies, and the classification of each term by the type of articles they are mentioned in, in order to use Rawgraph. Dataset retrieved on 11/11/2020."
+      src: Dataset_04.xlsx
+      size: 40.8 KB
+      format: .xlsx

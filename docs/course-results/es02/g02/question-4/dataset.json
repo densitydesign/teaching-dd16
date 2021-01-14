@@ -1,0 +1,746 @@
+{
+  "k-pop": {
+    "type": "subject",
+    "prevNodes": [],
+    "nextNodes": ["fans", "stans", "fandoms", "appropriate", "fancams", "be", "say", "stars", "army"],
+    "newspapers": ["all"]
+  },
+  "army": {
+    "type": "attribute",
+    "prevNodes": ["k-pop"],
+    "nextNodes": ["muster", "meet"],
+    "newspapers": ["kunc"]
+  },
+  "fandoms": {
+    "type": "attribute",
+    "prevNodes": ["k-pop"],
+    "nextNodes": ["takeOver"],
+    "newspapers": ["rollingStones"]
+  },
+  "fans": {
+    "type": "attribute",
+    "prevNodes": ["k-pop"],
+    "nextNodes": ["hijack", "enjoy", "join", "sabotage", "left", "reserve", "be", "practise", "face", "match", "propel", "have", "drownOut", "weaponize", "become", "flood", "involve", "coOpt", "defuse", "silence", "support", "refuse", "promote", "takeOver", "bring", "bearOn", "torpedo", "notStop", "get", "troll", "standUp", "tweet", "prime", "turn"],
+    "newspapers": ["newYorkTimes", "headStuff", "theNationalInterest", "paper", "theWashingtonPost", "theTelegraph", "deutscheWelle", "openDemocracy", "losAngelesTimes", "globalNews", "mashable", "newsWeek", "theNewYorker", "grungecake", "hollywoodInsider", "theIntercept", "buzzfeed", "mtvNews", "inStyle", "mitTechnologyReview", "vox", "huffPost", "channelNewsAsia", "theVerge", "theStar", "alJazeera", "mailOnline", "theIndipendent", "meAww", "vox"]
+  },
+  "stans": {
+    "type": "attribute",
+    "prevNodes": ["k-pop"],
+    "nextNodes": ["strike", "swamp", "overwhelm", "drownOut", "post", "become", "unleash", "counter", "use", "troll", "tank", "book", "notShow", "flood", "spam", "support", "run", "herald", "fight", "derail", "hijack", "shutDown", "sabotage", "ratchetUp", "save", "radicalize", "notBelong", "say", "sink"],
+    "newspapers": ["meAww", "southChinaMorningPost", "wired", "theInterpreter", "dazed", "news18", "junkee", "theVerge", "insider", "downinthepit", "vulture", "vogue", "chaosComrades", "fansided", "bloomberg", "cosmopolitan", "theCut", "mitTechnologyReview", "newYorkTimes", "highsnobiety", "shepherdExpress"]
+  },
+  "stars": {
+    "type": "attribute",
+    "prevNodes": ["k-pop"],
+    "nextNodes": ["takePart", "speakUp", "support"],
+    "newspapers": ["abcNews", "teenVogue"]
+  },
+  "appropriate": {
+    "type": "verb",
+    "prevNodes": ["k-pop"],
+    "nextNodes": ["culture"],
+    "newspapers": ["vice"]
+  },
+  "be": {
+    "type": "verb",
+    "prevNodes": ["k-pop", "fans"],
+    "nextNodes": ["political", "force", "activists"],
+    "newspapers": ["slate", "alJazeera", "hollywoodInsider", "highsnobiety"]
+  },
+  "bearOn": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["blm"],
+    "newspapers": ["losAngelesTimes"]
+  },
+  "become": {
+    "type": "verb",
+    "prevNodes": ["fans", "stans"],
+    "nextNodes": ["vigilantes", "community", "force"],
+    "newspapers": ["mitTechnologyReview", "inStyle", "wired", "downinthepit"]
+  },
+  "book": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["tickets"],
+    "newspapers": ["news18"]
+  },
+  "bring": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["power"],
+    "newspapers": ["losAngelesTimes"]
+  },
+  "coOpt": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["whiteLivesMatter"],
+    "newspapers": ["grungecake"]
+  },
+  "counter": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["exposeAntifa"],
+    "newspapers": ["meAww"]
+  },
+  "defuse": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["hashtags"],
+    "newspapers": ["theNewYorker"]
+  },
+  "derail": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["rally"],
+    "newspapers": ["vogue"]
+  },
+  "drownOut": {
+    "type": "verb",
+    "prevNodes": ["fans", "stans"],
+    "nextNodes": ["allLivesMatter", "tweets", "racism", "voices", "racists", "posts"],
+    "newspapers": ["huffPost", "southChinaMorningPost"]
+  },
+  "enjoy": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["allegiance"],
+    "newspapers": ["theIndipendent"]
+  },
+  "face": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["racism"],
+    "newspapers": ["theVerge"]
+  },
+  "fight": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["racists"],
+    "newspapers": ["insider"]
+  },
+  "flood": {
+    "type": "verb",
+    "prevNodes": ["stans", "fans"],
+    "nextNodes": ["qAnon", "feeds", "whiteLivesMatter", "hashtags", "whiteoutWednesday"],
+    "newspapers": ["mashable", "mtvNews", "buzzfeed", "newsWeek", "junkee", "theVerge", "insider"]
+  },
+  "get": {
+    "type": "verb",
+    "prevNodes": ["fancams", "fans"],
+    "nextNodes": ["political"],
+    "newspapers": ["teenVogue", "deutscheWelle"]
+  },
+  "have": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["spots"],
+    "newspapers": ["channelNewsAsia"]
+  },
+  "herald": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["heroes"],
+    "newspapers": ["insider"]
+  },
+  "hijack": {
+    "type": "verb",
+    "prevNodes": ["stans", "fans"],
+    "nextNodes": ["exposeAntifa", "hashtag"],
+    "newspapers": ["meAww", "chaosComrades"]
+  },
+  "involve": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["politics"],
+    "newspapers": ["theIntercept", "theNationalInterest"]
+  },
+  "join": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["blm"],
+    "newspapers": ["theIndipendent"]
+  },
+  "left": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["seats"],
+    "newspapers": ["mailOnline"]
+  },
+  "match": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["donation"],
+    "newspapers": ["southChinaMorningPost"]
+  },
+  "meet": {
+    "type": "verb",
+    "prevNodes": ["army"],
+    "nextNodes": ["moment"],
+    "newspapers": ["kunc"]
+  },
+  "muster": {
+    "type": "verb",
+    "prevNodes": ["army"],
+    "nextNodes": [],
+    "newspapers": ["kunc"]
+  },
+  "notBelong": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["resistance"],
+    "newspapers": ["mitTechnologyReview"]
+  },
+  "notShow": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": [],
+    "newspapers": ["news18"]
+  },
+  "notStop": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": [],
+    "newspapers": ["openDemocracy"]
+  },
+  "overwhelm": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["qAnon", "wwg1wga"],
+    "newspapers": ["meAww"]
+  },
+  "post": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["fancams"],
+    "newspapers": ["insider", "southChinaMorningPost"]
+  },
+  "practise": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["politics", "pranktivism"],
+    "newspapers": ["theStar"]
+  },
+  "prime": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["revolution"],
+    "newspapers": ["headStuff"]
+  },
+  "promote": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["faves"],
+    "newspapers": ["mashable"]
+  },
+  "propel": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["movements"],
+    "newspapers": ["channelNewsAsia"]
+  },
+  "protect": {
+    "type": "verb",
+    "prevNodes": ["fancams"],
+    "nextNodes": ["protesters"],
+    "newspapers": ["teenVogue"]
+  },
+  "radicalize": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": [],
+    "newspapers": ["theCut"]
+  },
+  "ratchetUp": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["wars"],
+    "newspapers": ["bloomberg"]
+  },
+  "refuse": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": [],
+    "newspapers": ["mashable"]
+  },
+  "reserve": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["tickets"],
+    "newspapers": ["mailOnline"]
+  },
+  "run": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["internet"],
+    "newspapers": ["vulture"]
+  },
+  "sabotage": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["rally"],
+    "newspapers": ["mailOnline"]
+  },
+  "save": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["us"],
+    "newspapers": ["cosmopolitan"]
+  },
+  "say": {
+    "type": "verb",
+    "prevNodes": ["k-pop", "stans"],
+    "nextNodes": ["blm"],
+    "newspapers": ["shepherdExpress", "newYorkTimes"]
+  },
+  "shutDown": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["app"],
+    "newspapers": ["fansided"]
+  },
+  "silence": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["theorists"],
+    "newspapers": ["newsWeek"]
+  },
+  "sink": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["rally"],
+    "newspapers": ["newYorkTimes"]
+  },
+  "spam": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["app"],
+    "newspapers": ["junkee", "vulture"]
+  },
+  "speakUp": {
+    "type": "verb",
+    "prevNodes": ["stars"],
+    "nextNodes": [],
+    "newspapers": ["teenVogue"]
+  },
+  "standUp": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["blm"],
+    "newspapers": ["theWashingtonPost"]
+  },
+  "strike": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": [],
+    "newspapers": ["meAww"]
+  },
+  "support": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["blm"],
+    "newspapers": ["mashable"]
+  },
+  "swamp": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["qAnon", "wwg1wga"],
+    "newspapers": ["meAww"]
+  },
+  "takeOver": {
+    "type": "verb",
+    "prevNodes": ["fans", "fandoms"],
+    "nextNodes": ["whiteLivesMatter"],
+    "newspapers": ["rollingStones", "globalNews"]
+  },
+  "takePart": {
+    "type": "verb",
+    "prevNodes": ["stars"],
+    "nextNodes": ["blm"],
+    "newspapers": ["abcNews"]
+  },
+  "tank": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["rally"],
+    "newspapers": ["news18"]
+  },
+  "torpedo": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["trump"],
+    "newspapers": ["openDemocracy"]
+  },
+  "troll": {
+    "type": "verb",
+    "prevNodes": ["fans", "stans"],
+    "nextNodes": ["trump"],
+    "newspapers": ["theTelegraph", "dazed"]
+  },
+  "turn": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["activism"],
+    "newspapers": ["newYorkTimes"]
+  },
+  "tweet": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["news"],
+    "newspapers": ["paper"]
+  },
+  "unleash": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["hashtag"],
+    "newspapers": ["theInterpreter"]
+  },
+  "use": {
+    "type": "verb",
+    "prevNodes": ["stans"],
+    "nextNodes": ["fancams", "memes"],
+    "newspapers": ["insider"]
+  },
+  "weaponize": {
+    "type": "verb",
+    "prevNodes": ["fans"],
+    "nextNodes": ["internet"],
+    "newspapers": ["vox"]
+  },
+  "allLivesMatter": {
+    "type": "object",
+    "prevNodes": ["drownOut"],
+    "nextNodes": [],
+    "newspapers": ["huffPost"]
+  },
+  "exposeAntifa": {
+    "type": "object",
+    "prevNodes": ["counter", "hijack"],
+    "nextNodes": [],
+    "newspapers": ["meAww", "chaosComrades"]
+  },
+  "qAnon": {
+    "type": "object",
+    "prevNodes": ["flood", "overwhelm", "swamp"],
+    "nextNodes": [],
+    "newspapers": ["mashable", "newsWeek"]
+  },
+  "whiteLivesMatter": {
+    "type": "object",
+    "prevNodes": ["coOpt", "flood", "takeOver"],
+    "nextNodes": [],
+    "newspapers": ["grungecake", "buzzfeed", "insider", "rollingStones", "globalNews"]
+  },
+  "activism": {
+    "type": "object",
+    "prevNodes": ["turn"],
+    "nextNodes": [],
+    "newspapers": ["newYorkTimes"]
+  },
+  "activists": {
+    "type": "object",
+    "prevNodes": ["be"],
+    "nextNodes": [],
+    "newspapers": ["hollywoodInsider"]
+  },
+  "allegiance": {
+    "type": "object",
+    "prevNodes": ["enjoy"],
+    "nextNodes": [],
+    "newspapers": ["theIndipendent"]
+  },
+  "app": {
+    "type": "object",
+    "prevNodes": ["shutDown", "spam"],
+    "nextNodes": [],
+    "newspapers": ["fansided", "junkee", "vulture"]
+  },
+  "blm": {
+    "type": "object",
+    "prevNodes": ["bearOn", "say", "standUp", "support", "takePart", "join"],
+    "nextNodes": [],
+    "newspapers": ["shepherdExpress", "theWashingtonPost", "mashable", "abcNews"]
+  },
+  "community": {
+    "type": "object",
+    "prevNodes": ["become"],
+    "nextNodes": [],
+    "newspapers": ["inStyle"]
+  },
+  "culture": {
+    "type": "object",
+    "prevNodes": ["appropriate"],
+    "nextNodes": [],
+    "newspapers": ["vice"]
+  },
+  "donation": {
+    "type": "object",
+    "prevNodes": ["match"],
+    "nextNodes": [],
+    "newspapers": ["southChinaMorningPost"]
+  },
+  "fancams": {
+    "type": "object",
+    "prevNodes": ["k-pop", "post", "use"],
+    "nextNodes": ["get", "protect"],
+    "newspapers": ["insider"]
+  },
+  "faves": {
+    "type": "object",
+    "prevNodes": ["promote"],
+    "nextNodes": [],
+    "newspapers": ["mashable"]
+  },
+  "feeds": {
+    "type": "object",
+    "prevNodes": ["flood"],
+    "nextNodes": [],
+    "newspapers": ["mtvNews"]
+  },
+  "force": {
+    "type": "object",
+    "prevNodes": ["be", "become"],
+    "nextNodes": [],
+    "newspapers": ["alJazeera", "wired"]
+  },
+  "hashtag": {
+    "type": "object",
+    "prevNodes": ["hijack", "unleash"],
+    "nextNodes": [],
+    "newspapers": ["meAww", "theInterpreter"]
+  },
+  "hashtags": {
+    "type": "object",
+    "prevNodes": ["defuse", "flood"],
+    "nextNodes": [],
+    "newspapers": ["theNewYorker", "junkee", "theVerge"]
+  },
+  "heroes": {
+    "type": "object",
+    "prevNodes": ["herald"],
+    "nextNodes": [],
+    "newspapers": ["insider"]
+  },
+  "internet": {
+    "type": "object",
+    "prevNodes": ["run", "weaponize"],
+    "nextNodes": [],
+    "newspapers": ["vulture", "vox"]
+  },
+  "moment": {
+    "type": "object",
+    "prevNodes": ["meet"],
+    "nextNodes": [],
+    "newspapers": ["kunc"]
+  },
+  "movements": {
+    "type": "object",
+    "prevNodes": ["propel"],
+    "nextNodes": [],
+    "newspapers": ["channelNewsAsia"]
+  },
+  "news": {
+    "type": "object",
+    "prevNodes": ["tweet"],
+    "nextNodes": [],
+    "newspapers": ["paper"]
+  },
+  "political": {
+    "type": "object",
+    "prevNodes": ["be", "get"],
+    "nextNodes": [],
+    "newspapers": ["slate", "highsnobiety", "teenVogue", "deutscheWelle"]
+  },
+  "politics": {
+    "type": "object",
+    "prevNodes": ["involve", "practise"],
+    "nextNodes": [],
+    "newspapers": ["theIntercept", "theNationalInterest", "theStar"]
+  },
+  "posts": {
+    "type": "object",
+    "prevNodes": ["drownOut"],
+    "nextNodes": [],
+    "newspapers": ["insider"]
+  },
+  "power": {
+    "type": "object",
+    "prevNodes": ["bring"],
+    "nextNodes": [],
+    "newspapers": ["losAngelesTimes"]
+  },
+  "protesters": {
+    "type": "object",
+    "prevNodes": ["protect"],
+    "nextNodes": [],
+    "newspapers": ["teenVogue"]
+  },
+  "racism": {
+    "type": "object",
+    "prevNodes": ["drownOut", "face"],
+    "nextNodes": [],
+    "newspapers": ["theVerge", "globalNews"]
+  },
+  "racists": {
+    "type": "object",
+    "prevNodes": ["drownOut", "fight"],
+    "nextNodes": [],
+    "newspapers": ["insider"]
+  },
+  "rally": {
+    "type": "object",
+    "prevNodes": ["derail", "sabotage", "sink", "tank"],
+    "nextNodes": [],
+    "newspapers": ["vogue", "mailOnline", "vulture", "news18"]
+  },
+  "resistance": {
+    "type": "object",
+    "prevNodes": ["notBelong"],
+    "nextNodes": [],
+    "newspapers": ["mitTechnologyReview"]
+  },
+  "revolution": {
+    "type": "object",
+    "prevNodes": ["prime"],
+    "nextNodes": [],
+    "newspapers": ["headStuff"]
+  },
+  "seats": {
+    "type": "object",
+    "prevNodes": ["left"],
+    "nextNodes": [],
+    "newspapers": ["mailOnline"]
+  },
+  "spots": {
+    "type": "object",
+    "prevNodes": ["have"],
+    "nextNodes": [],
+    "newspapers": ["channelNewsAsia"]
+  },
+  "theorists": {
+    "type": "object",
+    "prevNodes": ["silence"],
+    "nextNodes": [],
+    "newspapers": ["newsWeek"]
+  },
+  "tickets": {
+    "type": "object",
+    "prevNodes": ["book", "reserve"],
+    "nextNodes": [],
+    "newspapers": ["mailOnline", "news18"]
+  },
+  "trump": {
+    "type": "object",
+    "prevNodes": ["torpedo", "troll"],
+    "nextNodes": [],
+    "newspapers": ["openDemocracy", "theTelegraph", "dazed"]
+  },
+  "tweets": {
+    "type": "object",
+    "prevNodes": ["drownOut"],
+    "nextNodes": [],
+    "newspapers": ["buzzfeed"]
+  },
+  "us": {
+    "type": "object",
+    "prevNodes": ["save"],
+    "nextNodes": [],
+    "newspapers": ["cosmopolitan"]
+  },
+  "vigilantes": {
+    "type": "object",
+    "prevNodes": ["become"],
+    "nextNodes": [],
+    "newspapers": ["mitTechnologyReview", "downinthepit"]
+  },
+  "voices": {
+    "type": "object",
+    "prevNodes": ["drownOut"],
+    "nextNodes": [],
+    "newspapers": ["southChinaMorningPost"]
+  },
+  "wars": {
+    "type": "object",
+    "prevNodes": ["ratchetUp"],
+    "nextNodes": [],
+    "newspapers": ["bloomberg"]
+  },
+  "wwg1wga": {
+    "type": "object",
+    "prevNodes": ["overwhelm", "swamp"],
+    "nextNodes": [],
+    "newspapers": ["newsWeek"]
+  },
+  "whiteoutWednesday": {
+    "type": "object",
+    "prevNodes": ["flood"],
+    "nextNodes": [],
+    "newspapers": ["buzzfeed"]
+  },
+  "memes": {
+    "type": "object",
+    "prevNodes": ["use"],
+    "nextNodes": [],
+    "newspapers": ["meAww"]
+  },
+  "pranktivism": {
+    "type": "object",
+    "prevNodes": ["practise"],
+    "nextNodes": [],
+    "newspapers": ["theStar"]
+  },
+  "testate": {
+    "insider": "soft-hard",
+    "meAww" : "soft",
+    "vulture": "soft",
+    "junkee": "soft",
+    "mashable": "soft",
+    "mitTechnologyReview": "soft",
+    "newYorkTimes": "hard",
+    "teenVogue": "soft",
+    "theVerge": "soft",
+    "abcNews": "hard",
+    "alJazeera": "hard",
+    "bloomberg": "soft-hard",
+    "buzzfeed": "soft",
+    "channelNewsAsia": "hard",
+    "chaosComrades": "soft",
+    "cosmopolitan": "soft",
+    "dazed": "soft",
+    "deutscheWelle": "hard",
+    "downinthepit": "soft",
+    "fansided": "soft",
+    "globalNews": "hard",
+    "grungecake": "soft",
+    "headStuff": "soft",
+    "highsnobiety": "soft",
+    "hollywoodInsider": "soft",
+    "huffPost": "hard",
+    "inStyle": "soft",
+    "kunc": "soft",
+    "losAngelesTimes": "hard",
+    "mailOnline": "hard",
+    "mtvNews": "soft",
+    "news18": "hard",
+    "newsWeek": "hard",
+    "openDemocracy": "soft-hard",
+    "paper": "soft",
+    "rollingStones": "soft",
+    "shepherdExpress": "soft",
+    "slate": "hard",
+    "southChinaMorningPost": "hard",
+    "theCut": "soft",
+    "theIndipendent": "hard",
+    "theIntercept": "hard",
+    "theInterpreter": "soft",
+    "theNationalInterest": "hard",
+    "theNewYorker": "hard",
+    "theStar": "hard",
+    "theTelegraph": "hard",
+    "theWashingtonPost": "hard",
+    "vice": "soft",
+    "vogue": "soft",
+    "vox": "soft-hard",
+    "wired": "soft"
+  }
+}

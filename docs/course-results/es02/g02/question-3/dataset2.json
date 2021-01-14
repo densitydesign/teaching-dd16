@@ -1,0 +1,549 @@
+{
+  "users": {
+    "arred223":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_weapons", "Against_police_brutality",
+      "Against_white_supremacy","Against_conspiracy_theories"]
+    },
+    "ellys_strap":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance", "Pro_Abortion", "Against_conspiracy_theories"]
+    },
+    "idk_nan_molla7":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_weapons", "Against_police_brutality",
+      "Against_white_supremacy", "Support_Antifa", "Arise_K-Pop_relevance", "Against_conspiracy_theories"]
+    },
+    "hashtag_morocco":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Support_LGBTQ_issues",
+      "Call_for_Anonymous", "Arise_K-Pop_relevance",
+      "Inform_about_covid", "Personal_interests", "Eradicating_Ebola_disease"]
+    },
+    "stans_say_acab":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy"]
+    },
+    "tuanzyhoe":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Support_LGBTQ_issues", "Against_weapons", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance", "Pro_Abortion"]
+    },
+    "joonswetvibrator":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy"]
+    },
+    "hesbianyonghee":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Support_LGBTQ_issues", "Against_weapons", "Against_police_brutality",
+      "Against_white_supremacy", "Call_for_Anonymous", "Arise_K-Pop_relevance"]
+    },
+    "hayoungbaby":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_weapons", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "mark_and_jins_bitch":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Support_Antifa", "Arise_K-Pop_relevance"]
+    },
+    "namjooniejiminssi":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "indonesia1xbet":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Support_LGBTQ_issues", "Arise_K-Pop_relevance", "Personal_interests", "Eradicating_Ebola_disease"]
+    },
+    "yellow_bee31":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "yahoofy":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Support_LGBTQ_issues", "Against_police_brutality",
+      "Against_white_supremacy", "Support_Antifa", "Arise_K-Pop_relevance"]
+    },
+    "ltifobozidi":{
+      "link": "no",
+      "type": "Deleted-profile",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Support_LGBTQ_issues", "Call_for_Anonymous", "Arise_K-Pop_relevance",
+        "Personal_interests", "Eradicating_Ebola_disease"]
+    },
+    "islam_alkhair":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Spread_Islam_religion", "Against_Trump", "Against_police_brutality",
+      "Personal_interests"]
+    },
+    "quizzesviraltrending":{
+      "link": "no",
+      "type": "Business-promotion/Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter",
+      "Against_white_supremacy", "Arise_K-Pop_relevance",
+      "Inform_about_covid", "Personal_interests"]
+    },
+    "nesma_ahmed85":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Spread_Islam_religion", "Against_Trump", "Support_LGBTQ_issues", "Personal_interests"]
+    },
+    "hashtag_noona":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "eli_staymyday22":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "atriumeuropa":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Call_for_Anonymous", "Personal_interests"]
+    },
+    "amanihasan1965":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Spread_Islam_religion", "Against_Trump", "Support_LGBTQ_issues"]
+    },
+    "vodkatingz":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Support_LGBTQ_issues", "Against_weapons", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance", "Personal_interests"]
+    },
+    "pressreleasepower1":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Arise_K-Pop_relevance"]
+    },
+    "ohboy_sage":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_weapons", "Against_police_brutality",
+      "Against_white_supremacy", "Personal_interests"]
+    },
+    "atriumislamargarita":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Call_for_Anonymous"]
+    },
+    "tbnreggaeradio":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "namjoonsjuicymoobs":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "mochimulteez":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "bts_ot7_99":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter","Against_Trump",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "akwshgames360":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Spread_Islam_religion", "Against_Trump", "Support_LGBTQ_issues", "Against_police_brutality",
+      "Inform_about_covid", "Personal_interests"]
+    },
+    "ahgajae":{
+      "link": "no",
+      "type": "Self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy"]
+    },
+    "yousuf41":{
+      "link": "no",
+      "type": "Self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Call_for_Anonymous"]
+    },
+    "tips__bisnis":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Call_for_Anonymous", "Inform_about_covid"]
+    },
+    "theantiracistmemer":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy"]
+    },
+    "taviajanueoficial":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Eradicating_Ebola_disease"]
+    },
+    "tav24news":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "taejo0ns":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "taehyung_stoes":{
+      "link": "no",
+      "type": "No-more-posts",
+      "connections": ["Support_Black_Lives_Matter", "Against_police_brutality",
+      "Against_white_supremacy"]
+    },
+    "tae_anpan":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "sultanmahindra":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Call_for_Anonymous", "Arise_K-Pop_relevance",
+      "Inform_about_covid", "Personal_interests"]
+    },
+    "kookielime":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Support_LGBTQ_issues", "Arise_K-Pop_relevance", "Personal_interests"]
+    },
+    "seungkwansexyy":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "sandys_today":{
+      "link": "no",
+      "type": "Self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "reneebruhn_makeupartist":{
+      "link": "yes",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Personal_interests"]
+    },
+    "qlossyseok":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance", "Personal_interests"]
+    },
+    "pokersolutions":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Call_for_Anonymous", "Personal_interests", "Eradicating_Ebola_disease"]
+    },
+    "playgroundmag":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter"]
+    },
+    "pabxinstallationdubai":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests", "Eradicating_Ebola_disease"]
+    },
+    "optannies":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter"]
+    },
+    "oero4404":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter"]
+    },
+    "nsh117":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality"]
+    },
+    "naughtyteez":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Personal_interests"]
+    },
+    "millie.mariexo":{
+      "link": "no",
+      "type": "Self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "mariem02814":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Spread_Islam_religion", "Against_Trump", "Support_LGBTQ_issues", "Against_weapons"]
+    },
+    "kpopcolombiaoficial":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "kpop_policee":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "kim_namjoonie_uwupppbb":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "khatarnak_billa":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Inform_about_covid", "Personal_interests"]
+    },
+    "kaanaagoot":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "just_nabrinaa":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "jsungcafes":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "jimins_missing_jams07":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "jiminothie":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "jeon_juggernut":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality", "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "jaeminsviagra":{
+      "link": "no",
+      "type": "Deleted-profile",
+      "connections": ["Support_Black_Lives_Matter", "Against_white_supremacy"]
+    },
+    "j4ehyunz":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "iyicaibao":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "indigenousarchaeologist":{
+      "link": "no",
+      "type": "Self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "imatutu_id":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Personal_interests"]
+    },
+    "iammarowz":{
+      "link": "no",
+      "type": "Self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "humorwayang":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests", "Eradicating_Ebola_disease"]
+    },
+    "greendweed4":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Call_for_Anonymous", "Inform_about_covid", "Personal_interests"]
+    },
+    "englishworldmyanmar":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Support_LGBTQ_issues", "Call_for_Anonymous"]
+    },
+    "el_marajinn":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "devonsavas":{
+      "link": "no",
+      "type": "self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality",
+      "Support_Antifa", "Personal_interests"]
+    },
+    "clubcoinup":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Against_police_brutality"]
+    },
+    "chenles_apple_watch":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_police_brutality",
+      "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    },
+    "cabros_apruebadebalas":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance"]
+    },
+    "blackhammerorg":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Arise_K-Pop_relevance", "Personal_interests"]
+    },
+    "bg_o":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_Trump", "Call_for_Anonymous", "Personal_interests"]
+    },
+    "betpawa_ig":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_police_brutality",
+      "Call_for_Anonymous", "Arise_K-Pop_relevance", "Personal_interests"]
+    },
+    "toomeirl4meirl":{
+      "link": "no",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests", "Eradicating_Ebola_disease"]
+    },
+    "structurecablingdubai":{
+      "link": "no",
+      "type": "Business-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "cohoboy":{
+      "link": "no",
+      "type": "Self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "milli_mariexo":{
+      "link": "no",
+      "type": "Self-promotion",
+      "connections": ["Support_Black_Lives_Matter", "Personal_interests"]
+    },
+    "yoonieskitten":{
+      "link": "yes",
+      "type": "Spamming-hashtags-and-contents",
+      "connections": ["Support_Black_Lives_Matter", "Against_weapons", "Against_police_brutality", "Against_Trump", "Against_white_supremacy", "Arise_K-Pop_relevance"]
+    }
+
+  },
+  "topics": {
+
+    "Support_Black_Lives_Matter":{
+      "connections": ["all"]
+    },
+    "Spread_Islam_religion":{
+      "connections": ["islam_alkhair", "amanihasan1965", "nesma_ahmed85", "akwshgames360", "mariem02814"]
+    },
+    "Against_Trump":{
+      "connections": ["arred223", "ellys_strap", "idk_nan_molla7", "hashtag_morocco", "stans_say_acab", "tuanzyhoe", "joonswetvibrator",
+      "hesbianyonghee", "hayoungbaby", "mark_and_jins_bitch", "namjooniejiminssi", "indonesia1xbet", "yellow_bee31", "yahoofy", "ltifobozidi",
+      "islam_alkhair", "nesma_ahmed85", "hashtag_noona", "eli_staymyday22", "amanihasan1965", "vodkatingz", "ohboy_sage", "atriumislamargarita",
+      "namjoonsjuicymoobs", "mochimulteez", "bts_ot7_99", "akwshgames360", "ahgajae", "yousuf41", "theantiracistmemer", "reneebruhn_makeupartist",
+      "pokersolutions", "nsh117", "naughtyteez", "mariem02814", "khatarnak_billa", "jimins_missing_jams07", "jeon_juggernut", "j4ehyunz", "imatutu_id",
+      "greendweed4", "englishworldmyanmar", "devonsavas", "clubcoinup", "bg_o", "structurecablingdubai"]
+    },
+    "Support_LGBTQ_issues":{
+      "connections": ["hashtag_morocco", "tuanzyhoe", "hesbianyonghee", "indonesia1xbet", "yahoofy", "ltifobozidi", "nesma_ahmed85", "amanihasan1965", "vodkatingz",
+      "akwshgames360", "kookielime", "mariem02814", "englishworldmyanmar"]
+    },
+    "Against_weapons":{
+      "connections": ["arred223", "idk_nan_molla7", "tuanzyhoe", "hesbianyonghee", "hayoungbaby", "vodkatingz", "ohboy_sage"]
+    },
+    "Against_police_brutality":{
+      "connections": ["arred223", "ellys_strap", "idk_nan_molla7", "stans_say_acab", "tuanzyhoe", "joonswetvibrator",
+      "hesbianyonghee", "hayoungbaby", "mark_and_jins_bitch", "namjooniejiminssi", "yellow_bee31", "yahoofy",
+      "islam_alkhair", "hashtag_noona", "eli_staymyday22", "vodkatingz", "ohboy_sage", "mochimulteez", "akwshgames360",
+      "ahgajae", "theantiracistmemer", "reneebruhn_makeupartist",
+      "nsh117", "naughtyteez", "khatarnak_billa", "jeon_juggernut", "j4ehyunz",
+      "devonsavas", "clubcoinup", "structurecablingdubai", "taehyung_stoes", "chenles_apple_watch", "betpawa_ig"]
+    },
+    "Against_white_supremacy":{
+      "connections": ["arred223", "ellys_strap", "idk_nan_molla7", "stans_say_acab", "tuanzyhoe", "joonswetvibrator", "hesbianyonghee", "hayoungbaby",
+      "mark_and_jins_bitch", "namjooniejiminssi", "yellow_bee31", "yahoofy", "quizzesviraltrending", "hashtag_noona", "eli_staymyday22", "vodkatingz",
+      "ohboy_sage", "namjoonsjuicymoobs", "mochimulteez", "bts_ot7_99", "ahgajae", "theantiracistmemer", "taehyung_stoes", "reneebruhn_makeupartist",
+      "kim_namjoonie_uwupppbb", "khatarnak_billa", "jimins_missing_jams07", "jeon_juggernut", "jaeminsviagra", "j4ehyunz", "chenles_apple_watch"]
+    },
+    "Support_Antifa":{
+      "connections": ["idk_nan_molla7", "mark_and_jins_bitch", "yahoofy", "devonsavas"]
+    },
+    "Call_for_Anonymous":{
+      "connections": ["hashtag_morocco", "hesbianyonghee", "ltifobozidi", "atriumeuropa", "atriumislamargarita", "yousuf41", "tips__bisnis", "pokersolutions",
+      "greendweed4", "englishworldmyanmar", "bg_o", "betpawa_ig"]
+    },
+    "Arise_K-Pop_relevance":{
+      "connections": ["ellys_strap", "idk_nan_molla7", "hashtag_morocco", "tuanzyhoe", "hesbianyonghee", "hayoungbaby", "mark_and_jins_bitch", "namjooniejiminssi",
+      "indonesia1xbet", "yellow_bee31", "yahoofy", "ltifobozidi", "quizzesviraltrending", "hashtag_noona", "eli_staymyday22", "vodkatingz", "pressreleasepower1",
+      "namjoonsjuicymoobs", "mochimulteez", "bts_ot7_99", "taejo0ns", "tae_anpan", "sultanmahindra", "kookielime", "sandys_today", "qlossyseok", "kpopcolombiaoficial",
+      "kpop_policee", "kim_namjoonie_uwupppbb", "jsungcafes", "jimins_missing_jams07", "jiminothie", "jeon_juggernut", "j4ehyunz", "el_marajinn", "chenles_apple_watch",
+      "cabros_apruebadebalas", "blackhammerorg"]
+    },
+    "Pro_Abortion":{
+      "connections": ["ellys_strap", "tuanzyhoe"]
+    },
+    "Against_conspiracy_theories":{
+      "connections": ["arred223", "ellys_strap", "idk_nan_molla7"]
+    },
+    "Inform_about_covid":{
+      "connections": ["hashtag_morocco", "quizzesviraltrending", "akwshgames360", "tips__bisnis", "sultanmahindra", "khatarnak_billa", "greendweed4"]
+    },
+    "Personal_interests":{
+      "connections": ["hashtag_morocco", "indonesia1xbet", "ltifobozidi", "islam_alkhair", "quizzesviraltrending", "nesma_ahmed85", "atriumeuropa", "vodkatingz",
+      "ohboy_sage", "tbnreggaeradio", "akwshgames360", "tav24news", "sultanmahindra", "kookielime", "seungkwansexyy", "reneebruhn_makeupartist", "qlossyseok",
+      "pressreleasepower1", "pokersolutions", "pabxinstallationdubai", "naughtyteez", "millie.mariexo", "khatarnak_billa", "kaanaagoot", "just_nabrinaa",
+      "indigenousarchaeologist", "imatutu_id", "iammarowz", "humorwayang", "greendweed4", "devonsavas", "blackhammerorg", "bg_o", "betpawa_ig", "toomeirl4meirl",
+      "iyicaibao", "milli_mariexo"]
+    },
+    "Eradicating_Ebola_disease":{
+      "connections": ["humorwayang", "toomeirl4meirl", "hashtag_morocco", "indonesia1xbet", "ltifobozidi", "taviajanueoficial", "pokersolutions", "pabxinstallationdubai"]
+    }
+
+  }
+}

@@ -1,0 +1,73 @@
+#visualization {
+  grid-column: 1 / span 6;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+#visualization svg {
+  order: 1;
+  flex-basis: 85%;
+}
+
+#visualization-aside img {
+  flex-basis: 100%;
+  margin-bottom: 0.5rem;
+}
+
+#visualization-aside {
+  display: flex;
+  flex-wrap: wrap;
+  order: 2;
+  flex-basis: 15%;
+  font-family: Trispace-Thin
+}
+
+#aside-image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1pt solid white;
+  background-size: contain;
+  background-image: url("../image-placeholder.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-basis: 100%;
+}
+
+#aside-image{
+  width:100%;
+  padding-bottom: 80%;
+}
+
+video{
+  display: none;
+  width: 100%;
+}
+
+.aside-text-container{
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+#visualization-aside p {
+  border: 1pt solid white;
+  padding: 0.5rem;
+  margin: 0;
+  font-size: 0.6rem;
+}
+
+.double {
+  flex-basis: 100%;
+}
+
+#IMAGES{
+  pointer-events: none;
+}
+
+#username, #likes, #retweets, #text{
+font-family: Trispace-Medium
+}

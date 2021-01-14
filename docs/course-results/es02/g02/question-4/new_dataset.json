@@ -1,0 +1,1233 @@
+{
+  "words": {
+
+    "Troll":{
+      "connections": ["Kpop", "Stans", "Fans", "Kimjong-un", "Trump", "Be", "Always", "Political", "Tiktok", "Teens", "Again",
+        "Military", "Discipline", "Weaponised", "Hashtag", "Tulsa"],
+      "newspapers": ["Thetelegraph", "Dazed", "Highsnobiety"]
+    },
+    "Stars":{
+      "connections": ["Kpop", "Fanbase", "Must", "Speakup", "Support", "Blm", "Takepart", "Movement", "Online", "Get", "Political", "Unlike"],
+      "newspapers": ["Deutschewelle", "Teenvogue", "Abcnews"]
+    },
+    "Stans":{
+      "connections": ["Kpop", "Drownout", "Racist", "Voices", "Post", "Fancams", "Bts", "Fans", "Match", "Donation", "Blm", "Movement",
+                      "Twitter", "Counter", "Farright", "_x23_exposeantifa", "Hashtag", "Use", "Memes", "Weapon", "Protest", "Shortvideos",
+                      "Called", "Online", "Start",
+                      "Flood", "_x23_whitelivesmatter", "Instagram",
+                      "Tiktok", "Users", "Tank", "Trump", "Tulsa", "Rally", "Book", "Tickets", "Notshow",
+                      "Herald", "Digital", "Heroes", "Fight", "Black", "Leaveout", "Conversation",
+                      "Spam", "U_s_", "Police", "Snitch", "App", "Support",
+                      "Continue", "Run", "Internet",
+                      "Shutdown", "Dallas", "Department", "Tip",
+                      "Strike", "Again", "Swamp", "Overwhelm", "Fascist", "_x23_qanon", "_x23_wwg1wga",
+                      "Teens", "Say", "Sink",
+                      "Prank", "Ratchetup", "Wars",
+                      "Right-wing", "_x23_bluelivesmatter", "_x23_maga",
+                      "Pro-cop", "Pro-trump",
+                      "Derail", "Solidarity",
+                      "Unleashed", "Hijack", "Social", "Action",
+                      "Become", "Unexpected", "Vigilantes",
+                      "Notbelong", "Resistance",
+                      "Activists", "Force", "Reckonwith",
+                      "Sabotage",
+                      "Save", "Us", "All",
+                      "Radicalize"],
+      "newspapers": ["Southchinamorningpost", "Meaww", "Insider", "News18", "Junkee", "Vulture", "Fansided", "Newyorktimes", "Bloomberg", "Theverge",
+                     "Vogue", "Dazed", "Theinterpreter", "Downinthepit", "Mittechnologyreview", "Wired", "Cosmopolitan", "Chaoscomrades", "Thecut"]
+    },
+
+    "Say":{
+      "connections": ["Kpop", "Blm", "Stans", "Tiktok", "Teens", "Sink", "Trump", "Rally"],
+      "newspapers": ["Shepherdexpress", "Newyorktimes"]
+    },
+
+    "Guilty":{
+      "connections": ["Kpop", "Appropriate", "Southasian", "Culture"],
+      "newspapers": ["Vice"]
+    },
+
+    "Fans":{
+      "connections": ["Kpop", "Stans", "Aoc", "Join", "Hundreds", "Twitter", "Users", "Claim", "Tiktok", "Teens", "Trump", "Tulsa",
+                      "Sabotage", "Rally", "Reserve", "Thousands", "Tickets", "Leave", "Nointention", "Showup",
+                      "Flood", "_x23_qanon", "Hashtag", "Silence", "Conspiracytheorists", "Spread", "Anti-racism", "Activism",
+                      "_x23_whitelivesmatter", "_x23_whiteoutwednesday", "Drownout", "Racist", "Tweets",
+                      "Military", "Discipline", "Weaponised", "Troll", "Anonymous", "Activists", "Enjoy", "Unexpected", "Allegiance", "Protest",
+                      "Maestros", "Socialmedia", "Bring", "Power", "Bearon", "Be", "Powerful", "Political", "Better", "World",
+                      "Co-opt", "Solidarity", "Blm", "Bts", "Movement", "New", "Force", "Social", "Justice", "Feeds", "Fancams", "Fan-art",
+                      "Hardcore", "Propel", "Have", "Blindspots", "Support", "Refusetopromote", "Faves", "Takeover", "Racism",
+                      "Black", "Continue", "Face", "Online", "Memes", "Become", "Ultimate", "Global", "Community",
+                      "Getinvolved", "U_s_", "Politics", "Celebrated", "Vigilantes", "Tiktokers", "Practise", "Pranktivism",
+                      "Obsessive", "Torpedo", "Notstop", "Surprised", "See", "Standup", "Turn", "Perfectly", "Prime", "Revolution",
+                      "Defuse", "_x23_alllivesmatter", "Internet", "Weaponize", "Hijack", "Tweet", "Fakenews"],
+      "newspapers": ["Mailonline", "Newsweek", "Buzzfeed", "Thetelegraph", "Theindipendent", "Losangelestimes", "Hollywoodinsider", "Grungecake", "Aljazeera",
+                     "Mtvnews", "Channelnewsasia", "Mashable", "Globalnews", "Theverge", "Instyle", "Theintercept", "Mittechnologyreview", "Thestar",
+                     "Thenationalinterest", "Opendemocracy", "Thewashingtonpost", "Newyorktimes", "Headstuff", "Thenewyorker", "Huffpost", "Vox",
+                     "Meaww", "Paper"]
+    },
+
+    "Fandoms":{
+      "connections": ["Kpop", "Unite", "Takeover", "_x23_whitelivesmatter", "Hashtag", "Twitter"],
+      "newspapers": ["Rollingstone"]
+    },
+
+    "Fancams":{
+      "connections": ["Kpop", "Get", "Political", "Protect", "Blm", "Protesters", "Dallas", "Police", "Stans", "Drownout", "Racist", "Voices", "Post", "Bts", "Fans", "Match", "Donation", "Movement",
+                      "Twitter", "Counter", "Farright", "_x23_exposeantifa", "Hashtag", "Use", "Memes", "Weapon", "Protest",
+                      "Shortvideos", "Called", "Start",
+                      "Flood", "Instagram",
+                      "Spam", "U_s_", "Police", "Snitch", "App", "Support",
+                      "Shutdown", "Department", "Tip",
+                      "Pro-cop", "Pro-trump",
+                      "Feeds", "Fan-art",
+                      "_x23_qanon"],
+      "newspapers": ["Teenvogue", "Southchinamorningpost", "Meaww", "Insider", "Fansided", "Junkee", "Mtvnews", "Mashable"]
+    },
+
+    "Fanbase":{
+      "connections": ["Kpop", "Online", "Get", "Political", "Unlike", "Stars"],
+      "newspapers": ["Deutschewelle"]
+    },
+
+    "Army":{
+      "connections": ["Kpop", "Digital", "Muster", "Meet", "Moment", "Baggageintow"],
+      "newspapers": ["Kunc"]
+    },
+
+    "Always":{
+      "connections": ["Kpop", "Be", "Political", "Troll", "Kimjong-un", "Trump"],
+      "newspapers": ["Slate", "Highsnobiety"]
+    },
+
+    "Users":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Tank", "Trump", "Tulsa", "Rally", "Book", "Tickets", "Notshow"],
+      "newspapers": ["News18"]
+    },
+
+    "U_s_":{
+      "connections": ["Kpop", "Stans", "Fans", "Spam", "Police", "Snitch", "App", "Fancams", "Support", "Blm", "Getinvolved", "Politics",
+      "Be", "Activists", "Obsessive"],
+      "newspapers": ["Junkee", "Theintercept", "Thenationalinterest"]
+    },
+
+    "Us":{
+      "connections": ["Kpop", "Stans", "Save", "All"],
+      "newspapers": ["Cosmopolitan"]
+    },
+
+    "Unexpected":{
+      "connections": ["Kpop", "Stans", "Become", "Online", "Vigilantes", "Fans", "Anonymous", "Activists", "Enjoy", "Allegiance", "Join", "Blm", "Protest"],
+      "newspapers": ["Downinthepit", "Theindipendent"]
+    },
+
+    "Ultimate":{
+      "connections": ["Kpop", "Fans", "Become", "Global", "Community", "Activists"],
+      "newspapers": ["Instyle"]
+    },
+
+    "Turn":{
+      "connections": ["Kpop", "Fans", "Obsessive", "Political", "Activism"],
+      "newspapers": ["Newyorktimes"]
+    },
+
+    "Teens":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Say", "Notbelong", "Troll", "Sink", "Resistance", "Trump", "Rally", "Again",
+      "Fans", "Aoc", "Join", "Sabotage", "Tulsa", "Reserve", "Thousands", "Tickets", "Nointention", "Showup"],
+      "newspapers": ["Newyorktimes", "Mittechnologyreview", "Dazed", "Mailonline"]
+    },
+
+    "Takeover":{
+      "connections": ["Kpop", "Fandoms", "Unite", "_x23_whitelivesmatter", "Hashtag", "Twitter", "Fans", "Drownout", "Racism"],
+      "newspapers": ["Rollingstone", "Globalnews"]
+    },
+
+    "Speakup":{
+      "connections": ["Kpop", "Stars", "Must", "Support", "Blm"],
+      "newspapers": ["Teenvogue"]
+    },
+
+    "Southasian":{
+      "connections": ["Kpop", "Guilty", "Appropriate", "Culture"],
+      "newspapers": ["Vice"]
+    },
+
+    "Socialmedia":{
+      "connections": ["Kpop", "Fans", "Maestros", "Bring", "Power", "Bearon", "Blm", "Activism"],
+      "newspapers": ["Losangelestimes"]
+    },
+
+    "Shortvideos":{
+      "connections": ["Kpop", "Stans", "Use", "Called", "Fancams", "Drownout", "Racist", "Online", "Movement", "Start"],
+      "newspapers": ["Insider"]
+    },
+
+    "See":{
+      "connections": ["Kpop", "Fans", "Surprised", "Standup", "Blm"],
+      "newspapers": ["Thewashingtonpost"]
+    },
+
+    "Run":{
+      "connections": ["Kpop", "Stans", "Continue", "Internet", "Flood", "Racist", "Twitter", "Hashtag"],
+      "newspapers": ["Vulture"]
+    },
+
+    "Right-wing":{
+      "connections": ["Kpop", "Stans", "Flood", "_x23_bluelivesmatter", "_x23_maga", "Hashtag"],
+      "newspapers": ["Theverge"]
+    },
+
+    "Racist":{
+      "connections": ["Kpop", "Stans", "Fans", "Drownout", "Defuse", "Flood", "Voices", "Twitter", "Feeds", "Post", "Fancams",
+      "Hashtag", "Bts", "Fan-art", "Match", "Donation", "Blm", "Movement", "Continue", "Herald", "Digital", "Heroes", "Run", "Internet",
+      "Fight", "Online", "Black", "Leaveout", "Conversation", "Use", "Shortvideos", "Called", "_x23_whitelivesmatter", "_x23_whiteoutwednesday",
+      "Tweets", "Start", "Instagram", "Memes"],
+      "newspapers": ["Southchinamorningpost", "Thenewyorker", "Mtvnews", "Vulture", "Insider", "Buzzfeed"]
+    },
+
+    "Propel":{
+      "connections": ["Kpop", "Fans", "Hardcore", "Social", "Movement", "Have", "Blindspots"],
+      "newspapers": ["Channelnewsasia"]
+    },
+
+    "Pro-cop":{
+      "connections": ["Kpop", "Stans", "Flood", "Pro-trump", "Fancams", "Hashtag"],
+      "newspapers": ["Junkee"]
+    },
+
+    "Prime":{
+      "connections": ["Kpop", "Fans", "Perfectly", "Revolution"],
+      "newspapers": ["Headstuff"]
+    },
+
+    "Prank":{
+      "connections": ["Kpop", "Stans", "Trump", "Ratchetup", "Internet", "Wars"],
+      "newspapers": ["Bloomberg"]
+    },
+
+    "Practise":{
+      "connections": ["Kpop", "Fans", "Tiktokers", "Politics", "Pranktivism"],
+      "newspapers": ["Thestar"]
+    },
+
+    "Powerful":{
+      "connections": ["Kpop", "Fans", "Be", "Political", "Activists", "Better", "World"],
+      "newspapers": ["Hollywoodinsider"]
+    },
+
+    "Political":{
+      "connections": ["Kpop", "Fancams", "Fans", "Fanbase", "Always", "Be", "Political", "Get", "Protect", "Blm", "Protesters",
+      "Dallas", "Police", "Online", "Obsessive", "Turn", "Powerful", "Activism", "Activists", "Unlike", "Stars", "Troll", "Kimjong-un", "Trump"],
+      "newspapers": ["Teenvogue", "Slate", "Deutschewelle", "Newyorktimes", "Hollywoodinsider", "Highsnobiety"]
+    },
+
+    "Join":{
+      "connections": ["Kpop", "Fans", "Aoc", "Tiktok", "Teens", "Sabotage", "Trump", "Tulsa", "Rally", "Reserve", "Thousands", "Tickets",
+      "Nointention", "Showup", "Anonymous", "Activists", "Enjoy", "Unexpected", "Allegiance", "Blm", "Protest"],
+      "newspapers": ["Mailonline", "Theindipendent"]
+    },
+
+    "Internet":{
+      "connections": ["Kpop", "Fans", "Weaponize", "Blm", "Stans", "Continue", "Run", "Flood", "Racist", "Twitter", "Hashtag", "Trump", "Prank", "Ratchetup", "Wars"],
+      "newspapers": ["Vox", "Vulture", "Bloomberg"]
+    },
+
+    "Hashtag":{
+      "connections": ["Kpop", "Fans", "Stans", "Hijack", "Unleashed", "Takeover", "Flood", "Drownout", "Defuse", "Co-opt", "_x23_whitelivesmatter",
+      "_x23_qanon", "_x23_alllivesmatter", "Racist", "Social", "Twitter", "Memes", "Solidarity", "Action", "Racism", "Instagram", "Fancams", "Blm",
+      "Post", "Counter", "Far-right", "_x23_exposeantifa", "Use", "Weapon", "Protest", "Fandoms", "Unite", "_x23_whiteoutwednesday", "Tweets",
+      "Right-wing", "_x23_bluelivesmatter", "_x23_maga", "Military", "Discipline", "Weaponised", "Troll", "Trump", "Tulsa", "Silence", "Conspiracytheorists",
+      "Spread", "Anti-racism", "Activism", "Strike", "Again", "Swamp", "Overwhelm", "Fascist", "_x23_wwg1wga", "Pro-cop", "Pro-trump",
+      "Continue", "Run", "Internet", "Prank", "Ratchetup", "Wars"],
+      "newspapers": ["Meaww", "Theinterpreter", "Globalnews", "Insider", "Mashable", "Huffpost", "Thenewyorker", "Grungecake", "Meaww",
+      "Buzzfeed", "Rollingstone", "Theverge", "Thetelegraph", "Newsweek", "Meaww", "Junkee", "Vulture"]
+    },
+
+    "Getinvolved":{
+      "connections": ["Kpop", "Fans", "Obsessive", "U_s_", "Politics", "Be", "Activists"],
+      "newspapers": ["Thenationalinterest", "Theintercept"]
+    },
+
+    "Get":{
+      "connections": ["Kpop", "Fanbase", "Fancams", "Online", "Political", "Unlike", "Stars", "Protect", "Blm", "Protesters", "Dallas", "Police"],
+      "newspapers": ["Deutschewelle", "Teenvogue"]
+    },
+
+    "Fakenews":{
+      "connections": ["Kpop", "Fans", "Tweet"],
+      "newspapers": ["Paper"]
+    },
+
+    "Discipline":{
+      "connections": ["Kpop", "Fans", "Military", "Weaponised", "Hashtag", "Troll", "Trump", "Tulsa"],
+      "newspapers": ["Thetelegraph"]
+    },
+
+    "Digital":{
+      "connections": ["Kpop", "Stans", "Herald", "Heroes", "Fight", "Racist", "Online", "Black", "Fans", "Conversation",
+        "Army", "Muster", "Meet", "Moment"],
+      "newspapers": ["Insider", "Kunc"]
+    },
+
+    "Dallas":{
+      "connections": ["Kpop", "Stans", "Shutdown", "Spam", "Police", "Department", "Tip", "App", "Fancams", "Get", "Political", "Protect", "Blm", "Protesters"],
+      "newspapers": ["Vulture", "Teenvogue"]
+    },
+
+    "Counter":{
+      "connections": ["Kpop", "Stans", "Twitter", "Far-right", "_x23_exposeantifa", "Hashtag", "Use", "Fancams", "Memes", "Weapon", "Protest"],
+      "newspapers": ["Meaww"]
+    },
+
+    "Continue":{
+      "connections": ["Kpop", "Fans", "Stans", "Run", "Internet", "Black", "Face", "Racism", "Online", "Flood", "Racist", "Twitter", "Hashtag"],
+      "newspapers": ["Theverge", "Vulture"]
+    },
+
+    "Celebrated":{
+      "connections": ["Kpop", "Fans", "Become", "Online", "Vigilantes"],
+      "newspapers": ["Mittechnologyreview"]
+    },
+
+    "Be":{
+      "connections": ["Kpop", "Fans", "Bts", "New", "Force", "Social", "Justice", "Always", "Powerful", "Political", "Activists",
+        "Better", "World", "Troll", "Kimjong-un", "Trump", "Getinvolved", "U_s_", "Politics"],
+      "newspapers": ["Aljazeera", "Hollywoodinsider", "Slate", "Highsnobiety", "Theintercept"]
+    },
+
+    "Again":{
+      "connections": ["Kpop", "Stans", "Strike", "Swamp", "Overwhelm", "Fascist", "_x23_qanon", "_x23_wwg1wga", "Hashtag", "Tiktok", "Teens", "Troll", "Trump"],
+      "newspapers": ["Meaww", "Dazed"]
+    },
+
+    "Activists":{
+      "connections": ["Kpop", "Stans", "Fans", "Anonymous", "Enjoy", "Become", "Force", "Unexpected", "Reckonwith", "Allegiance", "Join",
+      "Blm", "Protest", "Be", "Powerful", "Political", "Better", "World", "Ultimate", "Global", "Community", "Getinvolved", "U_s_", "Politics"],
+      "newspapers": ["Theindipendent", "Wired", "Hollywoodinsider", "Instyle", "Theintercept"]
+    },
+
+    "_x23_whitelivesmatter":{
+      "connections": ["Kpop", "Stans", "Fans", "Fandoms", "Unite", "Takeover", "Flood", "Takeover", "Co-opt", "Hashtag", "_x23_whiteoutwednesday", "Twitter", "Drownout", "Solidarity", "Racism", "Instagram", "Blm", "Movement", "Racist", "Fancams", "Memes", "Tweets", "Post"],
+      "newspapers": ["Insider", "Globalnews", "Buzzfeed", "Grungecake", "Rollingstone"]
+    },
+
+    "_x23_qanon":{
+      "connections": ["Kpop", "Fans", "Flood", "Hashtag", "Twitter", "Memes", "Fancams", "Silence", "Conspiracytheorists", "Spread",
+      "Anti-racism", "Activism", "Stans", "Strike", "Again", "Swamp", "Overwhelm", "Fascist", "_x23_wwg1wga"],
+      "newspapers": ["Mashable", "Newsweek", "Meaww"]
+    },
+
+    "_x23_wwg1wga":{
+      "connections": ["Kpop", "Stans", "Strike", "Again", "Swamp", "Overwhelm", "Fascist", "_x23_qanon", "Hashtag"],
+      "newspapers": ["Meaww"]
+    },
+
+    "_x23_exposeantifa":{
+      "connections": ["Kpop", "Stans", "Hijack", "Twitter", "Counter", "Far-right", "Hashtag", "Use", "Fancams", "Memes", "Weapon", "Protest"],
+      "newspapers": ["Chaoscomrades", "Meaww"]
+    },
+
+    "_x23_alllivesmatter":{
+      "connections": ["Kpop", "Fans", "Drownout", "Hashtag"],
+      "newspapers": ["Huffpost"]
+    },
+
+    "Weaponize":{
+      "connections": ["Kpop", "Fans", "Internet", "Blm"],
+      "newspapers": ["Vox"]
+    },
+
+    "Use":{
+      "connections": ["Kpop", "Stans", "Shortvideos", "Called", "Fancams", "Drownout", "Racist", "Online", "Movement", "Start",
+      "Twitter", "Counter", "Far-right", "_x23_exposeantifa", "Hashtag", "Memes", "Weapon", "Protest"],
+      "newspapers": ["Insider", "Meaww"]
+    },
+
+    "Unleashed":{
+      "connections": ["Kpop", "Stans", "Hijack", "Hashtag", "Social", "Action"],
+      "newspapers": ["Theinterpreter"]
+    },
+
+    "Unite":{
+      "connections": ["Kpop", "Fandoms", "Takeover", "_x23_whitelivesmatter", "Hashtag", "Twitter"],
+      "newspapers": ["Rollingstone"]
+    },
+
+    "Twitter":{
+      "connections": ["Kpop", "Fans", "_x23_whitelivesmatter", "Instagram", "Drownout", "Post", "Support",
+        "Flood", "Racist", "Feeds", "Fan-art", "Blm", "Refusetopromote", "Faves", "Stans", "Fandoms",
+        "Unite", "Takeover", "_x23_whitelivesmatter", "Counter", "Far-right", "_x23_exposeantifa", "Hashtag",
+        "Use", "Fancams", "Memes", "Weapon", "Protest", "_x23_qanon", "Silence", "Conspiracytheorists", "Spread", "Anti-racism", "Activism",
+        "Continue", "Run", "Internet"],
+      "newspapers": ["Meaww", "Mashable", "Rollingstone", "Mtvnews", "Insider", "Newsweek", "Vulture"]
+    },
+
+    "Tweet":{
+      "connections": ["Kpop", "Fans", "Fakenews"],
+      "newspapers": ["Paper"]
+    },
+
+    "Trump":{
+      "connections": ["Kpop", "Stans", "Fans", "Prank", "Ratchetup", "Internet", "Wars", "Tiktok", "Users",
+      "Tank",	"Tulsa", "Rally", "Book", "Tickets", "Notshow", "Teens", "Troll", "Again", "Military", "Discipline", "Weaponised", "Hashtag",
+      "Aoc", "Join", "Sabotage", "Reserve", "Thousands", "Nointention", "Showup", "Kimjong-un", "Derail", "Torpedo", "Be", "Always",
+      "Solidarity", "Notstop", "Political", "Blm", "Say", "Sink"],
+      "newspapers": ["Bloomberg", "News18", "Dazed", "Thetelegraph", "Mailonline", "Vulture", "Highsnobiety", "Vogue", "Opendemocracy", "Newyorktimes"]
+    },
+
+    "Torpedo":{
+      "connections": ["Kpop", "Fans", "Trump", "Tulsa", "Notstop"],
+      "newspapers": ["Opendemocracy"]
+    },
+
+    "Tiktokers":{
+      "connections": ["Kpop", "Fans", "Practise", "Politics", "Pranktivism"],
+      "newspapers": ["Thestar"]
+    },
+
+    "Tiktok":{
+      "connections": ["Kpop", "Stans", "Users", "Tank",	"Trump", "Tulsa", "Rally", "Book", "Tickets",	"Notshow", "Teens", "Say",
+        "Sink", "Notbelong", "Resistance", "Troll",	"Again", "Fans", "Aoc", "Join", "Sabotage", "Reserve", "Thousands", "Nointention", "Showup"],
+      "newspapers": ["News18", "Newyorktimes", "Mittechnologyreview", "Dazed", "Mailonline"]
+    },
+
+    "Takepart":{
+      "connections": ["Kpop", "Stars", "Blm", "Movement"],
+      "newspapers": ["Abcnews"]
+    },
+
+    "Surprised":{
+      "connections": ["Kpop", "Fans", "See", "Standup", "Blm"],
+      "newspapers": ["Thewashingtonpost"]
+    },
+
+    "Support":{
+      "connections": ["Kpop", "Fans", "Stars", "Stans", "Spam", "U_s_", "Police", "Snitch", "App", "Must", "Speakup",
+        "Blm", "Refusetopromote", "Faves", "Twitter", "Fancams"],
+      "newspapers": ["Mashable", "Teenvogue", "Junkee"]
+    },
+
+    "Strike":{
+      "connections": ["Kpop", "Stans", "Again", "Swamp", "Overwhelm", "Fascist", "_x23_qanon", "_x23_wwg1wga", "Hashtag"],
+      "newspapers": ["Mashable", "Teenvogue", "Junkee"]
+    },
+
+    "Spam":{
+      "connections": ["Kpop", "Stans", "U_s_", "Dallas", "Police", "Snitch", "Department", "App", "Fancams", "Support", "Blm"],
+      "newspapers": ["Junkee", "Vulture"]
+    },
+
+    "Shutdown":{
+      "connections": ["Kpop", "Stans", "Dallas", "Police", "Tip", "Department", "App", "Fancams"],
+      "newspapers": ["Fansided"]
+    },
+
+    "Save":{
+      "connections": ["Kpop", "Stans", "Save", "Us", "All"],
+      "newspapers": ["Cosmopolitan"]
+    },
+
+    "Sabotage":{
+      "connections": ["Kpop", "Stans", "Trump", "Tulsa", "Rally", "Fans", "Aoc", "Join", "Tiktok", "Teens", "Reserve", "Thousands", "Tickets", "Nointention", "Showup"],
+      "newspapers": ["Vulture", "Mailonline"]
+    },
+
+    "Radicalize":{
+      "connections": ["Kpop", "Stans"],
+      "newspapers": ["Thecut"]
+    },
+
+    "Perfectly":{
+      "connections": ["Kpop", "Fans", "Prime", "Revolution"],
+      "newspapers": ["Headstuff"]
+    },
+
+    "Online":{
+      "connections": ["Kpop", "Fanbase", "Get", "Political", "Unlike", "Stars", "Stans", "Herald", "Digital", "Heroes",
+      "Fight", "Racist", "Leaveout", "Black", "Fans", "Conversation", "Continue", "Face", "Racism", "Become", "Unexpected", "Celebrated",
+      "Vigilantes", "Use", "Shortvideos", "Called", "Fancams", "Drownout", "Racist", "Movement", "Start"],
+      "newspapers": ["Deutschewelle", "Insider", "Theverge", "Downinthepit", "Mittechnologyreview"]
+    },
+
+    "Obsessive":{
+      "connections": ["Kpop", "Fans", "Turn", "Getinvolved", "Political", "U_s_", "Politics", "Activism"],
+      "newspapers": ["Newyorktimes", "Thenationalinterest"]
+    },
+
+    "Must":{
+      "connections": ["Kpop", "Stars", "Speakup", "Support", "Blm"],
+      "newspapers": ["Teenvogue"]
+    },
+
+    "Military":{
+      "connections": ["Kpop", "Fans", "Discipline", "Weaponised", "Hashtag", "Troll", "Trump", "Tulsa"],
+      "newspapers": ["Thetelegraph"]
+    },
+
+    "Maestros":{
+      "connections": ["Kpop", "Fans", "Socialmedia", "Bring", "Power", "Bearon", "Blm", "Movement"],
+      "newspapers": ["Losangelestimes"]
+    },
+
+    "Kimjong-un":{
+      "connections": ["Kpop", "Troll", "Trump", "Be", "Always", "Political"],
+      "newspapers": ["Highsnobiety"]
+    },
+
+    "Hijack":{
+      "connections": ["Kpop", "Fans", "Stans", "Hashtag", "_x23_exposeantifa", "Unleashed", "Social", "Action"],
+      "newspapers": ["Meaww", "Chaoscomrades", "Theinterpreter"]
+    },
+
+
+    "Herald":{
+      "connections": ["Kpop", "Stans", "Digital", "Heroes", "Fight", "Racist", "Online", "Black", "Fans", "Leaveout", "Conversation"],
+      "newspapers": ["Insider"]
+    },
+
+    "Hardcore":{
+      "connections": ["Kpop", "Fans", "Propel", "Social", "Movement", "Have", "Blindspots"],
+      "newspapers": ["Channelnewsasia"]
+    },
+
+    "Flood":{
+      "connections": ["Kpop", "Fans", "Stans","Right-wing", "Racist", "Pro-cop", "_x23_whitelivesmatter", "_x23_qanon",
+        "_x23_bluelivesmatter",	"_x23_maga", "Hashtag", "Twitter", "Feeds", "Fancams", "Fan-art", "Pro-trump", "Instagram", "Post",
+        "_x23_whiteoutwednesday", "Drownout", "Tweets", "Memes", "Silence", "Conspiracytheorists", "Spread", "Anti-racism",	"Activism",
+        "Continue", "Run", "Internet"],
+      "newspapers": ["Theverge", "Mtvnews", "Junkee", "Insider", "Buzzfeed", "Mashable", "Newsweek", "Vulture"]
+    },
+
+    "Drownout":{
+      "connections": ["Kpop", "Fans", "Stans", "Racist", "_x23_alllivesmatter", "Hashtag", "Voices", "Post", "Fancams", "Bts",
+      "Match", "Donation", "Blm", "Movement", "Use", "Shortvideos", "Called", "Online", "Start", "Takeover", "_x23_whitelivesmatter", "Racism",
+      "Flood", "Twitter", "Instagram", "Memes", "Post", "_x23_whiteoutwednesday", "Tweets"],
+      "newspapers": ["Southchinamorningpost", "Huffpost", "Insider", "Globalnews", "Buzzfeed"]
+    },
+
+    "Derail":{
+      "connections": ["Kpop", "Stans", "Trump", "Rally", "Solidarity", "Blm"],
+      "newspapers": ["Vogue"]
+    },
+
+    "Defuse":{
+      "connections": ["Kpop", "Fans", "Racist", "Hashtag"],
+      "newspapers": ["Thenewyorker"]
+    },
+
+    "Co-opt":{
+      "connections": ["Kpop", "Fans", "_x23_whitelivesmatter", "Hashtag", "Solidarity", "Blm", "Movement"],
+      "newspapers": ["Grungecake"]
+    },
+
+    "Bts":{
+      "connections": ["Kpop", "Fans", "Stans", "Be", "New", "Force", "Social", "Justice", "Drownout", "Racist", "Voices", "Post", "Fancams",
+      "Match", "Donation", "Blm", "Movement"],
+      "newspapers": ["Aljazeera", "Southchinamorningpost"]
+    },
+
+    "Blm":{
+      "connections": ["Kpop", "Say", "Fans", "Stans", "Stars", "Anonymous", "Activists", "Enjoy", "Unexpected", "Allegiance", "Join", "Protest", "Weaponize",
+      "Internet", "Support", "Takepart", "Movement", "Refusetopromote", "Faves", "Twitter", "Surprised", "See", "Standup", "Spam", "U_s_", "Police", "Snitch", "App", "Fancams", "Must", "Speakup", "Maestros", "Socialmedia", "Bring", "Power", "Bearon", "Activism",
+      "Get", "Political", "Protect", "Protesters", "Dallas", "Drownout", "Racist", "Voices", "Post", "Bts", "Match", "Donation",
+      "Derail", "Trump", "Rally", "Solidarity", "Co-opt", "_x23_whitelivesmatter", "Hashtag"],
+      "newspapers": ["Shepherdexpress", "Theindipendent", "Vox", "Mashable", "Abcnews", "Thewashingtonpost", "Junkee", "Teenvogue",
+      "Losangelestimes", "Southchinamorningpost", "Vogue", "Grungecake"]
+    },
+
+    "Black":{
+      "connections": ["Kpop", "Fans", "Stans", "Continue", "Face", "Racism", "Online", "Herald", "Digital", "Heroes", "Fight", "Racist",
+      "Online", "Leaveout", "Conversation"],
+      "newspapers": ["Theverge", "Insider"]
+    },
+
+    "Become":{
+      "connections": ["Kpop", "Stans", "Fans", "Unexpected", "Ultimate", "Celebrated", "Activists", "Online", "Global", "Force", "Vigilantes",
+      "Community", "Reckonwith"],
+      "newspapers": ["Downinthepit", "Instyle", "Mittechnologyreview", "Wired"]
+    },
+
+    "Appropriate":{
+      "connections": ["Kpop", "Guilty", "Southasian", "Culture"],
+      "newspapers": ["Vice"]
+    },
+
+    "Aoc":{
+      "connections": ["Kpop", "Fans", "Join", "Tiktok", "Teens", "Sabotage", "Trump", "Tulsa", "Rally", "Reserve", "Thousands", "Tickets", "Nointention", "Showup"],
+      "newspapers": ["Mailonline"]
+    },
+
+    "Anonymous":{
+      "connections": ["Kpop", "Fans", "Enjoy", "Unexpected", "Allegiance", "Activists", "Join", "Blm", "Protest"],
+      "newspapers": ["Theindipendent"]
+    },
+
+    "Weaponised":{
+      "connections": ["Kpop", "Fans", "Military", "Discipline", "Hashtag", "Troll", "Trump", "Tulsa"],
+      "newspapers": ["Thetelegraph"]
+    },
+
+    "Voices":{
+      "connections": ["Kpop", "Stans", "Drownout", "Racist", "Post", "Fancams", "Bts", "Fans", "Match", "Donation", "Blm", "Movement"],
+      "newspapers": ["Southchinamorningpost"]
+    },
+
+    "Tulsa":{
+      "connections": ["Kpop", "Stans", "Fans", "Torpedo", "Sabotage", "Trump", "Rally", "Notstop", "Military", "Discipline", "Weaponised",
+      "Hashtag", "Troll", "Aoc", "Join", "Tiktok", "Teens", "Reserve", "Thousands", "Tickets", "Nointention", "Showup", "Users", "Tank",
+      "Book", "Notshow"],
+      "newspapers": ["Opendemocracy", "Vulture", "Thetelegraph", "Mailonline", "News18"]
+    },
+
+    "Tank":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Users", "Trump", "Tulsa", "Rally", "Book", "Tickets", "Notshow"],
+      "newspapers": ["News18"]
+    },
+
+    "Swamp":{
+      "connections": ["Kpop", "Stans", "Strike", "Again", "Overwhelm", "Fascist", "_x23_qanon", "_x23_wwg1wga", "Hashtag"],
+      "newspapers": ["Meaww"]
+    },
+
+    "Standup":{
+      "connections": ["Kpop", "Fans", "Surprised", "See", "Blm"],
+      "newspapers": ["Thewashingtonpost"]
+    },
+
+    "Social":{
+      "connections": ["Kpop", "Fans", "Stans", "Hardcore", "Propel", "Movement", "Have", "Blindspots", "Bts", "Be", "New", "Force", "Justice",
+      "Unleashed", "Hijack", "Hashtag", "Action"],
+      "newspapers": ["Channelnewsasia", "Aljazeera", "Theinterpreter"]
+    },
+
+    "Revolution":{
+      "connections": ["Kpop", "Fans", "Perfectly", "Prime"],
+      "newspapers": ["Headstuff"]
+    },
+
+    "Refusetopromote":{
+      "connections": ["Kpop", "Fans", "Support", "Blm", "Faves", "Twitter"],
+      "newspapers": ["Mashable"]
+    },
+
+    "Ratchetup":{
+      "connections": ["Kpop", "Stans", "Trump", "Prank", "Internet", "Wars"],
+      "newspapers": ["Bloomberg"]
+    },
+
+    "Rally":{
+      "connections": ["Kpop", "Stans", "Fans", "Derail", "Sabotage", "Trump", "Tulsa", "Solidarity", "Blm", "Aoc", "Join", "Tiktok",
+      "Teens", "Reserve", "Thousands", "Tickets", "Nointention", "Showup", "Users", "Tank", "Book", "Notshow", "Say", "Sink"],
+      "newspapers": ["Vogue", "Vulture", "Mailonline", "News18", "Newyorktimes"]
+    },
+
+    "Protect":{
+      "connections": ["Kpop", "Fancams", "Get", "Political", "Blm", "Protesters", "Dallas", "Police"],
+      "newspapers": ["Teenvogue"]
+    },
+
+    "Pro-Trump":{
+      "connections": ["Kpop", "Stans", "Flood", "Pro-cop", "Hashtag", "Fancams"],
+      "newspapers": ["Junkee"]
+    },
+
+    "Politics":{
+      "connections": ["Kpop", "Fans", "Tiktokers", "Getinvolved", "Practise", "U_s_", "Pranktivism", "Be", "Activists", "Obsessive"],
+      "newspapers": ["Thestar", "Theintercept", "Thenationalinterest"]
+    },
+
+    "Police":{
+      "connections": ["Kpop", "Stans", "Spam", "Shutdown", "U_s_", "Dallas", "Snitch", "Department", "App", "Tip", "Fancams", "Support", "Blm",
+      "Get", "Political", "Protect", "Protesters"],
+      "newspapers": ["Junkee", "Vulture", "Fansided", "Teenvogue"]
+    },
+
+    "Notbelong":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Teens", "Resistance"],
+      "newspapers": ["Mittechnologyreview"]
+    },
+
+    "New":{
+      "connections": ["Kpop", "Fans", "Bts", "Be", "Force", "Social", "Justice"],
+      "newspapers": ["Aljazeera"]
+    },
+
+    "Muster":{
+      "connections": ["Kpop", "Army", "Digital", "Meet", "Moment", "Baggageintow"],
+      "newspapers": ["Kunc"]
+    },
+
+    "Movement":{
+      "connections": ["Kpop", "Stars", "Takepart", "Blm", "Fans", "Co-opt", "_x23_whitelivesmatter", "Hashtag", "Solidarity",
+      "Stans", "Use", "Shortvideos", "Called", "Fancams", "Drownout", "Racist", "Online", "Start", "Voices", "Post", "Bts", "Match",
+      "Donation", "Hardcore", "Propel", "Social", "Have", "Blindspots"],
+      "newspapers": ["Abcnews", "Grungecake", "Insider", "Southchinamorningpost", "Channelnewsasia"]
+    },
+
+    "Heroes":{
+      "connections": ["Kpop", "Stans", "Herald", "Digital", "Fight", "Racist", "Online", "Black", "Fans", "Leaveout", "Conversation"],
+      "newspapers": ["Insider"]
+    },
+
+    "Global":{
+      "connections": ["Kpop", "Fans", "Become", "Ultimate", "Community", "Activists"],
+      "newspapers": ["Instyle"]
+    },
+
+    "Force":{
+      "connections": ["Kpop", "Fans", "Bts", "Become", "Activists", "Reckonwith", "Be", "New", "Social", "Justice"],
+      "newspapers": ["Wired", "Aljazeera"]
+    },
+
+    "Far-right":{
+      "connections": ["Kpop", "Stans", "Twitter", "Counter", "_x23_exposeantifa", "Hashtag", "Use", "Fancams", "Memes", "Weapon", "Protest"],
+      "newspapers": ["Meaww"]
+    },
+
+    "Face":{
+      "connections": ["Kpop", "Black", "Fans", "Continue", "Racism", "Online"],
+      "newspapers": ["Meaww"]
+    },
+
+    "Enjoy":{
+      "connections": ["Kpop", "Fans", "Anonymous", "Activists", "Unexpected", "Allegiance", "Join", "Blm", "Protest"],
+      "newspapers": ["Theindipendent"]
+    },
+
+    "Culture":{
+      "connections": ["Kpop", "Guilty", "Appropriate", "Southasian"],
+      "newspapers": ["Vice"]
+    },
+
+    "Called":{
+      "connections": ["Kpop", "Stans", "Use", "Shortvideos", "Fancams", "Drownout", "Racist", "Online", "Movement", "Start"],
+      "newspapers": ["Insider"]
+    },
+
+    "Bring":{
+      "connections": ["Kpop", "Fans", "Maestros", "Socialmedia", "Power", "Bearon", "Blm", "Activism"],
+      "newspapers": ["Losangelestimes"]
+    },
+
+    "All":{
+      "connections": ["Kpop", "Stans", "Save", "Us"],
+      "newspapers": ["Cosmopolitan"]
+    },
+
+    "_x23_whiteoutwednesday":{
+      "connections": ["Kpop", "Fans", "Flood", "_x23_whitelivesmatter", "Hashtag", "Drownout", "Racist", "Tweets"],
+      "newspapers": ["Buzzfeed"]
+    },
+
+    "_x23_bluelivesmatter":{
+      "connections": ["Kpop", "Stans", "Flood", "Right-wing", "_x23_maga", "Hashtag"],
+      "newspapers": ["Theverge"]
+    },
+
+    "_x23_maga":{
+      "connections": ["Kpop", "Stans", "Flood", "Right-wing", "_x23_bluelivesmatter", "Hashtag"],
+      "newspapers": ["Theverge"]
+    },
+
+    "Vigilantes":{
+      "connections": ["Kpop", "Stans", "Fans", "Become", "Unexpected", "Celebrated", "Online"],
+      "newspapers": ["Downinthepit", "Mittechnologyreview"]
+    },
+
+    "Unlike":{
+      "connections": ["Kpop", "Fanbase", "Online", "Get", "Political", "Stars"],
+      "newspapers": ["Deutschewelle"]
+    },
+
+    "Solidarity":{
+      "connections": ["Kpop", "Stans", "Fans", "Derail", "Co-opt", "Trump", "_x23_whitelivesmatter", "Rally", "Hashtag", "Blm", "Movement"],
+      "newspapers": ["Vogue", "Grungecake"]
+    },
+
+    "Snitch":{
+      "connections": ["Kpop", "Stans", "Spam", "U_s_", "Police", "App", "Fancams", "Support", "Blm"],
+      "newspapers": ["Junkee"]
+    },
+
+    "Sink":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Teens", "Say", "Trump", "Rally"],
+      "newspapers": ["Newyorktimes"]
+    },
+
+    "Resistance":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Teens", "Notbelong"],
+      "newspapers": ["Mittechnologyreview"]
+    },
+
+    "Reckonwith":{
+      "connections": ["Kpop", "Stans", "Become", "Activists", "Force"],
+      "newspapers": ["Wired"]
+    },
+
+    "Racism":{
+      "connections": ["Kpop", "Black", "Fans", "Continue", "Face", "Online", "Takeover", "_x23_whitelivesmatter", "Hashtag", "Drownout"],
+      "newspapers": ["Theverge", "Globalnews"]
+    },
+
+    "Pranktivism":{
+      "connections": ["Kpop", "Fans", "Tiktokers", "Practise", "Politics"],
+      "newspapers": ["Thestar"]
+    },
+
+    "Power":{
+      "connections": ["Kpop", "Fans", "Maestros", "Socialmedia", "Bring", "Bearon", "Blm", "Activism"],
+      "newspapers": ["Losangelestimes"]
+    },
+
+    "Post":{
+      "connections": ["Kpop", "Stans", "Drownout", "Racist", "Voices", "Fancams", "Bts", "Fans", "Match", "Donation", "Blm", "Movement",
+      "Flood", "_x23_whitelivesmatter", "Hashtag", "Twitter", "Instagram", "Memes", "Racist"],
+      "newspapers": ["Southchinamorningpost", "Insider"]
+    },
+
+    "Overwhelm":{
+      "connections": ["Kpop", "Stans", "Strike", "Again", "Swamp", "Fascist", "_x23_qanon", "_x23_wwg1wga", "Hashtag"],
+      "newspapers": ["Meaww"]
+    },
+
+    "Notstop":{
+      "connections": ["Kpop", "Fans", "Torpedo", "Trump", "Tulsa"],
+      "newspapers": ["Meaww"]
+    },
+
+    "Memes":{
+      "connections": ["Kpop", "Fans", "Flood", "_x23_qanon", "Hashtag", "Fancams", "Stans", "Twitter", "Counter", "Far-right",
+      "_x23_exposeantifa", "Use", "Weapon", "Protest", "_x23_whitelivesmatter", "Instagram", "Drownout", "Racist", "Post"],
+      "newspapers": ["Mashable", "Meaww", "Insider"]
+    },
+
+    "Meet":{
+      "connections": ["Kpop", "Army", "Digital", "Muster", "Moment", "Baggageintow"],
+      "newspapers": ["Kunc"]
+    },
+
+    "Fight":{
+      "connections": ["Kpop", "Stans", "Herald", "Digital", "Heroes", "Racist", "Online", "Black", "Fans", "Leaveout", "Conversation" ],
+      "newspapers": ["Insider"]
+    },
+
+    "Feeds":{
+      "connections": ["Kpop", "Fans", "Flood", "Racist", "Twitter", "Fancams", "Fan-art"],
+      "newspapers": ["Mtvnews"]
+    },
+
+    "Faves":{
+      "connections": ["Kpop", "Fans", "Support", "Blm", "Refusetopromote", "Twitter"],
+      "newspapers": ["Mashable"]
+    },
+
+    "Department":{
+      "connections": ["Kpop", "Stans", "Spam", "Shutdown", "Dallas", "Police", "App", "Tip", "Fancams"],
+      "newspapers": ["Vulture", "Fansided"]
+    },
+
+    "Community":{
+      "connections": ["Kpop", "Fans", "Become", "Ultimate", "Global", "Activists"],
+      "newspapers": ["Instyle"]
+    },
+
+    "Activism":{
+      "connections": ["Kpop", "Fans", "Obsessive", "Turn", "Political", "Maestros", "Socialmedia", "Bring", "Power", "Bearon", "Blm",
+      "Flood", "_x23_qanon", "Twitter", "Hashtag", "Silence", "Conspiracytheorists", "Spread", "Anti-racism"],
+      "newspapers": ["Newyorktimes", "Losangelestimes", "Newsweek"]
+    },
+
+    "Wars":{
+      "connections": ["Kpop", "Stans", "Trump", "Prank", "Ratchetup", "Internet"],
+      "newspapers": ["Bloomberg"]
+    },
+
+    "Tip":{
+      "connections": ["Kpop", "Stans", "Shutdown", "Dallas", "Police", "Department", "App", "Fancams"],
+      "newspapers": ["Fansided"]
+    },
+
+    "Silence":{
+      "connections": ["Kpop", "Fans", "Flood", "_x23_qanon", "Twitter", "Hashtag", "Conspiracytheorists", "Spread", "Anti-racism", "Activism"],
+      "newspapers": ["Newsweek"]
+    },
+
+    "Protesters":{
+      "connections": ["Kpop", "Fancams", "Get", "Political", "Protect", "Blm", "Dallas", "Police"],
+      "newspapers": ["Teenvogue"]
+    },
+
+    "Moment":{
+      "connections": ["Kpop", "Army", "Digital", "Muster", "Meet", "Baggageintow"],
+      "newspapers": ["Kunc"]
+    },
+
+    "Instagram":{
+      "connections": ["Kpop", "Stans", "Flood", "_x23_whitelivesmatter", "Hashtag", "Twitter", "Fancams", "Memes", "Drownout", "Racist", "Post"],
+      "newspapers": ["Insider"]
+    },
+
+    "Have":{
+      "connections": ["Kpop", "Fans", "Hardcore", "Propel", "Social", "Movement", "Blindspots"],
+      "newspapers": ["Channelnewsasia"]
+    },
+
+    "Blindspots":{
+      "connections": ["Kpop", "Fans", "Hardcore", "Propel", "Social", "Movement", "Have"],
+      "newspapers": ["Channelnewsasia"]
+    },
+
+    "Fascist":{
+      "connections": ["Kpop", "Stans", "Again", "Swamp", "Overwhelm", "_x23_qanon", "_x23_wwg1wga", "Hashtag", "Strike"],
+      "newspapers": ["Meaww"]
+    },
+
+    "Better":{
+      "connections": ["Kpop", "Fans", "Be", "Powerful", "Political", "Activists", "World"],
+      "newspapers": ["Hollywoodinsider"]
+    },
+
+    "World":{
+      "connections": ["Kpop", "Fans", "Be", "Powerful", "Political", "Activists", "Better"],
+      "newspapers": ["Hollywoodinsider"]
+    },
+
+    "Bearon":{
+      "connections": ["Kpop", "Fans", "Maestros", "Socialmedia", "Bring", "Power", "Blm", "Activism"],
+      "newspapers": ["Losangelestimes"]
+    },
+
+    "App":{
+      "connections": ["Kpop", "Stans", "Spam", "U_s_", "Dallas", "Police", "Snitch", "Department", "Fancams", "Support", "Blm", "Shutdown", "Tip"],
+      "newspapers": ["Junkee", "Vulture", "Fansided"]
+    },
+
+    "Allegiance":{
+      "connections": ["Kpop", "Fans", "Anonymous", "Activists", "Enjoy", "Unexpected", "Join", "Blm", "Protest"],
+      "newspapers": ["Theindipendent"]
+    },
+
+    "Action":{
+      "connections": ["Kpop", "Stans", "Unleashed", "Hijack", "Hashtag", "Social"],
+      "newspapers": ["Theinterpreter"]
+    },
+
+    "Justice":{
+      "connections": ["Kpop", "Fans", "Bts", "Be", "New", "Force", "Social"],
+      "newspapers": ["Aljazeera"]
+    },
+
+    "Fan-art":{
+      "connections": ["Kpop", "Fans", "Flood", "Racist", "Twitter", "Feeds", "Fancams"],
+      "newspapers": ["Mtvnews"]
+    },
+
+    "Conspiracytheorists":{
+      "connections": ["Kpop", "Fans", "Flood", "_x23_qanon", "Twitter", "Hashtag", "Silence", "Spread", "Anti-racism", "Activism"],
+      "newspapers": ["Newsweek"]
+    },
+
+    "Baggageintow":{
+      "connections": ["Kpop", "Army", "Digital", "Muster", "Meet", "Moment"],
+      "newspapers": ["Kunc"]
+    },
+
+    "Tweets":{
+      "connections": ["Kpop", "Fans", "Flood", "_x23_whiteoutwednesday", "_x23_whitelivesmatter", "Hashtag", "Drownout", "Racist"],
+      "newspapers": ["Buzzfeed"]
+    },
+
+    "Spread":{
+      "connections": ["Kpop", "Fans", "Flood", "_x23_qanon", "Twitter", "Hashtag", "Silence", "Conspiracytheorists", "Anti-racism", "Activism"],
+      "newspapers": ["Newsweek"]
+    },
+
+    "Anti-racism":{
+      "connections": ["Kpop", "Fans", "Flood", "_x23_qanon", "Twitter", "Hashtag", "Silence", "Conspiracytheorists", "Spread", "Activism"],
+      "newspapers": ["Newsweek"]
+    },
+
+    "Book":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Users", "Tank", "Trump", "Tulsa", "Rally", "Tickets", "Notshow"],
+      "newspapers": ["News18"]
+    },
+
+    "Tickets":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Users", "Tank", "Trump", "Tulsa", "Rally", "Book", "Notshow", "Fans", "Join", "Teens", "Sabotage", "Aoc", "Reserve", "Thousands", "Nointention", "Showup"],
+      "newspapers": ["News18", "Mailonline"]
+    },
+
+    "Notshow":{
+      "connections": ["Kpop", "Stans", "Tiktok", "Users", "Tank", "Trump", "Tulsa", "Rally", "Book", "Tickets"],
+      "newspapers": ["News18"]
+    },
+
+    "Protest":{
+      "connections": ["Kpop", "Fans", "Anonymous", "Activists", "Enjoy", "Unexpected", "Allegiance", "Join", "Blm",
+      "Stans", "Twitter", "Counter", "Far-right", "_x23_exposeantifa", "Hashtag", "Use", "Fancams", "Memes", "Weapon"],
+      "newspapers": ["Theindipendent", "Meaww"]
+    },
+
+    "Match":{
+      "connections": ["Kpop", "Stans", "Drownout", "Racist", "Voices", "Post", "Fancams", "Bts", "Fans", "Donation", "Blm", "Movement"],
+      "newspapers": ["Southchinamorningpost"]
+    },
+
+    "Donation":{
+      "connections": ["Kpop", "Stans", "Drownout", "Racist", "Voices", "Post", "Fancams", "Bts", "Fans", "Match", "Blm", "Movement"],
+      "newspapers": ["Southchinamorningpost"]
+    },
+
+    "Weapon":{
+      "connections": ["Kpop", "Stans", "Twitter", "Counter", "Far-right", "_x23_exposeantifa", "Hashtag", "Use", "Fancams", "Memes", "Protest"],
+      "newspapers": ["Meaww"]
+    },
+
+    "Start":{
+      "connections": ["Kpop", "Stans", "Use", "Shortvideos", "Called", "Fancams", "Drownout", "Racist", "Online", "Movement"],
+      "newspapers": ["Insider"]
+    },
+
+    "Reserve":{
+      "connections": ["Kpop", "Fans", "Join", "Tiktok", "Teens", "Sabotage", "Trump", "Tulsa", "Rally", "Aoc", "Thousands", "Tickets", "Nointention", "Showup"],
+      "newspapers": ["Mailonline"]
+    },
+
+    "Thousands":{
+      "connections": ["Kpop", "Fans", "Join", "Tiktok", "Teens", "Sabotage", "Trump", "Tulsa", "Rally", "Aoc", "Reserve", "Tickets", "Nointention", "Showup"],
+      "newspapers": ["Mailonline"]
+    },
+
+    "Nointention":{
+      "connections": ["Kpop", "Fans", "Join", "Tiktok", "Teens", "Sabotage", "Trump", "Tulsa", "Rally", "Aoc", "Reserve", "Thousands", "Tickets", "Showup"],
+      "newspapers": ["Mailonline"]
+    },
+
+    "Showup":{
+      "connections": ["Kpop", "Fans", "Join", "Tiktok", "Teens", "Sabotage", "Trump", "Tulsa", "Rally", "Aoc", "Reserve", "Thousands", "Tickets", "Nointention"],
+      "newspapers": ["Mailonline"]
+    },
+
+    "Leaveout":{
+      "connections": ["Kpop", "Stans", "Herald", "Digital", "Heroes", "Fight", "Racist", "Online", "Black", "Fans", "Conversation"],
+      "newspapers": ["Insider"]
+    },
+
+    "Conversation":{
+      "connections": ["Kpop", "Stans", "Herald", "Digital", "Heroes", "Fight", "Racist", "Online", "Black", "Fans", "Leaveout"],
+      "newspapers": ["Insider"]
+    }
+  },
+
+
+  "newspapers":{
+
+    "Wired": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Become", "Activists", "Force", "Reckonwith"]
+    },
+    "Vulture": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Continue", "Spam", "Sabotage", "Run", "Dallas", "Trump", "Internet", "Police", "Tulsa", "Flood", "Department", "Rally", "Racist", "App", "Twitter", "Hashtag"]
+    },
+    "Vox": {
+      "type": "SOFT-HARD",
+      "connections": ["Kpop", "Stans", "Weaponize", "Internet", "Blm" ]
+    },
+    "Vogue": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Derail", "Trump", "Rally", "Solidarity", "Blm"]
+    },
+    "Vice": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Guilty", "Appropriate", "Southasian", "Culture"]
+    },
+    "Thewashingtonpost": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Surprised", "See", "Standup", "Blm"]
+    },
+    "Theverge": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Fans", "Black", "Flood", "Continue", "Right-wing", "Face", "Racism", "Online", "_x23_bluelivesmatter", "_x23_maga", "Hashtag"]
+    },
+    "Thetelegraph": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Military", "Discipline", "Weaponised", "Hashtag", "Troll", "Trump", "Tulsa"]
+    },
+    "Thestar": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Tiktokers", "Practise", "Politics", "Pranktivism"]
+    },
+    "Thenewyorker": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Defuse", "Racist", "Hashtag"]
+    },
+    "Thenationalinterest": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Obsessive", "Getinvolved", "U_s_", "Politics"]
+    },
+    "Theinterpreter": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Unleashed", "Hijack", "Hashtag", "Social", "Action"]
+    },
+    "Theintercept": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Getinvolved", "U_s_", "Politics", "Be", "Activists"]
+    },
+    "Theindipendent": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Anonymous", "Activists", "Enjoy", "Unexpected", "Allegiance", "Join", "Blm", "Protest"]
+    },
+    "Thecut": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Radicalize"]
+    },
+    "Teenvogue": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fancams", "Stars", "Must", "Speakup", "Support", "Blm", "Get", "Political", "Protect", "Protesters", "Dallas", "Police"]
+    },
+    "Slate": {
+      "type": "HARD",
+      "connections": ["Kpop", "Always", "Be", "Political"]
+    },
+    "Shepherdexpress": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Say", "Blm"]
+    },
+    "Rollingstone": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fandoms", "Unite", "Takeover", "_x23_whitelivesmatter", "Hashtag", "Twitter"]
+    },
+    "Paper": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fans", "Tweet", "Fakenews"]
+    },
+    "Opendemocracy": {
+      "type": "SOFT-HARD",
+      "connections": ["Kpop", "Fans", "Torpedo", "Trump", "Tulsa", "Notstop"]
+    },
+    "Newsweek": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Flood", "_x23_qanon", "Twitter", "Hashtag", "Silence", "Conspiracytheorists", "Spread", "Anti-racism", "Activism"]
+    },
+    "News18": {
+      "type": "HARD",
+      "connections": ["Kpop", "Stans", "Tank", "Trump", "Tulsa", "Rally", "Tiktok", "Users", "Book", "Tickets", "Notshow"]
+    },
+    "Newyorktimes": {
+      "type": "HARD",
+      "connections": ["Kpop", "Stans", "Fans", "Tiktok", "Teens", "Obsessive", "Turn", "Political", "Activism", "Say", "Sink", "Trump", "Rally"]
+    },
+    "Mtvnews": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fans", "Flood", "Racist", "Twitter", "Feeds", "Fancams", "Fan-art"]
+    },
+    "Mittechnologyreview": {
+      "type": "SOFT-HARD",
+      "connections": ["Kpop", "Stans", "Fans", "Tiktok", "Teens", "Notbelong", "Resistance", "Become", "Celebrated", "Online", "Vigilantes"]
+    },
+    "Meaww": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Fans", "Twitter", "Strike", "Hijack", "Counter", "Again", "Hashtag", "Far-right", "Swamp", "Overwhelm", "_x23_exposeantifa", "Fascist", "Use", "Fancams", "Memes", "Weapon", "Protest", "_x23_qanon", "_x23_wwg1wga"]
+    },
+    "Mashable": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fans", "Support", "Flood", "Blm", "_x23_qanon", "Refusetopromote", "Hashtag", "Faves", "Memes", "Fancams", "Twitter"]
+    },
+    "Mailonline": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Aoc", "Join", "Tiktok", "Teens", "Sabotage", "Trump", "Tulsa", "Rally", "Reserve", "Thousands", "Tickets", "Nointention", "Showup"]
+    },
+    "Losangelestimes": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Maestros", "Socialmedia", "Bring", "Power", "Bearon", "Blm", "Activism"]
+    },
+    "Kunc": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Army", "Digital", "Muster", "Meet", "Moment", "Baggageintow"]
+    },
+    "Junkee": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Spam", "Flood", "U_s_", "Pro-cop", "Pro-trump", "Police", "Snitch", "Hashtag", "App", "Fancams", "Support", "Blm"]
+    },
+    "Instyle": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fans", "Become", "Ultimate", "Global", "Community", "Activists"]
+    },
+    "Insider": {
+      "type": "SOFT-HARD",
+      "connections": ["Kpop", "Stans", "Flood", "Users", "Herald", "Shortvideos", "Called", "Fancams", "_x23_whitelivesmatter", "Digital", "Hashtag", "Heroes", "Twitter", "Fight", "Drownout", "Instagram", "Racist", "Online", "Memes", "Black", "Movement", "Fans", "Start", "Leaveout", "Post", "Conversation"]
+    },
+    "Huffpost": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Drownout", "_x23_alllivesmatter", "Hashtag"]
+    },
+    "Hollywoodinsider": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fans", "Be", "Powerful", "Political", "Activists", "Better", "World"]
+    },
+    "Highsnobiety": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Troll", "Kimjong-un", "Trump", "Be", "Always", "Political"]
+    },
+    "Headstuff": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fans", "Perfectly", "Prime", "Revolution"]
+    },
+    "Grungecake": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fans", "Co-opt", "_x23_whitelivesmatter", "Hashtag", "Solidarity", "Blm", "Movement"]
+    },
+    "Globalnews": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Takeover", "_x23_whitelivesmatter", "Hashtag", "Drownout", "Racism"]
+    },
+    "Fansided": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Shutdown", "Dallas", "Police", "Department", "Tip", "App", "Fancams"]
+    },
+    "Southchinamorningpost": {
+      "type": "HARD",
+      "connections": ["Kpop", "Stans", "Drownout", "Racist", "Voices", "Post", "Fancams", "Bts", "Fans", "Match", "Donation", "Blm", "Movement"]
+    },
+    "Downinthepit": {
+      "type": "SOFT-HARD",
+      "connections": ["Kpop", "Stans", "Become", "Unexpected", "Online", "Vigilantes"]
+    },
+    "Deutschewelle": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fanbase", "Online", "Get", "Political", "Unlike", "Stars"]
+    },
+    "Dazed": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Tiktok", "Teens", "Troll", "Trump", "Again"]
+    },
+    "Cosmopolitan": {
+      "type": "SOFT-HARD",
+      "connections": ["Kpop", "Stans", "Save", "Us", "All"]
+    },
+    "Chaoscomrades": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Stans", "Hijack", "_x23_exposeantifa"]
+    },
+    "Channelnewsasia": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Hardcore", "Propel", "Social", "Movement", "Have", "Blindspots"]
+    },
+    "Buzzfeed": {
+      "type": "SOFT",
+      "connections": ["Kpop", "Fans", "Flood", "_x23_whitelivesmatter", "_x23_whiteoutwednesday", "Hashtag", "Drownout", "Racist", "Tweets"]
+    },
+    "Bloomberg": {
+      "type": "SOFT-HARD",
+      "connections": ["Kpop", "Stans", "Trump", "Prank", "Ratchetup", "Internet", "Wars"]
+    },
+    "Aljazeera": {
+      "type": "HARD",
+      "connections": ["Kpop", "Fans", "Bts", "Be", "New", "Force", "Social", "Justice"]
+    },
+    "Abcnews": {
+      "type": "HARD",
+      "connections": ["Kpop", "Stars", "Takepart", "Blm", "Movement"]
+    }
+  }
+}

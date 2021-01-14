@@ -1,0 +1,38 @@
+# insert here genreal information about your project website
+
+title: "STAN WARS: THE RISE OF A NEW ARMY"
+subtitle: "An analysis of k-pop stans’ role in the latest hashtag hijackings"
+
+description: "Hashtag hijacking is a phenomenon arising in social media that consists in a misuse of a hashtag for a different purpose than the one originally intended [1]. After George Floyd's death due to police brutality, this practice started to spread ever more on social media, especially supporting the Black Lives Matter movement. The hijackers are mainly K-pop stan groups, who exploited their size and their visibility to influence many hashtags’ trend. Stan groups are made up by people who greatly admire a singer or a band, to an extent that is unusual. Recently, they strongly influenced many events, turning their individual actions into a collective movement of digital activism."
+
+descriptionpt2: "The project aims to analyze the phenomenon of stan groups’ online activism in its complexity, trying to provide different points of view about it. How is it perceived by the media and the public? What kind of contents do users share during the hijacks they take part in? What are the political, social and cultural issues in which they are involved and that they support the most with their actions? The answers to these questions seek to shed light on this new powerful movement."
+
+descriptionpt3: "[1] HashJacker- Detection and Analysis of Hashtag Hijacking on Twitter, Nikita Jain, Pooja Agarwal, Juhi Pruthi, IIIT Delhi, March 2015."
+
+cover-image: cover.gif
+logoPoli: logo_poli.png
+logoDensity: logo_density.png
+
+authors:
+- name: Caterina Comini
+- name: Lorenzo Di Leonardo
+- name: Francesca Maria Mauri
+- name: Virginia Migliorini
+- name: Fabiola Papini
+- name: Sofia Peracchi
+- name: Emily Maria Salmaso
+
+faculty:
+- name: Michele Mauri
+- name: Gabriele Colombo
+- name: Angeles Briones
+- name: Simone Vantini
+- name: Salvatore Zingale
+
+assistants:
+- name: Antonella Autuori
+- name: Andrea Benedetti
+- name: Matteo Bettini
+- name: Tommaso Elli
+- name: Andrea Febres
+- name: Beatrice Gobbo

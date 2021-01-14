@@ -1,0 +1,146 @@
+{
+  "u_amanihasan1965": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "spreadIslamReligion", "supportLgbtqIssues"]
+  },
+  "u_atriumeuropa": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "otherGoals", "callForAnonymous"]
+  },
+  "u_eliStaymyday22": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "againstPoliceBrutality", "againstWhiteSupremacy", "ariseKpopRelevance"]
+  },
+  "u_hashtagNoona": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "againstPoliceBrutality", "againstWhiteSupremacy", "ariseKpopRelevance"]
+  },
+  "u_hayoungbaby": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "againstPoliceBrutality", "againstWhiteSupremacy", "ariseKpopRelevance", "againstWeapons"]
+  },
+  "u_hesbianyonghee": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "againstPoliceBrutality", "againstWhiteSupremacy", "ariseKpopRelevance", "againstWeapons", "otherGoals", "supportLgbtqIssues"]
+  },
+  "u_indonesia1xbet": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "ariseKpopRelevance", "otherGoals", "supportLgbtqIssues"]
+  },
+  "u_islamAlkhair": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "againstPoliceBrutality", "spreadIslamReligion"]
+  },
+  "u_joonswetvibrator": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "againstPoliceBrutality", "againstWhiteSupremacy"]
+  },
+  "u_ltifobozidi": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "ariseKpopRelevance", "otherGoals", "callForAnonymous", "supportLgbtqIssues"]
+  },
+  "u_markAndJinsBitch": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "ariseKpopRelevance", "againstWhiteSupremacy", "againstPoliceBrutality", "supportAntifa"]
+  },
+  "u_namjooniejiminssi": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "ariseKpopRelevance", "againstWhiteSupremacy", "againstPoliceBrutality"]
+  },
+  "u_nesmaAhmed85": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "spreadIslamReligion", "supportLgbtqIssues"]
+  },
+  "u_quizzesviraltrending": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "ariseKpopRelevance", "againstWhiteSupremacy", "informAboutCovid", "otherGoals"]
+  },
+  "u_stansSayAcab": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstPoliceBrutality", "againstWhiteSupremacy", "againstTrump"]
+  },
+  "u_tuanzyhoe": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstPoliceBrutality", "againstWhiteSupremacy", "againstTrump", "ariseKpopRelevance", "proAbortion", "supportLgbtqIssues", "againstWeapons"]
+  },
+  "u_yahoofy": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstPoliceBrutality", "againstWhiteSupremacy", "againstTrump", "ariseKpopRelevance", "supportLgbtqIssues", "supportAntifa"]
+  },
+  "u_yellowBee31": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstPoliceBrutality", "againstWhiteSupremacy", "againstTrump", "ariseKpopRelevance"]
+  },
+  "u_arred223": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstPoliceBrutality", "againstWhiteSupremacy", "againstTrump", "againstConspiracyTheories", "againstWeapons"]
+  },
+  "u_ellysStrap": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstPoliceBrutality", "againstWhiteSupremacy", "againstTrump", "againstConspiracyTheories", "proAbortion", "ariseKpopRelevance", "otherGoals"]
+  },
+  "u_hashtagMorocco": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "informAboutCovid", "ariseKpopRelevance", "otherGoals", "supportLgbtqIssues", "callForAnonymous"]
+  },
+  "u_idkNanMolla7": {
+    "type": "user",
+    "connections" : ["supportBlackLivesMatter", "againstTrump", "ariseKpopRelevance", "otherGoals", "supportAntifa", "againstConspiracyTheories", "againstWeapons", "againstPoliceBrutality", "againstWhiteSupremacy"]
+  },
+  "againstConspiracyTheories": {
+    "type": "issue",
+    "connections" : ["u_arred223", "u_ellysStrap", "u_idkNanMolla7"]
+  },
+  "againstWeapons": {
+    "type": "issue",
+    "connections" : ["u_hayoungbaby", "u_hesbianyonghee", "u_idkNanMolla7", "u_arred223", "u_tuanzyhoe"]
+  },
+  "callForAnonymous": {
+    "type": "issue",
+    "connections" : ["u_atriumeuropa", "u_ltifobozidi", "u_hashtagMorocco"]
+  },
+  "informAboutCovid": {
+    "type": "issue",
+    "connections" : ["u_quizzesviraltrending", "u_hashtagMorocco"]
+  },
+  "otherGoals": {
+    "type": "issue",
+    "connections" : ["u_atriumeuropa", "u_hesbianyonghee", "u_indonesia1xbet", "u_ltifobozidi", "u_quizzesviraltrending", "u_ellysStrap", "u_hashtagMorocco", "u_idkNanMolla7"]
+  },
+  "spreadIslamReligion": {
+    "type": "issue",
+    "connections" : ["u_amanihasan1965", "u_islamAlkhair", "u_nesmaAhmed85"]
+  },
+  "supportAntifa": {
+    "type": "issue",
+    "connections" : ["u_markAndJinsBitch", "u_yahoofy", "u_idkNanMolla7"]
+  },
+  "againstWhiteSupremacy": {
+    "type": "issue",
+    "connections" : ["u_eliStaymyday22", "u_hashtagNoona", "u_hayoungbaby", "u_hesbianyonghee", "u_joonswetvibrator", "u_markAndJinsBitch", "u_namjooniejiminssi", "u_quizzesviraltrending", "u_stansSayAcab", "u_tuanzyhoe", "u_yahoofy", "u_yellowBee31", "u_arred223", "u_ellysStrap", "u_idkNanMolla7"]
+  },
+  "ariseKpopRelevance": {
+    "type": "issue",
+    "connections" : ["u_eliStaymyday22", "u_hashtagNoona", "u_hayoungbaby", "u_hesbianyonghee", "u_indonesia1xbet", "u_markAndJinsBitch", "u_namjooniejiminssi", "u_quizzesviraltrending", "u_ltifobozidi", "u_tuanzyhoe", "u_yahoofy", "u_yellowBee31", "u_hashtagMorocco", "u_ellysStrap", "u_idkNanMolla7"]
+  },
+  "supportBlackLivesMatter": {
+    "type": "issue",
+    "connections" : ["u_amanihasan1965", "u_atriumeuropa", "u_eliStaymyday22", "u_hashtagNoona", "u_hayoungbaby", "u_hesbianyonghee", "u_indonesia1xbet", "u_islamAlkhair", "u_joonswetvibrator", "u_ltifobozidi", "u_markAndJinsBitch", "u_namjooniejiminssi", "u_nesmaAhmed85", "u_quizzesviraltrending", "u_stansSayAcab", "u_tuanzyhoe", "u_yahoofy", "u_yellowBee31", "u_arred223", "u_ellysStrap", "u_hashtagMorocco", "u_idkNanMolla7"]
+  },
+  "againstTrump": {
+    "type": "issue",
+    "connections" : ["u_amanihasan1965", "u_eliStaymyday22", "u_hashtagNoona", "u_hayoungbaby", "u_hesbianyonghee", "u_indonesia1xbet", "u_islamAlkhair", "u_joonswetvibrator", "u_ltifobozidi", "u_markAndJinsBitch", "u_namjooniejiminssi", "u_nesmaAhmed85", "u_stansSayAcab", "u_tuanzyhoe", "u_yahoofy", "u_yellowBee31", "u_arred223", "u_ellysStrap", "u_hashtagMorocco", "u_idkNanMolla7"]
+  },
+  "againstPoliceBrutality": {
+    "type": "issue",
+    "connections" : ["u_eliStaymyday22", "u_hashtagNoona", "u_hayoungbaby", "u_hesbianyonghee", "u_islamAlkhair", "u_joonswetvibrator", "u_markAndJinsBitch", "u_namjooniejiminssi", "u_stansSayAcab", "u_tuanzyhoe", "u_yahoofy", "u_yellowBee31", "u_arred223", "u_ellysStrap", "u_idkNanMolla7"]
+  },
+  "proAbortion": {
+    "type": "issue",
+    "connections" : ["u_tuanzyhoe", "u_ellysStrap"]
+  },
+  "supportLgbtqIssues": {
+    "type": "issue",
+    "connections" : ["u_amanihasan1965", "u_hesbianyonghee", "u_indonesia1xbet", "u_ltifobozidi", "u_nesmaAhmed85", "u_tuanzyhoe", "u_yahoofy", "u_hashtagMorocco"]
+  }
+}

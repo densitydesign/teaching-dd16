@@ -1,0 +1,36 @@
+
+#visualization {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+#visualization svg {
+  order: 1;
+  flex-basis: 100%;
+}
+
+#visualization-aside {
+  position: absolute;
+  width: 19%;
+  padding-bottom: 35%;
+  margin-left: 0.5rem;
+  margin-bottom: 0.2rem;
+  border: 1pt solid white;
+  background-size: contain;
+  background-image: url("../image-placeholder.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Trispace-Thin
+}
+
+#aside-image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1pt solid white;
+  background-size: contain;
+  background-image: url("../image-placeholder.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-basis: 100%;
+}
