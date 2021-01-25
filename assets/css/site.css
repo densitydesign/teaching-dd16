@@ -431,6 +431,15 @@ aside a {
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+#phases .hover--accent {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#phases .hover--accent:hover {
+  opacity: 1;
+}
+
 /* PHASE LANDING PAGE */
 aside h4 {
   margin: 1.8rem 0;
@@ -779,7 +788,7 @@ aside h4 {
   }
 
 
-  
+
 
   /* aside a, .link--booklet, .link--phase {
     grid-column: 1 / 6 !important;

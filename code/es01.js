@@ -13,7 +13,8 @@ const Home = ({ _body, _relativeURL, _parseYaml, groups, _ID }) => (
 			<div className="after"><a href={ _relativeURL('/course-results/es0' + (phase + 1), _ID)}><button>Data as Artifact</button></a></div>
 		</div>
 		<div id="phase1" className="link--phase">
-			<PhaseOne width="350" style={{strokeWidth: 1.5}}/>
+		<img src={ _relativeURL( '/assets/img/phase-glyphs/phase_1.png', _ID)}
+		style={{ width: "180px", position: "absolute" }}/>
 			<p>Phase 1</p>
 			<div className="title" style={{ marginBottom: "2rem", fontSize: "2rem" }}>Data as Material</div>
 		</div>

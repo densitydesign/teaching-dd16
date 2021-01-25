@@ -3,64 +3,59 @@ layout: es02
 
 groups:
 - group: group01
-  title: "I see it, therefore I believe it"
-  names: "Della Pepa Gabriele, Febres Medina Andrea, Ghio Caterina, Granzotto Francesca, Rondi Paola, Stefani Elena"
+  title: ""
+  names: ""
   image: "../../assets/img/es02/cover-g01.gif"
-  desc: "The project wants to analyse the complex scenario in which the phenomenon of images manipulation spread, highlighting the shades of the word fake in order to define the type of information that can be found when users get in touch with the topic and in which contexts it can be faced."
+  desc: "YouTube is one of the most used platforms to entertain kid, so popular that it overcame television. Group 1 investigated how content farms on the platform can trap young watchers for hours, consuming anything recommended, as decided by YouTube’s algorithm. "
 
 - group: group02
-  title: "Invisible Eyes: from Security Need to Privacy Concerns"
-  names: "Cristina Pita da Veiga, Evansha Agrawal, Guilherme Appolinario, Maria Almeida, Natalia Malaver, Rebeca Vittorazo"
+  title: "Stan Wars: the rise of a new army"
+  names: "Caterina Comini, Lorenzo Di Leonardo, Francesca Maria Mauri, Virginia Migliorini, Fabiola Papini, Sofia Peracchi, Emily Maria Salmaso"
   image: "../../assets/img/es02/cover-g02.gif"
-  desc: "Smart objects and cameras are trending. They bring practicality and perceived security but also raise vulnerability (even giants like Google and Amazon have had breaches). Our questions aim to show how cameras are being used and misused. The invisible eyes may be around the corner, in a bedroom or even in the very device you’re reading this into."
+  desc: "Through this research, group 2 wanted to analyze the phenomenon of stan groups’ online activism in its complexity, trying to provide different points of view about it. How is it perceived by the media and the public?"
 
 - group: group03
-  title: "The Warfare of Funny Pictures on Internet"
-  names: "Valentina Caiola, Davide Formenti, Riccardo Fuccelli, Diego Morra, Francesco Mugnaini, Andrea Pronzati"
+  title: "It Looks Like a Conspiracy Theory"
+  names: "Elisa Finesso, Elena Gibelli, Federica Laurencio Tacoronte, Andrea Mario Morandini, Jacopo Sironi, Marco Valli"
   image: "../../assets/img/es02/cover-g03.gif"
-  desc: "This research discusses the slightly underrated phenomenon of memetic warfare. There is increasing evidence to suggest that this practice works as the propaganda of the contemporary media landscape. Therefore, we map how memes can be strategically turned into tools for psychological warfare."
+  desc: "Conspiracy theories are living their Golden Age*: fostered by online platforms and social media, they have been spreading among people in different ways. Group 3 analyzed how the crowdsourced nature of conspiracy theories affects the visual language in which they are expressed."
 
 - group: group04
-  title: "Place Making in the Mass Media Entertainment World"
-  names: "Beatrice Bazzan, Allegra Colombo, Martina Giordano, Gianluca Misto, Ludovica Piro, Irina Stojsic"
-  image: "../../assets/img/es02/cover-g04.jpeg"
-  desc: "Movies and TV series affect the way we perceive and experience the environment around us, they guide our thoughts. The research analyzes how the ‘fictional’ world of movies and series affect the real one and in particular it focuses on the way we perceive locations."
+  title: "Instagram-fueled Tourism"
+  names: "Martina Andreotti, Elena Buttolo, Marco Gabriele, Alessandro Parca, Federico Pozzi, Andrea Silvano"
+  image: "../../assets/img/es02/cover-g04.gif"
+  desc: "Instagram forever changed the way we approach traveling and tourism digital advertising. Have you ever been to a place just because of someone else’s picture on social media? It’s called social media-fueled tourism. Group 4 decided to better understand why and how this happens."
 
 - group: group05
-  title: "Making the Invisible Visible"
-  names: "Antonella Autuori, Agnese Bartolucci, Elena Catani, Mattia Cittadino,
-  Anna Gazza, Barbara Vanoli"
-  desc: "Online censorship is a complex phenomenon that changes based on the typology of platform and content. The more the censorship involves users, the more it becomes discussed: why are some contents censored? Who censors them? Which is the boundary between appropriate and inappropriate content?"
+  title: "5 MINUTE NOT-SO-MAGICAL CRAFTS"
+  names: "Sneha Baliga, Julia Chlastacz, Dang Trung Nguyen, Marija Nikolic, Bogdan Novakovic, Preeti Puri, Chenyun Zeng"
+  desc: "5-minutes crafts is the biggest DIY YouTube channel on the platform and it has been classified as content farm given the amount of videos and repetitive content. Group 05 analysed what factors contribute to increased viewership, and wich other aspects get the viewer’s click."
   image: "../../assets/img/es02/cover-g05.gif"
 
 - group: group06
   title: "Public Opinions of Drones: A Study of Drones' Usage and Portrayal"
-  names: "Di Wu, Xuan Zhang, Xushan Li, Shaomin Niu, Chenghsin Chen, Mengxue Jin"
+  names: ""
   image: "../../assets/img/es02/cover-g06.gif"
-  desc: "Drone is a new technology that’s introduced into our society. It’s quickly adapted by the consumer market. Through our project, we explored how search engines, news, and movies reacted to this new technology. "
+  desc: "Content moderator was described as ‘the worst job in the US’. Content moderators are paid to view objectionable posts and decide which need to be removed from digital platforms. This research aims to make people more aware of who content moderators are and how their situation is."
 
 - group: group07
-  title: "Perfect Me: Algorithmic Human Adjustments"
-  names: "Bettini Matteo, Cremonesi Teresa, Enache Alexandru, Lombardi Giovanni, Pagano Valentina, Ren Pengyuan"
-  image: "../../assets/img/es02/cover-g07.jpeg"
-  desc: "Global spread of body and face modification apps and the ease of use of them in recent years have raised concerns and controversies, such as privacy matters of use of personal images, edited bodies encouraging body dysmorphia, and beauty racist bias. The project aims to provide an overview through different perspectives on the subject, ranging from the public discussion to the way face and body modification apps appear."
+  title: "The Algorithmic Body: Fitness Apps And Photo Editors"
+  names: "Songwei Duan，Yuting Jiang，Ruting Lin，Chunhai Liu，Yuan Liu，Xueyue Wu"
+  image: "../../assets/img/es02/cover-g07.png"
+  desc: "Group 7 analysed photo editor apps through different platforms. TikTok, in its chinese and western version; Meitu Xiuxiu, China’s most popular photo sharing app; Keep, China's largest fitness community; Google Play, store of the most popular picture editing applications."
 
 - group: group08
-  title: "The Many Faces of Deepfake"
-  names: "Andrej Cattaneo, Ivana Riva, Noura Sammoura, Maria del Pilar Suarez Anzorena, Arthur van der Werf, Yueling Wu"
-  image: "../../assets/img/es02/cover-g08.png"
-  desc: "Recently there has been a lot of commotion around an emerging technology called Deepfake. This artificial technology based on deep learning allows the manipulation of content up to concerning levels of realism. This research digs into different platforms to explore the current situation around Deepfake."
+  title: "The invisible battleground of hashtag hijacking"
+  names: "André Calderolli, Fatemeh Goodarzi, Johannes Longardt, Fernanda de Alba, María Paula Vargas, Priscila Yoshihara, Yunrui Zhu"
+  image: "../../assets/img/es02/cover-g08.gif"
+  desc: "Group 8 research revolves around the invisible battleground of hashtag hijacking. Social media platforms are, among a lot of other things, stages for debate and discussion but what can be learned from the little tags people leave on their posts?"
 
 - group: group09
-  title: "Digital Dating: Faking Oneself & Stolen Profiles"
-  names: "Lucia Maria Emilia Ferrari, Mariam Kozbar, Zina Nadery, Kira Pyatakova, Situ Yuming, Xu Mengting"
+  title: "@conspiracy sent u a pic"
+  names: "Giulia Baraldi, Cecilia Gaetarelli, Alia Kaouel, Tim Olbrich, Valentina Pallacci, Alessia Rodler, Vera Salvaderi"
   image: "../../assets/img/es02/cover-g09.gif"
-  desc: "New technology and the internet have widened our horizons with regards to relationships. It changed the way we meet new people and construct our lives. After the acceleration of informational consumption, dating apps have become a normal part of life. But how do they work, what do they ask of us and what kind of problems do they create?"
+  desc: "Conspiracy theories are built by a community of people as shared knowledge. Platforms like IG and TikTok are used to create imagery around conspiracy theories. But how does it happen? Group 9 analyze what makes the aesthetic of conspiracy theories so catchy on Social Media. "
 
-- group: group10
-  title: "Facial Recognition: Different Concerns from East to West and its Countermeasures"
-  image: "../../assets/img/es02/cover-g10.jpg"
-  desc: "Technology has improved, needs have changed and data collection has become significantly smarter since then, allowing facial recognition to have real-world everyday consequences, both positive and negative. It is up to you to figure out the direction in which this technology will develop."
 ---
 
 In the second phase of the course students learn how to make use of online data to study social and cultural phenomena: in a question-driven process, each group design protocols for data collection and analysis and produce research findings using data visualizations. At the end of the phase each group design an interactive research report.

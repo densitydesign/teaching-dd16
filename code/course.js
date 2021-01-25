@@ -12,19 +12,28 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 			</main>
 			<aside id="phases">
 					<div id="phase1" className="link--phase">
-					<PhaseOne width="200" style={{strokeWidth: 2}}/>
+					<img src={ _relativeURL( '/assets/img/phase-glyphs/stroke_phase_1.png', _ID)}
+					style={{ width: "180px", position: "absolute" }}/>
+					<img className="hover--accent" src={ _relativeURL( '/assets/img/phase-glyphs/phase_1_hover.png', _ID)}
+					style={{ width: "180px", position: "absolute" }}/>
 					<p>Phase 1</p>
 					<div className="title">Data as Material</div>
 					<div className="arrow">→</div>
 				</div>
 					<div id="phase2" className="link--phase">
-					<PhaseTwo width="200"/>
+					<img src={ _relativeURL( '/assets/img/phase-glyphs/stroke_phase_2.png', _ID)}
+					style={{ width: "180px", position: "absolute" }}/>
+					<img className="hover--accent" src={ _relativeURL( '/assets/img/phase-glyphs/phase_2_hover.png', _ID)}
+					style={{ width: "180px", position: "absolute" }}/>
 					<p>Phase 2</p>
 					<div className="title">Data as Artifact</div>
 					<div className="arrow">→</div>
 					</div>
 					<div id="phase3" className="link--phase">
-					<PhaseThree width="200"/>
+					<img src={ _relativeURL( '/assets/img/phase-glyphs/stroke_phase_3.png', _ID)}
+					style={{ width: "180px", position: "absolute" }}/>
+					<img className="hover--accent" src={ _relativeURL( '/assets/img/phase-glyphs/phase_3_hover.png', _ID)}
+					style={{ width: "180px", position: "absolute" }}/>
 					<p>Phase 3</p>
 					<div className="title">Data Publics</div>
 					<div className="arrow">→</div>
