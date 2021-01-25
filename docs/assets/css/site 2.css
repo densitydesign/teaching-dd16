@@ -149,8 +149,6 @@ a, a:visited {
 
 .external--link {
   color: var(--accent) !important;
-  display:block;
-  margin-bottom:1em;
 }
 
 a:hover {
@@ -775,10 +773,9 @@ aside h4 {
   }
 
   header #course--title{
-    grid-column: 1 / 6
+display:block;
+margin-bottom:1em;
   }
-
-
   
 
   /* aside a, .link--booklet, .link--phase {
