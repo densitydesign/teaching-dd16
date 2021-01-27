@@ -3,8 +3,8 @@ layout: es02
 
 groups:
 - group: group01
-  title: ""
-  names: ""
+  title: "The Tube Trap: An analysis on YouTube’s content farms made for kids"
+  names: "Claudia Maria Cutrupi, Sara Ferrini, Beatrice Maggi, Gaia Panfoli, Isabella Possaghi, Virgilia Ramella"
   image: "../../assets/img/es02/cover-g01.gif"
   desc: "YouTube is one of the most used platforms to entertain kid, so popular that it overcame television. Group 1 investigated how content farms on the platform can trap young watchers for hours, consuming anything recommended, as decided by YouTube’s algorithm. "
 

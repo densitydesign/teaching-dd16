@@ -3,8 +3,8 @@ layout: es01
 
 groups:
 - group: group01
-  title: "The World Pictured By Google Street View"
-  names: "Della Pepa Gabriele, Febres Medina Andrea, Ghio Caterina, Granzotto Francesca, Rondi Paola, Stefani Elena"
+  title: "The World pictured By Google Street View"
+  names: "Claudia Maria Cutrupi, Sara Ferrini, Beatrice Maggi, Gaia Panfoli, Isabella Possaghi, Virgilia Ramella"
   image: "../../assets/img/es01/cover-g01.jpg"
   desc: "Since it first launched in 2007 Google Street View (GSV) has managed to capture over sixteen million kilometres of Street View imagery across eighty-three countries. Through the visualisation, Group 1 aims to represent the percentage of pictures’ coverage by googling from Italy a certain area of the world."
 

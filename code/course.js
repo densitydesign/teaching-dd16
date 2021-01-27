@@ -11,6 +11,7 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 				<div>{ _body }</div>
 			</main>
 			<aside id="phases">
+			<a href={ _relativeURL( `/course-results/es01`, _ID ) }>
 					<div id="phase1" className="link--phase">
 					<img src={ _relativeURL( '/assets/img/phase-glyphs/stroke_phase_1.png', _ID)}
 					style={{ width: "180px", position: "absolute" }}/>
@@ -20,6 +21,8 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 					<div className="title">Data as Material</div>
 					<div className="arrow">→</div>
 				</div>
+				</a>
+				<a href={ _relativeURL( `/course-results/es02`, _ID ) }>
 					<div id="phase2" className="link--phase">
 					<img src={ _relativeURL( '/assets/img/phase-glyphs/stroke_phase_2.png', _ID)}
 					style={{ width: "180px", position: "absolute" }}/>
@@ -29,7 +32,8 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 					<div className="title">Data as Artifact</div>
 					<div className="arrow">→</div>
 					</div>
-					<div id="phase3" className="link--phase">
+				</a>
+					<div id="phase3" className="link--phase" style={{ opacity: 0.5 }}>
 					<img src={ _relativeURL( '/assets/img/phase-glyphs/stroke_phase_3.png', _ID)}
 					style={{ width: "180px", position: "absolute" }}/>
 					<img className="hover--accent" src={ _relativeURL( '/assets/img/phase-glyphs/phase_3_hover.png', _ID)}
@@ -38,7 +42,6 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 					<div className="title">Data Publics</div>
 					<div className="arrow">→</div>
 					</div>
-
 			</aside>
 	</html>
 );
