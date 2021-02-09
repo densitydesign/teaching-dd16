@@ -70,8 +70,8 @@ $(".wb-el").click(function(){
      $('#wb-txt').text(sezione.descrizione)
 
        $('.wb-description').append("<div class='wb-carousel'><div ><img  src="+sezione.img9+"></div>");
-       
-       
+
+
      $('.wb-description').append("<div class='wb-carousel'><div ><img  src="+sezione.img1+"></div><div><img src="+sezione.img2+"></div><div><img src="+sezione.img3+"> </div> <div><img  src="+sezione.img4+"></div><div><img src="+sezione.img5+"></div><div><img src="+sezione.img6+"></div></div>");
 
        $("#description3").text(sezione.descrizione3)
@@ -105,25 +105,25 @@ $(".wb-el").click(function(){
         console.log("Ciao prof Mauri")
       $('.wb-description').append("<div id='wb-creditsContainer'></div>")
       $('#wb-creditsContainer').append("<div id='credit1' class='wb-creditsRow'></div>")
-      $('#credit1').append("<div class='avatar'> <a href='https://elisafinesso.com' target='_blank'><img src='images/bellissimi/finish.jpg'></a><h5>Elsa Finesso</h5><a href='mailto:finesso.elisa@gmail.com'>Send me an email!</a><br><a href='https://www.instagram.com/ccamalow/' target='_blank'>IG: ccamalow</a></div>") 
+      $('#credit1').append("<div class='avatar'> <a href='https://elisafinesso.com' target='_blank'><img src='images/bellissimi/finish.jpg'></a><h5>Elsa Finesso</h5><a href='mailto:finesso.elisa@gmail.com'>Send me an email!</a><br><a href='https://www.instagram.com/ccamalow/' target='_blank'>IG: ccamalow</a></div>")
       $('#credit1').append("<div class='avatar'><a><img src='images/bellissimi/gib.jpg'></a><h5>Ilenia Gibiloba</h5><a href='mailto:elena.gibelli1@gmail.com'>Only good news</a><br><a href='https://www.instagram.com/rgb.elli/' target='_blank'>IG: rgb.elli</a></div>")
       $('#credit1').append("<div class='avatar'><a href='http://federicalaurencio.bss.design/' target='_blank'><img src='images/bellissimi/lau.jpeg'></a><h5>Fede <em>Awaken</em> Lau</h5><a href='mailto:federica.laurencio@gmail.com'> Feed my inbox</a><br><a href='https://www.instagram.com/rikalau_/' target='_blank'>IG: rikalau_</a></div>")
          $('#wb-creditsContainer').append("<div id='credit2' class='wb-creditsRow'></div>")
       $('#credit2').append("<div class='avatar'><a href=' andreamorandini.com' target='_blank'><img src='images/bellissimi/mauro.jpeg'></a> <h5>Marek <br> Morandinski</h5><a href='mailto:andremora97@gmail.com'> Mail Me!</a><br><a href='https://www.instagram.com/andreamario.m/' target='_blank'>IG: andreamario.m</a></div>")
       $('#credit2').append("<div class='avatar'><a href='https://jacoposironi.com' target='_blank'><img src='images/bellissimi/jac.png'></a> <h5>Sir Johnatan</h5> <a href='mailto:sironij@gmail.com'> Say Hi! </a><br><a href='https://www.instagram.com/jburrasca/' target='_blank'>IG: jburrasca</a></div></div>")
       $('#credit2').append("<div id='marco' class='avatar'><a><img  src='images/bellissimi/mrc.jpeg'> </a><h5>Randy Mento</h5><a href='mailto:marco.valli@gmail.com'>Send me a postcard, pls</a><br><a href='https://www.instagram.com/pol_do/' target='_blank'>IG: Pol_do</a></div>")
-        
-    
+
+
       $('#wb-creditsContainer').append("<div id='credit3' class='wb-creditsRow'></div>")
       $('#credit3').append("<div  class='avatar'><img  id='ciaoMirkoFikkastocazzodiId' src='images/bellissimi/loghi.png'></div>")
-       
-        $('#credit3').append("<div  class='avatar'><h3>Professors</h3><p>Michele Mauri</p><p>Gabriele Colombo</p><p>Angeles Briones</p><p>Simone Vantini</p> <p>Salvatore Zingale</p> </div>")
+
+$('#credit3').append("<div  class='avatar'><h3>Professors</h3><p>Michele Mauri</p><p>Gabriele Colombo</p><p>Ángeles Briones</p><p>Simone Vantini</p> <p>Salvatore Zingale</p> </div>")
 
          $('#credit3').append("<div  class='avatar'><h3>Teachers Assistants</h3><p>Andrea Benedetti</p><p>Tommaso Elli</p><p>Beatrice Gobbo</p><p>Antonella Autuori</p><p>Matteo Bettini</p> <p>Andrea Elena Febres Medina</p> </div>")
-        
-        
-        
-        
+
+
+
+
         $("#marco").click(function(){
            console.log("Sono forse uno dei 7 migliori coder al mondo - MV")
                   })
