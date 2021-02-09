@@ -1,0 +1,168 @@
+body {
+  /*background-color: blue;*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #1a1a1a;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5vw;
+  margin: 0;
+  font-weight: 500;
+}
+
+.description {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  font-weight: 500;
+  margin: 1em;
+  font-size: 1.1vw;
+  color: white;
+  font-weight: 300;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 24px;
+}
+
+#wraper {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  font-size: 0;
+  text-align: left;
+  position: absolute;
+  /*top: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+}
+
+.box {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  background-color: #1a1a1a;
+  border: 1px solid #4364ed;
+  color: black;
+  position: relative;
+}
+
+.box2 {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  background-color: #1a1a1a;
+  border: 1px solid #4364ed;
+  color: black;
+  position: relative;
+}
+
+.invisible2 {
+  visibility: hidden;
+}
+
+.line1 {
+  position: absolute;
+  bottom: 0;
+  left: 49.8%;
+  height: 0;
+  border: 1px solid #4364ed;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link-guidelines {
+  color: #4364ed;
+  text-decoration: underline;
+}
+
+.link-guidelines:hover {
+  cursor: pointer;
+}
+
+#video-container {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.return {
+  color: #4364ed;
+  font-weight: 500;
+  font-size: 1.1vw;
+  letter-spacing: 3pt;
+}
+
+.launch-video {
+  color: white;
+  font-weight: 500;
+  font-size: 1.1vw;
+  letter-spacing: 3pt;
+  text-decoration: underline;
+}
+
+#box19 {
+  overflow-y: scroll;
+}
+
+#box20 {
+  background-color: #ff6477;
+}
+
+#box20:hover {
+  cursor: pointer;
+}
+
+#box1:hover {
+  cursor: pointer;
+}
+
+#title {
+  position: absolute;
+  z-index: 1000;
+  font-family: 'IBM Plex Mono', monospace;
+  color: white;
+  font-size: 250%;
+  top: 20%;
+  left: 15%;
+  font-weight: 300;
+}
+
+#title h1 {
+  font-weight: 400;
+}
+
+.launch-video:hover, .home:hover {
+  cursor: pointer;
+}
+
+
+.empty {
+  background-image: none;
+}
+
+#box19::-webkit-scrollbar { width: 0 !important }
+#box19 { overflow: -moz-scrollbars-none; }
+#box19 { -ms-overflow-style: none; }

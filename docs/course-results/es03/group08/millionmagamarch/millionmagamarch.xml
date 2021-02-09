@@ -1,0 +1,71 @@
+<a href="../menu/index.html"><div class="exit-btn"><p><</p></div><a>
+<div class="popup-overlay">
+      <div class="popup-box">
+        <div class="tweet-content">
+          <!--<div class="tweet-media"><img src="img-tweet-test.png" class="tweet-image"></div>
+          <div class="tweet-text"><p class="paragraph">Not <span class="link">#Antifa</span> but <span class="link">#ProudBoys</span> dressed like Antifa. Is <span class="link">@RealDonaldTrump</span> stupid enough to fall for it or is he part of it?</p></div>-->
+        </div>
+        <div class="close-btn"><div class="icon"><img src="assets/icons/Continue.svg" alt="continue icon"></div><p class="continue-text">continue</p></div>
+      </div>
+    </div>
+    <div class="popup-overlay2">
+      <div class="close-btn2"></div>
+      <div class="popup-box2">
+        <div class="media-content">
+          <!--<div class="tweet-media"><img src="img-tweet-test.png" class="tweet-image"></div>
+          <div class="tweet-text"><p class="paragraph">Not <span class="link">#Antifa</span> but <span class="link">#ProudBoys</span> dressed like Antifa. Is <span class="link">@RealDonaldTrump</span> stupid enough to fall for it or is he part of it?</p></div>-->
+        </div>
+      </div>
+    </div>
+    <div class="popup-overlay3">
+      <div class="popup-box3">
+        <div class="tweet-content">
+          <!--<div class="tweet-media"><img src="img-tweet-test.png" class="tweet-image"></div>
+          <div class="tweet-text"><p class="paragraph">Not <span class="link">#Antifa</span> but <span class="link">#ProudBoys</span> dressed like Antifa. Is <span class="link">@RealDonaldTrump</span> stupid enough to fall for it or is he part of it?</p></div>-->
+        </div>
+        <div class="close-btn3"><div class="icon"><img src="assets/icons/Continue.svg" alt="continue icon"></div><p class="continue-text">continue</p></div>
+      </div>
+    </div>
+    <div id="content-wraper">
+      <div class="fixedbox" id="date-container">
+        <p class="date-fixed"><span class="month">NOV 9</span></p>
+      </div>
+      <div class="fixedbox" id="media-box"></div>
+      <div id="narrator-box">
+          <p class="narrator-text"></p>
+        <!--<p class="narrator-text">This story begun way before many of us even knew what “#ProudBoys” stood for, but I decided to tell you from May, when the white nationalist group first started to make noise in 2020, spreading conspiracy theories about covid-19 and encouraging and organizing violent crimes.</p>-->
+      </div>
+      <div class="fixedbox" id="number-tweets-container"><p class="number-tweet-info"><span class="number-tweets">885 tweets</span><br><span class="w-proudboys">with #millionMAGAmarch </span><br><span class="that-month">that day</span></p></div>
+      <div class="fixedbox" id="media-box-2"></div>
+    </div>
+    <div id="content-wraper2"></div>
+    <div id="image-wraper-story">
+      <div id="image-second" class="photo photo2"></div>
+      <div id="image-first" class="photo photo1"></div>
+    </div>
+    <div id="wraper-story">
+      <div class="box-story" id="box-story1"></div>
+      <div id="box-story14" class="box-story"></div>
+      <div id="box-story3" class="box-story"></div>
+      <div id="tweet10" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">14</span></p></div>
+      <div id="tweet11" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">14</span></p></div>
+      <div id="tweet4" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">12</span></p></div>
+      <div id="box-story7" class="box-story"></div>
+      <div id="tweet9" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">13</span></p></div>
+      <div id="tweet17" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">15</span></p></div>
+      <div id="tweet1" class="box-story tweet clickNext"><p class="clickHere">Click<br>Here</p><p class="date invisible"><span class="day">nov</span><br><span class="month2">9</span></p></div>
+      <div id="tweet3" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">10</span></p></div>
+      <div id="tweet5" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">12</span></p></div>
+      <div id="tweet7" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">13</span></p></div>
+      <div id="tweet8" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">13</span></p></div>
+      <div id="tweet14" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">15</span></p></div>
+      <div id="tweet2" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">9</span></p></div>
+      <div id="tweet13" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">14</span></p></div>
+      <div id="tweet15" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">15</span></p></div>
+      <div id="box-story19" class="box-story"></div>
+      <div id="box-story20" class="box-story"></div>
+      <div id="tweet18" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">15</span></p></div>
+      <div id="tweet12" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">14</span></p></div>
+      <div id="tweet6" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">13</span></p></div>
+      <div id="tweet16" class="box-story tweet"><p class="date invisible"><span class="day">nov</span><br><span class="month2">15</span></p></div>
+    </div>

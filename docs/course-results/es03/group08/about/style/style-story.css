@@ -1,0 +1,280 @@
+#wraper-content {
+  height: auto;
+  width: 87.5%;
+  position: absolute;
+  font-size: 0;
+  text-align: center;
+  top: 0;
+  right: 0;
+  /*top: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+}
+
+#fixedbar {
+  height: auto;
+  width: 12.5%;
+  max-width: 12.5%;
+  font-size: 0;
+  text-align: center;
+  position: fixed;
+  /*position: -webkit-sticky; /* Safari
+  position: sticky;*/
+  top: 0;
+  left: 0;
+}
+
+.box {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  background-color: #efefef;
+  border: 1px solid white;
+  color: black;
+  position: relative;
+}
+
+#box12, #box17 {
+  /*overflow: hidden;*/
+}
+
+#footer {
+  background-color: black;
+}
+
+.protocol1, .protocol2, .protocol3, .protocol4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.protocol1 {
+  background-image: url("../assets/protocol1.png")
+}
+
+.protocol2 {
+  background-image: url("../assets/protocol2.png")
+}
+
+
+.protocol3 {
+  background-image: url("../assets/protocol3.png")
+}
+
+
+.protocol4 {
+  background-image: url("../assets/protocol4.png")
+}
+
+#images-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+#img1 {
+  background-image: url("../assets/img1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: absolute;
+  left: 25%;
+  top: 125%;
+  height: 50%;
+  width: 50%;
+}
+
+#img2 {
+  background-image: url("../assets/img2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  left: 50%;
+  top: 325%;
+  height: 100%;
+  width: 50%;
+}
+
+#img3 {
+  background-image: url("../assets/imagem3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: 525%;
+  height: 125%;
+  width: 37.5%;
+}
+
+#andre {
+  background-image: url("../assets/andre.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 25%;
+  top: 650%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#fer {
+  background-image: url("../assets/fer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 37.5%;
+  top: 650%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#pri {
+  background-image: url("../assets/pri.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: 650%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#julie {
+  background-image: url("../assets/julie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 62.5%;
+  top: 650%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#hannes {
+  background-image: url("../assets/mapi.jpg");
+  background-size: 132%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 25%;
+  top: 675%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#mapi {
+  background-image: url("../assets/hannes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 37.5%;
+  top: 675%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#helia {
+  background-image: url("../assets/helia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: 675%;
+  height: 25%;
+  width: 12.5%;
+}
+
+.icon1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  background-image: url("../assets/polimi-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 18px;
+}
+
+.icon2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  background-image: url("../assets/density-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.off {
+  opacity: 0;
+}
+
+.subc {
+  text-align: right;
+}
+
+.subtitle {
+  font-size: 2.6vw;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  line-height: 1.1em;
+}
+
+.download-btn {
+  background-color: #ffd600;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+}
+
+.homebtn {
+  background-color: #4568e9;
+}
+
+.homebtn p {
+  font-weight: 500;
+  font-size: 1.1vw;
+  letter-spacing: 3pt;
+}
+
+.name {
+  text-align: left;
+}
+
+.name:hover {
+  cursor: default;
+}
+
+.name2 {
+  text-align: left;
+}
+
+.name p {
+  font-weight: normal;
+  width: 70%;
+}
+
+#box25 {
+  background-image: url("../assets/arrow.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

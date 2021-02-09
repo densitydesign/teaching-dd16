@@ -1,0 +1,9 @@
+<div class="tweet-media"><img src="tweets/images/TWEET2.jpg" class="tweet-image"></div>
+<div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE2.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">𝕔hi𝓁𝓁iຖ໐iˢ</span><br><span class="handle">@chiiium</span></p></div><div class="text-container">
+<p class="paragraph"><span class="link">#MillionMAGAMarch</span> We need to show up. So get your shit together.</p></div></div>
+<div class="tweet-info">
+<div id="space1" class="space rts"><div class="icon"><img src="assets/icons/Retweet.svg" alt="retweet icon"></div><p class="tweet-info-text">1.2K</p></div>
+<div id="space2" class="space likes"><div class="icon"><img src="assets/icons/Like.svg" alt="like icon"></div><p class="tweet-info-text">2.3K</p></div>
+<div id="space3" class="space comments"><div class="icon"><img src="assets/icons/Comment.svg" alt="comment icon"></div><p class="tweet-info-text">73</p></div>
+<div id="space4" class="space"></div>
+</div></div>

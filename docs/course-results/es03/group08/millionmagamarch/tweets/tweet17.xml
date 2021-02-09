@@ -1,0 +1,12 @@
+<div class="tweet-media"><video class="tweet-image" controls>
+  <source src="tweets/images/TWEET17.mp4" type="video/mp4">
+    Your browser doesn't support this video
+</video></div>
+<div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE17.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">Andy Ngô</span><br><span class="handle">@MrAndyNgo</span></p></div><div class="text-container">
+<p class="paragraph">There was a lot of violence today against attendees of the <span class="link">#MillionMAGAMarch</span>. Now, a large crowd sings the American national anthem outside the Willard Hotel in DC. Video by <span class="link">@BGOnTheScene</span>:
+</p></div></div><div class="tweet-info">
+<div id="space1" class="space rts"><div class="icon"><img src="assets/icons/Retweet.svg" alt="retweet icon"></div><p class="tweet-info-text">25.1K</p></div>
+<div id="space2" class="space likes"><div class="icon"><img src="assets/icons/Like.svg" alt="like icon"></div><p class="tweet-info-text">85K</p></div>
+<div id="space3" class="space comments"><div class="icon"><img src="assets/icons/Comment.svg" alt="comment icon"></div><p class="tweet-info-text">4.5K</p></div>
+<div id="space4" class="space"></div>
+</div></div>

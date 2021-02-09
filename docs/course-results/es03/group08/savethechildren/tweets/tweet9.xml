@@ -1,0 +1,8 @@
+<div id="tweet-text" class="tweet-text no-media"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE9.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">samanthamarika</span><br><span class="handle">@samanthamarika1</span></p></div><div class="text-container">
+<p class="paragraph"><span <span class="link">#SaveTheChildren</span> has been blocked by Facebook...this is unreal.</p></div></div>
+<div class="tweet-info">
+<div id="space1" class="space rts"><div class="icon"><img src="assets/icons/Retweet.svg" alt="retweet icon"></div><p class="tweet-info-text">8K</p></div>
+<div id="space2" class="space likes"><div class="icon"><img src="assets/icons/Like.svg" alt="like icon"></div><p class="tweet-info-text">16.7K</p></div>
+<div id="space3" class="space comments"><div class="icon"><img src="assets/icons/Comment.svg" alt="comment icon"></div><p class="tweet-info-text">902</p></div>
+<div id="space4" class="space"></div>
+</div></div>

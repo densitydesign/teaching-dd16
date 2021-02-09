@@ -1,0 +1,9 @@
+<div class="tweet-media"><img src="tweets/images/TWEET1.jpg" class="tweet-image"></div>
+<div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE1.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">Koreaboo</span><br><span class="handle">@Koreaboo</span></p></div><div class="text-container">
+<p class="paragraph">On top of being beautiful and talented, Mina also has a heart of an angel~ 👼❤ To finish off 2017, she participated in Save The Children's latest campaign! <span class="link">#신생아살리기캠페인</span> <span class="link">#savethechildren</span> <span class="link">@JYPETWICE</span> <span class="link">@SavetheChildren</span></p></div></div>
+<div class="tweet-info">
+<div id="space1" class="space rts"><div class="icon"><img src="assets/icons/Retweet.svg" alt="retweet icon"></div><p class="tweet-info-text">1.3K</p></div>
+<div id="space2" class="space likes"><div class="icon"><img src="assets/icons/Like.svg" alt="like icon"></div><p class="tweet-info-text">3.8K</p></div>
+<div id="space3" class="space comments"><div class="icon"><img src="assets/icons/Comment.svg" alt="comment icon"></div><p class="tweet-info-text">56</p></div>
+<div id="space4" class="space"></div>
+</div></div>
