@@ -1,0 +1,161 @@
+<html lang=eng>
+
+<head>
+  <!-- metatag -->
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Group 04 - DD16">
+  <!-- Primary Meta Tags -->
+  <title>ItsCheaperAbroad</title>
+  <meta name="title" content="ItsCheaperAbroad">
+  <meta name="description" content="Transposing medical tourism promos on Instagram into a digital catalogue. Exposing mass marketing language and objectification through real online content.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ItsCheaperAbroad">
+  <meta property="og:description" content="Transposing medical tourism promos on Instagram into a digital catalogue. Exposing mass marketing language and objectification through real online content.">
+  <meta property="og:image" content="./assets/img/cover-img.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="ItsCheaperAbroad">
+  <meta property="twitter:description" content="Transposing medical tourism promos on Instagram into a digital catalogue. Exposing mass marketing language and objectification through real online content.">
+  <meta property="twitter:image" content="./assets/img/cover-img.png">
+
+  <title>ItsCheaperAbroad</title>
+
+  <!-- responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="all">
+  <!-- favicon -->
+  <link rel="icon" sizes="192x192" href="./assets/favicon/Fav.ico">
+  <!-- Navcollapse -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+  <!-- style -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+<style>
+  .bottone {
+
+    background-color: var(--color-main);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: var(--font-secondary);
+    cursor: pointer;
+    color: #FDEF4B;
+    border: 2px solid #FDEF4B;
+  }
+
+  .bottone:hover {
+    background-color: #FDEF4B;
+    color: #EE1B22;
+  }
+</style>
+
+<body style="background-image:
+    radial-gradient(circle, rgba(148, 55, 255, 1), rgba(79, 17, 153, 0.85))">
+
+  <div class="displayDesk">
+    <section class="pt-5 pb-5 d-flex justify-content-center">
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center  pb-5">
+          <a href="home.html"><span class="bottone">CONTINUE</span></a>
+        </div>
+        <div class="col-lg-12 d-flex justify-content-center">
+          <video id="videoD" controls style="border: 3px solid #FDEF4B; border-radius: 30px;" width="85%">
+            <!--<source src="./assets/videoTest.mp4" type="video/mp4">-->
+            <source type="video/mp4">
+
+          </video>
+          <span id="start" onclick="fadeOutD()" style="position: absolute; top: 50%; left:50%; transform: translate(-50%, -50%); cursor: pointer;"><img src="./assets/svg/play-button.svg" class="w-100" style="transform: scale(0.7)"></span>
+        </div>
+
+
+
+
+      </div>
+
+    </section>
+  </div>
+
+
+  <div class="displayMobile">
+
+    <video id="videoM" poster="./assets/img/screenM.png" controls playsinline>
+      <!--<source src="./assets/videoMob.mp4" type="video/mp4">-->
+      <source type="video/mp4">
+
+    </video>
+
+    <a href="home.html" style="position: absolute; left:33%; top:95%;"><span class="bottone">CONTINUE</span></a>
+    <span id="startM" onclick="fadeOutM();" style="position: absolute; top: 50%; left:50%; transform: translate(-50%, -50%)"><img src="./assets/svg/play-button.svg" class="w-100" style="transform: scale(1)"></span>
+  </div>
+
+  <!--<footer id="footer"></footer>-->
+
+  <!-- JavaScript-->
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
+
+  <script src="./assets/js/main.js"></script>
+
+  <script>
+    const vidM = document.getElementById("videoM");
+    const vidD = document.getElementById("videoD");
+    const play = document.getElementById("start");
+    const playM = document.getElementById("startM");
+
+    console.log(play);
+
+    function fadeOutD() {
+      vidD.play();
+      play.remove();
+    }
+
+    function fadeOutM() {
+      vidM.play();
+      playM.remove();
+    }
+
+    const mediaQuery = window.matchMedia('(max-width: 414px)');
+
+    if (mediaQuery.matches) {
+      // Then trigger an alert
+      console.log('Media Query Matched!');
+      vidD.removeAttribute('src');
+      vidM.setAttribute('src', './assets/video/videoMob.mp4');
+
+    } else {
+      vidM.removeAttribute('src');
+      vidD.setAttribute('src', './assets/video/videoDesk.mp4');
+    }
+  </script>
+</body>
+
+
+</html>
