@@ -1,0 +1,30 @@
+//Original code 129 bytes https://www.dwitter.net/d/21373 - by Pascal
+
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+uniform float time;
+uniform vec2 resolution;
+
+
+
+#define S sin
+#define C cos
+#define t time
+#define X uv.x*32.
+#define Y -uv.y*32.
+
+
+void main( void ) {
+
+	vec2 uv = ( gl_FragCoord.xy-7.10* resolution.xy )/resolution.y-5.1 ;
+
+	float c = S(X/45.+Y/25.)*S(X/50.+t+S(0.1*t+Y/10.));
+	float d = C(X/25.+Y/55.)*C(X/50.+t+S(0.1*t+Y/10.));
+
+	gl_FragColor = vec4( vec3( 1., 1.-c, 1.-d), 1. );
+
+
+
+}

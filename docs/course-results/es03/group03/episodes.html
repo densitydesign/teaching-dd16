@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Conspiracy Theories Deconstructed</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+  <link href="assets/font/font.css" rel="stylesheet">
+  <link href="css/css.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="docu">
+  <div id="myContainer"></div>
+
+  <div class="menu-bar">
+    <div onclick="location.href='index.html';" id="home-button">
+      <div class="eyeext" id="eyez">
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351.1 351.1">
+
+      <g>
+      <path class="a" d="M24,176.1c36.1,44,90.8,75.4,152.1,75.4s116.1-31.4,152.1-75.4"/>
+      <line class="c hover" x1="29" y1="175.8" x2="322.1" y2="175.8"/>
+      <circle class="b" cx="175.6" cy="175.6" r="171.6"/>
+      <path class="a" d="M328.2,175c-36-44-90.8-75.4-152.1-75.4S60.1,131,24,175"/>
+      </g>
+      </svg>
+
+      <div class="eye eye1">
+      <div class="pupil" id="p3"></div>
+      <div class="pupil" id="p2"></div>
+      <div class="pupil" id="p1"></div>
+      <div class="pupil" id="p0"></div>
+      </div>
+      </div>    </div>
+    <div id="menu">
+      <a href="episodes.html">episodes</a>
+      <a href="whatsbehind.html">what's behind</a>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="barra">
+      <div class="spegni">
+        <img src="images/UI/barBut.svg" height="auto" width="4.5%">
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="leftCont" id="e-leftCont">
+        <div class="videocontainer">
+          <video id="video" width="100%" height="100%" src="video/ep01.mp4" controls="">
+          </video>
+
+        </div>
+        <div class="suggeriti">
+
+          <div id="0" class="lucianino" >
+            <div id="0prev" class="preview preview-selected"><img value="" src="images/preview/preview1.png">
+            </div>
+            <div id="ep0title" class="fileName fileName-selected">
+              <p>EP01 - QAnon Detection.mov</p>
+            </div>
+          </div>
+
+          <div id="1" class="lucianino">
+            <div id="1prev" class="preview"><img value="" src="images/preview/preview2.png">
+            </div>
+            <div id="ep1title" class="fileName">
+              <p>EP02 - Save the Children?.mov</p>
+            </div>
+          </div>
+
+          <div id="2" class="lucianino">
+            <div id="2prev" class="preview"><img value="" src="images/preview/preview3.png">
+            </div>
+            <div id="ep2title" class="fileName">
+              <p>EP03 - A Sharing Community.mov</p>
+            </div>
+          </div>
+          <!---->
+          <div id="3" class="lucianino">
+            <div id="3prev" class="preview"><img value="" src="images/preview/preview4.png">
+            </div>
+            <div id="ep3title" class="fileName">
+              <p>EP04 - Plandemic Highlights.mov</p>
+            </div>
+          </div>
+
+          <div id="4" class="lucianino">
+            <div id="4prev" class="preview"><img value="" src="images/preview/preview5.png">
+            </div>
+            <div id="ep4title" class="fileName">
+              <p>EP05 - Curious Followings.mov</p>
+            </div>
+          </div>
+
+          <div id="5"  class="lucianino">
+            <div id="5prev" class="preview"><img value="" src="images/preview/preview6.png">
+            </div>
+            <div id="ep5title" class="fileName">
+              <p>EP06 - Verified Conspiracy Theories.mov</p>
+            </div>
+          </div>
+
+          <div id="6" class="lucianino">
+            <div id="6prev" class="preview"><img value="" src="images/preview/preview7.png">
+            </div>
+            <div id="ep6title" class="fileName">
+              <p>EP07 - The Reason Why.mov</p>
+            </div>
+          </div>
+
+        </div>
+      </div >
+      <div class="rightCont" id="e-rightCont">
+        <div class="info">
+          <h4 id="titoloEp"> Titolo di prova </h4>
+          <img id="previewEP" src="images/preview/preview1.png" alt="">
+          <p id="descrizione1" class="titoletto">
+            Description
+          </p>
+          <p id="contentDesc">
+            The posts analysis of the profile previously found led to the identification of an unexpected truth: not all messages are harmless as it could seem.
+          </p>
+          <p id="documentazione1" class="titoletto">
+            Documentation
+          </p>
+          <a id="link1" href="" target="_blank">link1</a>
+          <hr>
+          <a id="link2" href=""  target="_blank">link2</a>
+          <hr>
+          <a id="link3" href=""  target="_blank">link3</a>
+          <hr>
+          <a id="link4" href=""  target="_blank">link4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/episodes.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/sketch.js"></script>
+  <script src="p5/p5.min.js"></script>
+  <script src="p5/sketch.js"></script>
+
+</body>
+
+</html>
