@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138.66626 74.89934">
+  <title>back</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="Livello_1-2" data-name="Livello 1">
+      <path d="M138.16626,68.24106a6.08344,6.08344,0,0,1-6.00582,6.15828H6.50582A6.08344,6.08344,0,0,1,.5,68.24106V6.65828A6.08344,6.08344,0,0,1,6.50582.5H132.16044a6.08344,6.08344,0,0,1,6.00582,6.15828Z" fill="#f2f2f2" stroke="#0023f5" stroke-miterlimit="10"/>
+      <g>
+        <line x1="33.27753" y1="37.5" x2="107.16626" y2="37.5" fill="none" stroke="#0023f5" stroke-linecap="square" stroke-miterlimit="10" stroke-width="4"/>
+        <polygon points="60.705 52.258 62.291 47.895 33.731 37.5 62.291 27.105 60.705 22.746 20.166 37.5 60.705 52.258" fill="#0023f5"/>
+      </g>
+    </g>
+  </g>
+</svg>

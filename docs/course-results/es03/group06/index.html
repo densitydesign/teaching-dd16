@@ -1,0 +1,877 @@
+   <!DOCTYPE HTML>
+     <html lang="en">
+    <head>
+
+    <title>I, Web Cleaner</title>
+    
+    <!--settings for viewing as app-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+     <!--ICONS-->
+        <link rel = "icon" href = "img/favicon.ico" type = "image/x-icon"> 
+ 
+ 
+    
+    <style>
+    
+
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(fonts/HelveticaNeue.ttc);
+}
+        
+body  {
+	margin: 0px;
+	padding: 0px;
+    background-color: black;
+	color: black;
+	font-size: 15px;
+	font-family: "Helvetica Neue";
+	}
+	
+	
+#wrapper      {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 100%
+	background: black;
+	}
+        
+#background {
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: 0px 0px;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+#background img {
+    background-color: black;
+}
+
+.num {
+     font-size: 140px;
+     font-family: "Helvetica Neue";
+    color: white;
+    margin-top: -40px;
+}
+        
+#num01 {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    width: 30%;
+    margin-top: 10%;
+}
+        
+
+#num02 {
+            grid-column: 3/span 1;
+            grid-row: 2/span 1;
+            width: 30%;
+            margin-top: 10%;
+            margin-left: 100px;
+}
+        
+ #num03 {
+    grid-column: 1/span 1;
+    grid-row: 4/span 1;
+    width: 30%;
+    margin-top: 40%;
+} 
+        
+/*
+#image01 {
+    grid-column: 2/span 2;
+    grid-row: 1/span 1;
+    width: 100%;
+    margin-left: -200px;
+    margin-top: 150px;
+}   
+*/
+        
+ #image02 {
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    width: 100%;
+    margin-top: -10px;
+     margin-left: -118px;
+}   
+        
+#image03_1 {
+    grid-column: 1/span 1;
+    grid-row: 5/span 1;
+    width: 100%;
+    margin-top: -20%;
+}  
+#image03_2 {
+    grid-column: 2/span 1;
+    grid-row: 6/span 1;
+    width: 100%;
+    margin-top: -100px;
+    margin-left: -118px;
+}
+
+#image03_3 {
+    grid-column: 4/span 1;
+    grid-row: 4/span 1;
+    width: 100%;
+    margin-top: 40%;
+    margin-left: -5%;
+}  
+
+        
+#image03_4 {
+    grid-column: 2/span 1;
+    grid-row: 7/span 1;
+    width: 100%;
+/*    margin-top: -70%;*/
+    margin-left: -100%;
+}  
+        
+#title {
+    width: 100%;
+    margin-top: 0;
+}
+        
+#introduction {
+    grid-column: 2/span 1;
+    width:100%;
+    grid-row: 1/span 2;
+    margin-top: 5%;
+    margin-bottom: 70px;
+    color: white;
+    margin-left: -100px;
+	
+}
+        
+h1 {
+    font-size: 21px;
+	font-family: "Helvetica Neue";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+p {
+    font-size: 15px;
+	font-family: "Helvetica Neue", thin;
+    margin-bottom: 10px;
+    line-height: 130%;
+    color: white;
+}
+        
+        
+#research {
+    grid-column: 4/span 1;
+    grid-row: 2/span 2;
+    margin-top: 5%;
+    color: white;
+}
+        
+#resource {
+    grid-column: 3/span 1;
+    grid-row: 4/span 4;
+    margin-top: 40%;
+    color: white;
+}	       
+
+#resource02 {
+    grid-column: 4/span 1;
+    grid-row: 5/span 4;
+    margin-top: 5%;
+    color: white;
+}	
+        
+h2 {
+    font-size: 15px;
+	font-family: "Helvetica Neue", bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+ 
+#warning {
+    grid-column: 1/span 4;
+    grid-row: 8/span 1;
+    margin-top: 20%;
+    align-items: center;
+    margin-bottom: 0;
+    
+}
+        
+#warningbutton {
+    grid-column: 1/span 4;
+    grid-row: 9/span 1;
+    margin-top: 0%;
+    text-align: center;
+    margin-bottom: 15%;
+    
+}
+
+#warning img {
+    width: 100%;
+}
+        
+/*
+#warning a{
+    margin: 20px;
+}
+*/
+ 
+#start {
+    text-align: center;
+    margin: 15px;
+}
+        
+#cancel {
+   text-align: center;
+    margin: 15px;
+}
+.button {
+  display: inline-block;
+    margin-top: 0;
+  padding: 5px ;
+  
+  justify-content: center;
+  width: 80px;
+  align-items: center;
+  color: red;
+    border: 2px solid red;
+    -webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor:pointer;
+    text-align: center;
+/*text-shadow: 0.2rem 0.2rem #ea4637;*/
+}
+        
+.button:hover{
+    background-color: red;
+    color: black;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: repeat(5,20%) auto;
+    grid-auto-rows: auto;
+    background-color: black;
+    font-family: "Helvetica Neue";
+    color: white;
+    font-size: 1em;
+    text-align: center;
+/*
+    margin-left: 4%;
+    margin-right: 4%;
+*/
+}
+        
+#footer {
+    grid-column: 1/span 4;
+    grid-row: 10/span 1;
+    display: grid;
+    grid-template-columns: repeat(6,1fr) auto;
+    column-gap: 1em;
+    width:100%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    opacity: 0.8;
+/*    align-items:baseline;*/
+}
+        
+#densitydesign {
+    grid-column: 1/span 1; 
+    background-size: contain;
+}
+.logo {
+    background-size: contain;
+    height: 75px;
+}        
+#polimi {
+    grid-column: 2/span 1;    
+}
+#author {
+    grid-column: 3/span 1;    
+}
+#professors {
+    grid-column: 4/span 1;    
+}
+#assistents {
+    grid-column: 5/span 1;    
+}
+#license {
+    grid-column: 6/span 1; 
+    width:80%;
+}
+          
+.footer {
+    color:white;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+        
+.footertext {
+    line-height: 1em;
+    font-size: 0.7em;
+}
+/*
+#button01 {
+    grid-column: 1/span 1; 
+    display: inline;
+    margin: 0.5em;
+}
+*/
+
+/*
+#button02 {
+    grid-column: 2/span 1; 
+    display: inline;
+    margin: 0.5em;
+}
+*/
+
+/*
+#button03 {
+    grid-column: 3/span 1; 
+    display: inline;
+    margin: 0.5em;
+}
+*/
+        
+/*
+#button04 {
+    grid-column: 4/span 1; 
+    display: inline;
+    margin: 0.5em;
+}
+*/
+  
+/*
+#button05 {
+    grid-column: 5/span 1; 
+    display: inline;
+    margin: 0.5em;
+}        
+*/
+
+	
+#main {
+    float: right;
+    width: 42%;
+    margin: 2%;
+    padding-bottom: 1%;
+	line-height: 1.5;
+	border: 0px solid red;
+	}
+	
+	
+aside h1 {
+	margin: 2% 2% 2% 0;
+	line-height: 1.3;
+	font-size: 2em;
+	font-weight: normal;
+	font-variant: small-caps; 
+	}
+		
+
+aside h3  {
+	font-family: Georgia, serif;
+	color: #999;
+	}
+	
+	
+em {
+	display: inline-block;
+	padding: 0px 5px 0px 0px;
+	margin-right: 5px;
+	font-size: 1.3em;
+	font-style: none;
+	font-weight: bolder;
+	font-variant: small-caps;
+	}
+	
+footer  {
+	font-size: .9em;
+	font-family: 'Cutive Mono', serif;
+	width: 82%;
+	max-width: 600px;
+	text-align: center;
+	padding:  2%;
+	margin: 2% auto;
+	}
+	
+
+	
+#resource a:link, #research a:link, #research a:visited, #resource a:visited , #resource02 a:link, #resource02 a:visited{
+	text-decoration: none;
+	color: white;
+    text-decoration: underline;
+	}
+	
+ #resource a:hover, #resource a:focus, #research a:hover, #research a:focus , #resource02 a:hover, #resource02 a:focus{
+	
+    background-color: red;
+	color: black;
+    text-decoration: underline;
+	}
+	
+/*
+#header a:link, #header a:visited{
+    text-decoration: none;
+    color: white;
+}
+        
+#header a:hover, #header a:focus{
+    text-decoration: none;
+    color: white;
+}
+*/
+	
+@media (max-width: 868px) {
+
+body  {
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	}
+ 
+    
+img.intro  {
+	float: none;
+	width: 90%;
+	margin: 2%;
+	}
+
+#main {
+    float: none;
+    width: 90%;
+	line-height: 1.5;
+	margin: 2%;
+	border: 0px solid red;
+	}
+	
+
+	
+
+	
+
+
+    
+    
+@media (max-width: 480px) {
+
+body  {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	}
+
+ 
+img.intro  {
+	float: none;
+	width: 90%;
+	margin: 2%;
+	}
+
+#main {
+    float: none;
+    width: 93%;
+	line-height: 1.5;
+	margin: 2%;
+	border: 0px solid red;
+	}
+	
+#details  {
+	width: 90%;
+	font-size: 1.2em;
+	font-family: "Cutive Mono", Courier, monotype;
+	margin: 2% auto;
+	padding-bottom: 5%;
+	border-bottom: 1px dotted #999;
+	}
+	
+	
+#credits  {
+	width: 90%;
+	max-width: 600px;
+	font-size: 1em;
+	font-family: "Roboto", Arial, sans-serif;
+	margin: 10% auto;
+	}
+	
+#resources  {
+	width: 90%;
+	max-width: 600px;
+	font-size: 1em;
+	font-family: "Roboto", Arial, sans-serif;
+	margin: 2% auto;
+	}
+	
+#resources p {
+	padding-bottom: 5%;
+	margin-bottom: 2%;
+	font-size: .9em;
+	}
+	
+#resources pre  {
+	font-size: .5em;
+	color: #666;
+	font-family: "Roboto", Arial, sans-serif;
+	}
+	
+	
+footer  {
+	font-size: .9em;
+	font-family: 'Cutive Mono', serif;
+	width: 90%;
+	max-width: 600px;
+	text-align: center;
+	padding:  2%;
+	margin: 2% auto;
+	}
+    
+
+    
+    
+
+	
+ /*  #message   {
+      	display: block;
+      	color: #fff;
+       	width: 30%;
+       	margin-left: 10%;
+        font-family: 'Cutive Mono', serif;
+        font-size: 1.3em;
+        padding: 5px;
+        line-height: 1.5;
+     }
+     */
+    
+    }
+	   
+ </style>
+
+ 
+<!-- Google Analysis tracking code-->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46168666-1', 'taylorstreetstudio.com');
+  ga('send', 'pageview');
+
+ </script>
+
+</head>
+
+<body>
+
+<!--
+    <div id="header">
+        <a id="button01" >
+            <p >Introduction</p>
+        </a>
+        <a id="button02" >
+            <p>Research</p>
+        </a>
+        <a id="button03" >
+            <p >Resource</p>
+        </a>
+        <a id="button04" >
+            <p>Start</p>
+        </a>
+        <a id="button05" >
+            <p>About</p>
+        </a>
+    </div>
+-->
+    <div id="background">
+            <img src="img/bgimage.svg" /><br>
+        
+    </div>
+<!--
+    <div id="warning">
+        <img src="img/warning.svg" />
+    </div>
+-->
+    <div id=title>
+            <img src="img/title.svg" />
+            
+        </div>
+    <div id="wrapper">
+        <div id="num01">
+            <p class="num">01</p>
+        </div>
+        
+        <div id="num02">
+            <p class="num">02</p>
+        </div>
+        
+        <div id="num03">
+            <p class="num">03</p>
+        </div>
+<!--
+        <div id="image01">
+            <img src="img/02image.svg" />
+        </div>
+-->
+        <div id="image02">
+            <img src="img/02image.svg" />
+        </div>
+        
+        <div id="image03_1">
+            <img src="img/03image_1.svg" />
+        </div>
+        
+        <div id="image03_2">
+            <img src="img/03image_2.svg" />
+        </div>
+        
+        <div id="image03_3">
+            <img src="img/03image_3.svg" />
+        </div>
+        
+<!--
+        <div id="image03_4">
+            <img src="img/03image_4.svg" />
+        </div>
+-->
+        
+        <div id="introduction">
+            <h1 class="title">INTRODUCTION</h1>
+            <p>
+                The content moderator is a group of people who are on the front lines of the never-ending battle to keep the Internet safe. How is their life? What are they facing?
+            </p>
+            <p>
+                “I, Web Cleaner.” is a multimedia work. Try to guide the audience to walk into the content moderator’s world from the first-person perspective and experience the different situations content moderators face in each stage of the job.
+
+            </p>
+            <p>
+                The work mainly contains two opposite sides: “Company” and “Content moderator.” Through the data collected from interviews/ video/ reports/ company information, “I, Web Cleaner.” create and assemble images, video, narrative and factual text to generate a carefully constructed soundscape that combines monologue, music, noises, and other audio elements to create a more three-dimensional content moderator’s user portrait.
+            </p>
+        </div>
+        
+        <div id="research">
+            <h1 class="title">RESEARCH</h1>
+            <h2 class="subtitle">Interview</h2>
+            <p>
+                Our group invited Ms. Wang, who once worked as a content moderator in the company, to conduct an exclusive interview. <a href="https://docs.google.com/document/d/14ez74qOwfAQfqjz_E5Le8QWng7Vmk1NmRHKX-_6Cl3E/edit?usp=sharing">Please refer to the link for the interview content.</a>
+</a><br><br>
+                Wu worked TikTok for one and a half years. She spent four months directly moderating the videos, and the rest of the time training new employees. She has a deep understanding of the whole TikTok moderation system.<br><br>
+                Q: What does this job do? What is the process and form of daily work?<br>
+                Q：What aspects of the video will you focus on?<br>
+                Q: Will there be artificial intelligence to assist in moderation?<br>
+                Q：What are the rules of moderation?<br>
+                Q: Have you ever seen anything uncomfortable in your work? How did you deal with it?<br>
+                Q: So often watching these videos will have an impact on your psychology?
+
+            </p>
+        </div>
+      
+        <div id="resource">
+            <h1 class="title">RESOURCE</h1>
+            <p>
+                In the course of writing the text for “I, Web Cleaner.” numerous sources both in print form, and on the Internet, were consulted and used. These included books, academic articles, newspaper articles, blogs, legal documents and the websites of organisations. The most relevant sources are cited below.<br><br>
+            </p>
+            <h2 class="subtitle">Videos</h2>
+            <p>
+                <a href="https://www.youtube.com/watch?v=qo_EGUFIU3I">Policing The Web's Darkest Corners: The Internet's Dirtiest Secret</a><br>
+                <a href="https://www.youtube.com/watch?v=Py_ZJ5q-MFo">Philippine workers are on the front lines of the battle to keep the Internet safe, but at what cost?</a><br>
+                <a href="https://www.youtube.com/watch?v=yK86Rzo_iHA">'It's the worst job and no-one cares' - BBC Stories</a><br>
+                <a href="https://www.youtube.com/watch?v=bDnjiNCtFk4">Inside the traumatic life of a Facebook moderator</a><br>
+                <a href="https://www.youtube.com/watch?v=OqP-gde4M-Q&t=239s">Google and YouTube moderators speak out</a><br><br>
+            </p>
+            <h2 class="subtitle">Reports</h2>
+            <p>
+                <a href="https://sz-magazin.sueddeutsche.de/internet/three-months-in-hell-84381">Three months in hell：What I learned from three months of Content Moderation for Facebook in Berlin</a><br>
+                <a href="https://www.theverge.com/2019/6/19/18681845/facebook-moderator-interviews-video-trauma-ptsd-cognizant-tampa">BODIES IN SEATS：At Facebook’s worst-performing content moderation site in North America, one contractor has died, and others say they fear for their lives</a><br>
+                <a href="https://www.theverge.com/2019/12/16/21021005/google-youtube-moderators-ptsd-accenture-violent-disturbing-content-interviews-video">THE TERROR QUEUE：These moderators help keep Google and YouTube free of violent extremism — and now some of them have PTSD</a><br>
+                <a href="https://www.wired.com/2014/10/content-moderation/">The Laborers Who Keep Dick Pics and Beheadings Out of Your Facebook Feed：Inside the soul-crushing world of content moderation, where low-wage laborers soak up the worst of humanity, and keep it off your Facebook feed.</a><br>
+                <a href="https://www.washingtonpost.com/technology/2019/07/25/social-media-companies-are-outsourcing-their-dirty-work-philippines-generation-workers-is-paying-price/">Content moderators at YouTube, Facebook and Twitter see the worst of the web — and suffer silently</a><br>
+                <a href="https://www.businessinsider.com/facebooks-us-content-moderators-paid-low-wages-smoke-weed-sex-report-2019-2">Facebook's content moderators are paid incredibly low wages, and reportedly turn to pot and office sex to cope with what they see</a><br><br>
+            </p>
+            <h2 class="subtitle">Policies and Rules</h2>
+            <p>
+                <a href="https://www.technologyreview.com/2020/06/08/1002894/facebook-needs-30000-of-its-own-content-moderators-says-a-new-report/">Facebook needs 30,000 of its own content moderators, says a new report</a><br>
+                <a href="https://www.ft.com/content/98aad2f0-3ec9-11ea-a01a-bae547046735">Facebook content moderators required to sign PTSD forms</a><br>
+                <a href="https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence">Facebook's internal rulebook on sex, terrorism and violence</a><br>
+                <a href="https://www.commondreams.org/views/2020/10/28/facebooks-content-moderation-policies-are-hot-mess">Facebook's Content-Moderation Policies Are a Hot Mess</a><br>
+            </p>
+        </div>
+         
+         <div id="resource02">
+             <h2 class="subtitle">Job Description</h2>
+             <p>
+                <a href="https://www.accenture.com/ph-en/careers/jobdetails?id=2058_philippines_2">Job description of Content Moderation New Associate in Accenture</a><br>
+                 <a href="https://careers.cognizant.com/my/en/job/00039960063/Content-Moderation-Vietnamese-Speaking">Job description in Cognizant</a><br>
+                 <a href="https://www.naukri.com/job-listings-content-moderator-telugu-tamil-malayalam-and-kannada-floating-numbers-digital-solutions-pvt-ltd-palakkad-palghat-kolkata-0-to-1-years-171220002510?src=jobsearchDesk&sid=160987147575720&xp=6&px=1">Job description in india</a><br><br>
+             </p>
+            <h2 clasee="subtitle">Images</h2>
+             <p>
+                Pixel: @ Negative-Space @ Fauxels @ Sevenstorm-Juhaszimrus @ David-Alberto-Carmona-Coto @ Alycia-Fung @ Cottonbro @ Dave-Drost @ Engin-Akyurt @ Manav-Sharma @ Harrison-Haines<br>
+                 Unsplash: @ Arlington-Research @ Joel-Filipe @ Christopher -Gower @ Jr-Korpa @ LYCS-Architecture @ Pawel-Czerwinski @ Fotografierende @ Jr-Korpa @ Jason-Leung @ Markus-Spiske @ Stefano-Pollio @ Alex-Iby @ Alex-Perez @ Cristian-Newman @ Josh-Rose @ Mika-Baumeister @ Mwangi-Gatheca @ Zygimantas-Dukauskas @ Tom-Barrett<br>
+                 Giphy: @ Hoppip @ Queen @ Wanderson @ Terror-Jr @ Death-Orgone @ XCOPY @ Abillmiller @ Xponentialdesign @ Nico-Roxe @ Roberthruska<br>
+                 Tumblr: @ Glitchinc @ Cyberpunk-Aesthetic @ Glitchgifs @ Lost-In-The-80s @ Micdotcom<br>
+                 Imdb: @ Psycho @ Black-Sails<br>
+                 Youtube: @ Netflix<br>
+                 Dreamstime: @ Xiaofeng123<br>
+                 Xiaomi10-Ultra: @ Wang-Pengbo<br>
+                 Deviantart: @ 8TwilightAngel8<br>
+                 Gifer: @ RayleneHenareRuka<br>
+                 Microsoft: @ Microsoft 365<br>
+                 Hellocatfood: @ Antonio-Roberts<br>
+                 Cracked: @ Nonsense88<br><br>
+
+             </p>
+             <h2 class="subtitle">Music</h2>
+             <p>
+                <a href="https://studio.youtube.com/channel/UCS_n9FsyBFz_wHXOX4HYOjQ/music">Ether Oar - The Whole Other</a><br>
+                 <a href="https://studio.youtube.com/channel/UCS_n9FsyBFz_wHXOX4HYOjQ/music">The Halloween Dawn - Twin Musicom</a><br>
+                 <a href="https://studio.youtube.com/channel/UCS_n9FsyBFz_wHXOX4HYOjQ/music">Leoforos Alexandras - Dan Bodan</a><br>
+                 <a href="https://open.spotify.com/album/60wRXrzfRODoJCu5mhDhla?si=4zdlGZQwTbWYJTh3mIdTwA">Digiffects Sound Effects Library - Slow Keyboard Typing</a><br>
+             </p>
+         </div>
+<!--        <a href=""></a><br>-->
+        <div id="warning">
+            <img src="img/warning.gif" />
+        </div>
+        <div id="warningbutton">
+            <a id="start" style="text-decoration: none;">
+                    <h3 class="button">START </h3>
+                </a>
+<!--
+                <a id="cancel" style="text-decoration: none;">
+                    <h3 class="button">CANCEL</h3>
+                </a>
+-->
+        </div>
+        <div id="footer">
+            <div id="densitydesign">
+                <img class="logo" src="img/logo_density.png">
+            </div>
+            <div id="polimi">
+                <img class="logo" src="img/logo_poli.png">
+            </div>
+            <div id="author">
+                <h2 class="footer">Project by</h2><br>
+                <p class="footertext">Hu Tianjing</p>
+                <p class="footertext">Song Danlin</p>
+                <p class="footertext">Tai Yixuan</p>
+                <p class="footertext">Wang Pengbo</p>
+                <p class="footertext">Wu Wenxuan</p>
+            </div>
+            <div id="professors">
+                <h2 class="footer">Faculty</h2><br>
+                <p class="footertext">Michele Mauri</p>
+                <p class="footertext">Gabriele Colombo</p>
+                <p class="footertext">Ángeles Briones</p>
+                <p class="footertext">Simone Vantini</p>
+                <p class="footertext">Salvatore Zingale</p>
+            </div>
+            <div id="assistents">
+                <h2 class="footer">Assistents</h2><br>
+                <p class="footertext">Antonella Autuori</p>
+                <p class="footertext">Andrea Benedetti</p>
+                <p class="footertext">Matteo Bettini</p>
+                <p class="footertext">Tommaso Elli</p>
+                <p class="footertext">Andrea Elena Febres Medina</p>
+                <p class="footertext">Beatrice Gobbo</p>
+            </div>
+            <div id="license">
+                <h2 class="footer">License</h2><br>
+<!--
+                <p class="footertext">This work is licensed under<br>a Creative Commons Attribution-<br>NonCommercial
+4.0<br>International License.</p>
+-->
+                <p class="footertext">This work is licensed under</p>
+                <p class="footertext">a Creative Commons Attribution-</p>
+                <p class="footertext">NonCommercial 4.0</p>
+                <p class="footertext">International License.</p>
+              
+            </div>
+        </div>
+    </div>
+    <div id="tag">
+        <img src="img/tag.svg" />   
+    </div>
+    
+  
+ 
+
+
+
+    <script src="jquery-2.0.3.js"></script>
+    <script src="jquery.touchSwipe.min.js"></script>
+
+
+     
+ <script>
+ $(document).ready(function() {
+//// Begin Swipe
+var count = 0;
+     
+     $( "#start" ).click(function() {
+       window.location.href = "moderator-desktop.html";
+    });
+    $( "#cancel" ).click(function() {
+      window.location.href= "#title";
+    });
+//    $( "#button01" ).click(function() {
+//      window.location.href= "#header";
+//    });
+//     $( "#button02" ).click(function() {
+//      window.location.href= "#research";
+//    });
+//     $( "#button03" ).click(function() {
+//      window.location.href= "#resource";
+//    });
+//     $( "#button04" ).click(function() {
+//      window.location.href= "#start";
+//    });
+//     $( "#button05" ).click(function() {
+//      window.location.href= "#start";
+//    });
+    
+      
+      
+      
+      $(document).keydown(function(e) {
+      if(e.which == 39) { // left     
+         
+         window.location.href = "moderator-desktop.html";
+    
+      }
+      else if(e.which == 37) { // right     
+        
+    
+         window.location.href = "index.html";
+    	
+      }
+    });
+     
+
+ 
+
+ 
+     }); //end doc ready
+ </script>
+ 
+
+    
+    </body>
+
+    </html>
+
