@@ -1,0 +1,422 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.list-outside{
+list-style-image: url("../assets/img/list_point.svg");
+list-style-position: inside
+  }
+
+h1:hover {
+  cursor:default;
+}
+h2:hover {
+  cursor:default;
+}
+h3:hover {
+  cursor:default;
+}
+  button:hover {
+    cursor: url("../assets/svg/arrowhover_3.png"), auto;
+  }
+
+  a:hover {
+    cursor: url("../assets/svg/arrowhover_3.png"), auto;
+  }
+  .article:hover{
+    cursor: url("../assets/svg/arrowhover_3.png"), auto;
+  }
+
+video {
+  outline:none;
+}
+
+  #duet_label {
+    display:none;
+  }
+
+  #duet:hover + #duet_label {
+    display:block;
+  }
+
+  #stitch_label {
+    display:none;
+  }
+
+  #stitch:hover + #stitch_label{
+    display:block;
+  }
+
+  #sing_label {
+    display:none;
+  }
+
+  #sing:hover + #sing_label{
+    display:block;
+  }
+
+  #greenscreen_label {
+    display:none;
+  }
+
+  #greenscreen:hover + #greenscreen_label{
+    display:block;
+  }
+
+
+  #dance_label {
+    display:none;
+  }
+
+  #dance:hover + #dance_label {
+    display:block;
+  }
+
+  #pov_label {
+    display:none;
+  }
+
+  #pov:hover + #pov_label {
+    display:block;
+  }
+
+  #ans_questions_label {
+    display:none;
+  }
+
+  #ans_questions:hover + #ans_questions_label{
+    display:block;
+  }
+
+  button:focus { outline: none; }
+
+  #ellisse_ferma{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#container_2{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#intro2{
+  width: 100%;
+  height: 100vh;
+  padding-top: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 10;
+  color: white;
+}
+@-webkit-keyframes travel {
+  from { left: 0;     }
+  to   { left: 80%; }
+}
+
+@-webkit-keyframes bounce {
+  from, to  {
+    bottom: 0;
+    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 80%;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+
+@-webkit-keyframes spin {
+  from {                                     }
+  to   { -webkit-transform: rotateZ(180deg); }
+}
+
+/* keyframes definition for other browsers */
+
+@keyframes travel {
+  from { left: 0;     }
+  to   { left: 80%; }
+}
+
+@keyframes bounce {
+  from, to  {
+    bottom: 0;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 80%;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes spin {
+  from {
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* styles for the stage and animated elements */
+
+#stage {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.a-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 6s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 6s;
+}
+
+.a {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  -webkit-animation-name: bounce, spin;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 5s;
+
+  animation-name: bounce, spin;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+.b-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 8s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 8s;
+}
+
+.b {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  -webkit-animation-name: bounce, spin;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 7s;
+
+  animation-name: bounce, spin;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+}
+.c-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 5s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 5s;
+}
+
+.c {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  -webkit-animation-name: bounce, spin;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 3.5s;
+
+  animation-name: bounce, spin;
+  animation-iteration-count: infinite;
+  animation-duration: 3.5s;
+}
+.d-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 10s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 10s;
+}
+
+.d {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  -webkit-animation-name: bounce, spin;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 9s;
+
+  animation-name: bounce, spin;
+  animation-iteration-count: infinite;
+  animation-duration: 9s;
+}
+.e-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 5.5s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 5.5s;
+}
+
+.e {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  -webkit-animation-name: bounce, spin;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+
+  animation-name: bounce, spin;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+.f-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 4s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 4s;
+}
+
+.f {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  -webkit-animation-name: bounce, spin;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 7s;
+
+  animation-name: bounce, spin;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+}
+
+#ceci_gif {
+  display:none;
+}
+
+#ceci_star:hover + #ceci_gif {
+  display:block;
+}
+
+#ale_gif {
+  display:none;
+}
+
+#ale_star:hover + #ale_gif {
+  display:block;
+}
+
+#vera_gif {
+  display:none;
+}
+
+#vera_star:hover + #vera_gif {
+  display:block;
+}
+
+#vale_gif {
+  display:none;
+}
+
+#vale_star:hover + #vale_gif {
+  display:block;
+}
+
+#giulia_gif {
+  display:none;
+}
+
+#giulia_star:hover + #giulia_gif {
+  display:block;
+}
+
+#alia_gif {
+  display:none;
+}
+
+#alia_star:hover + #alia_gif {
+  display:block;
+}
+
+#tim_gif {
+  display:none;
+}
+
+#tim_star:hover + #tim_gif {
+  display:block;
+}
