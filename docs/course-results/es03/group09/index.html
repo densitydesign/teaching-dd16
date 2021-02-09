@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>F.A.C.T.</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link href="./css/tailwind.css" rel="stylesheet" type="text/css">
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-gray-200 overflow-x-hidden overflow-hidden">
+  <!-- LOADER -->
+  <div id="loader" class="flex w-screen h-screen fixed bg-white z-50 bg-white">
+    <span class="text-green-500 my-auto mx-auto">
+      <img src="assets/svg/favicon.svg" alt="back to top" class="h-12 w-12 m-auto animate-spin"/>
+    </span>
+  </div>
+
+  <div id="start" class="fixed top-0 w-screen flex flex-row justify-end p-4 z-40">
+    <div id="ser" class="border-1 border-black rounded-xl bg-black">
+      <a href="./about.html">
+        <button id="sel" class=" transform translate-x-1 -translate-y-1 hover:translate-y-0 hover:translate-x-0 align-bottom text-center px-8 pt-5 pb-4 border-2 rounded-xl border-black bg-gray-200">
+          ABOUT
+        </button>
+      </a>
+    </div>
+  </div>
+
+  <div id="container-wrapper" class="overflow-x-hidden">
+    <div id="horizontal-scroll" class="flex flex-wrap flex-col h-screen ">
+      <div id="stage" style="overflow-x:hidden;">
+        <div class="a-container">
+          <div class="a">
+            <img src="assets/img/floating-triangle.svg"></img>
+          </div>
+        </div>
+        <div class="b-container">
+          <div class="b">
+            <img src="assets/img/floating-square.png"></img>
+          </div>
+        </div>
+        <div class="c-container">
+          <div class="c">
+            <img src="assets/img/floating-circle.png"></img>
+          </div>
+        </div>
+        <div class="d-container">
+          <div class="d">
+            <img src="assets/img/floating-star1.png"></img>
+          </div>
+        </div>
+        <div class="e-container">
+          <div class="e">
+            <img src="assets/img/floating-ellipse.png"></img>
+          </div>
+        </div>
+        <div class="f-container">
+          <div class="f">
+            <img src="assets/img/floating-ellipse2.png"></img>
+          </div>
+        </div>
+        <div>
+          <img src="assets/svg/scroll.png" style="transform:translate(-50%,0)" class="w-1/2 left-1/2 bottom-12 absolute"> </img>
+        </div>
+      </div>
+      <div class="text-center flex justify-center h-full w-screen z-10">
+        <h1 class="lg:text-8xl md:text-4xl text-6xl uppercase flex my-auto">F.A.C.T.</h1>
+      </div>
+      <div class="text-left flex h-screen w-full z-10">
+        <h1 class="lg:text-8xl md:text-4xl text-6xl uppercase flex my-auto whitespace-nowrap pr-4 lg:pr-40 z-10">Find All Conspiracy Theories</h1>
+        <img src="assets/img/gifs/freebritney.gif" class="h-48 relative top-12 right-96 z-0" style="opacity:0.5"></img>
+        <img src="assets/img/gifs/hollow_earth.gif" class="h-60 absolute top-60 z-0" style="padding-left:60%; opacity:0.5"></img>
+        <img src="assets/img/gifs/area_51.gif" class="h-56 absolute top-6 z-0" style="padding-left:10%; opacity:0.5"></img>
+        <img src="assets/img/gifs/anti_vaxxers.gif" class="h-40 absolute bottom-12 z-0" style="padding-left:30%; opacity:0.5"></img>
+        <img src="assets/img/gifs/wayfair.gif" class="h-48 relative top-80 right-80 z-0" style="opacity:0.5"></img>
+        <img src="assets/img/gifs/illuminati.gif" class="h-60 relative top-80 pt-24 right-2/3 z-0" style="opacity:0.5"></img>
+        <img src="assets/img/gifs/cryptids.gif" class="h-60 relative top-24 right-full z-0" style="opacity:0.5"></img>
+      </div>
+    </aside>
+  </div>
+  <div>
+
+    <div id="show-back-to-top" class="relative flex h-screen w-full lg:p-20 p-4 text-center">
+      <h2 class="my-auto lg:text-6xl md:text-5xl text-3xl z-10 uppercase">
+        Hello stranger!
+        <br/>
+        Get on board and start your journey through the hidden conspiracy theory world of TikTok
+      </h2>
+      <div class="absolute inset-x-0 inset-y-0  lg:p-20 w-screen">
+        <img src="assets/svg/Home/Star_1.svg" alt="star" class="h-full w-full m-auto"/>
+      </div>
+    </div>
+
+    <div class="relative flex h-screen w-full lg:p-20">
+      <div class="video mx-auto  z-10">
+        <video class="h-full mx-auto" controls="controls" preload="auto">
+          <source src="./assets/video/intro_vertical.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="absolute lg:bottom-0 bottom-28 right-24 lg:p-20">
+        <img src="assets/svg/factssec_roundedstar.svg" alt="star" class="lg:h-96 h-32"/>
+      </div>
+      <div  class="absolute inset-x-0 lg:top-0 top-28 left-24 lg:p-20">
+        <img src="assets/svg/unverifiedsec_star.svg" alt="star" class="lg:h-96 h-32"/>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="separator1" class="relative flex h-screen w-full lg:p-20 p-4 text-center bg-black">
+    <div class="relative my-auto mx-auto">
+      <h2 class="text-left my-auto lg:mx-24 lg:text-6xl md:text-5xl text-3xl border-2 border-white text-white rounded-3xl lg:py-24 py-8 px-12">
+        But do you know what a conspiracy theory is?
+      </h2>
+      <div class="absolute -bottom-20 right-0">
+        <img src="assets/svg/blacksec1-purplestar.svg" alt="star" class="h-auto lg:w-64 w-32 mx-auto transform rotate-12 z-10"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative mx-auto">
+    <div class="relative flex h-screen w-full lg:p-20 bg-black p-4 mx-auto panel" data-ending="ending-video">
+      <img src="assets/svg/blacksec1-purplestarbig.svg" alt="star" class="h-full mx-auto"/>
+    </div>
+    <div class="h-screen absolute flex text-center lg:p-20 p-4 z-10" style="top:0%">
+      <h2 class="pt-20 uppercase my-auto mx-auto lg:text-6xl md:text-5xl text-3xl text-white z-20">
+        <a href="https://www.britannica.com/topic/conspiracy-theory" class="underline uppercase">Conspiracy theory:</a><br/>an attempt to explain harmful or tragic events as the result of the actions of a small powerful group
+      </h2>
+    </div>
+  </div>
+  <div class="h-screen mx-auto p-20 flex z-10">
+    <video class="mx-auto flex z-10" controls="controls" preload="auto">
+      <source src="./assets/video/conspiracy_definition.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div id="ending-video" class="relative flex h-screen w-full lg:p-20 p-4 text-center bg-black">
+    <div class="relative my-auto">
+      <h2 class="text-left my-auto lg:mx-24 lg:text-6xl md:text-5xl text-3xl border-2 border-gray-200 text-gray-200 rounded-3xl lg:py-24 py-8 px-12">
+        Why are conspiracy theory videos not recognizable?
+      </h2>
+      <div class="absolute -bottom-20 right-0">
+        <img src="assets/svg/blacksec1-pinkstar.svg" alt="star" class="h-auto lg:w-64 w-32 mx-auto transform rotate-12 z-10"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative mx-auto">
+    <div class="relative flex h-screen w-full lg:p-20 bg-black p-4 mx-auto panel" data-ending="ending-video2">
+      <img src="assets/svg/blacksec1-pinkrectangle.svg" alt="star" class="h-full mx-auto"/>
+    </div>
+    <div class="h-screen absolute flex text-center lg:p-20 p-4 z-10" style="top:0%">
+      <h2 class="pt-20 uppercase my-auto mx-auto lg:text-6xl md:text-5xl text-3xl text-gray-200 z-20">
+        tiktok has a visual language of its own: the same trend formats are used in any kind of video
+      </h2>
+    </div>
+  </div>
+  <div class="h-screen mx-auto p-20 flex z-10">
+    <video class="mx-auto flex z-10" controls="controls" preload="auto">
+      <source src="./assets/video/trendformat.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div id="ending-video2" class="relative flex h-screen w-full lg:p-20 p-4 text-center bg-gray-200">
+    <h2 class="uppercase my-auto lg:text-6xl md:text-5xl text-3xl z-10">
+      Fortunately conspiracy theory videos have some common features that make it easier to spot them
+    </h2>
+    <div class="absolute lg:top-56 bottom-28 left-0 lg:p-20">
+      <img src="assets/svg/white_square.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+    <div class="absolute lg:bottom-0 bottom-28 right-0 lg:p-20">
+      <img src="assets/svg/greysec1-roundedstar.svg" alt="star" class="lg:h-80 h-32"/>
+    </div>
+    <div class="absolute inset-x-0 lg:top-0 top-28 lg:p-20">
+      <img src="assets/svg/greysec1-star.svg" alt="star" class="lg:h-80 h-32 mx-auto"/>
+    </div>
+  </div>
+
+  <!-------------------------->
+  <!--- YELLOW STARTS HERE --->
+  <!-------------------------->
+  <div id="yellowZoom" class="zoom-in relative flex h-screen w-full lg:p-20 p-4 text-center bg-gray-200">
+    <h2 class="my-auto mx-auto lg:text-6xl md:text-5xl text-3xl z-10">
+      Unverified Information
+    </h2>
+    <div class="absolute inset-0 lg:p-20 overflow-hidden">
+      <img id="yellowZoomImg" src="assets/svg/greysec1-yellowstar.svg" alt="star" class="h-full w-full"/>
+    </div>
+  </div>
+  <div class="relative flex h-screen w-full lg:p-20 px-4 text-left bg-dreamyellow">
+    <p class="lg:text-3xl md:text-5xl text-lg z-10 my-auto">
+      Conspiracy theory videos often analyse things superficially, report data and numbers taken from
+      <span class="border-2 border-black rounded-2xl px-2 whitespace-nowrap">unofficial sources,</span>
+      or even talk about true facts but
+      <span class="border-2 border-black rounded-2xl px-2 whitespace-nowrap">decontextualizing</span>
+      them in a way that distorts or affects reality.
+    </p>
+  </div>
+  <div class="relative flex h-screen w-full lg:p-20 bg-dreamyellow panel" data-ending="yellow-end">
+    <div class="video mx-auto z-10">
+      <video class="h-full mx-auto" controls="controls" preload="auto">
+        <source src="./assets/video/rigged_unverified.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="absolute lg:bottom-0 bottom-28 right-24 lg:p-20">
+      <img src="assets/svg/unverifiedsec_star.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+    <div class="absolute inset-x-0 lg:top-0 top-28 left-24 lg:p-20">
+      <img src="assets/svg/unverifiedsec_star.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+  </div>
+  <div class=" flex w-full h-screen lg:p-20 px-4 panel" data-ending="yellow-end">
+    <div class="my-auto mx-auto p-10 lg:w-2/3 w-full">
+      <div class="my-auto mx-auto lg:w-4/5 lg:text-2xl md:text-xl sm:text-base lg:p-10 p-4 bg-dreamyellow border-2 border-black transform -rotate-6">
+        <h2>
+          You can read more about the topics mentioned in the video from the following official sources:
+        </h2>
+        <ul class="list-outside">
+          <li>
+            <a href="https://www.factcheck.org/2020/02/accounting-for-net-worth-of-trump-clintons-and-obamas/" class="underline hover:text-white">Accounting for Net Worth of Trump, Clintons and Obamas</a>
+          </li>
+          <li>
+            <a href="https://news.mit.edu/2020/odds-mail-vote-not-count-1019" class="underline hover:text-white">What are the odds your vote will not count?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class=" flex w-full h-screen lg:p-20 px-4 panel" data-ending="yellow-end">
+    <div class="my-auto mx-auto p-10 lg:w-2/3 w-full">
+      <div class="my-auto mx-auto lg:w-4/5 lg:text-2xl md:text-xl sm:text-base lg:p-10 p-4 bg-dreamyellow border-2 border-black transform rotate-6">
+        <ul class="list-outside">
+          <li>
+            <a href="https://www.bbc.com/news/election-us-2020-55016029" class="underline hover:text-white">US election 2020: Fact-checking Trump team's main fraud claims</a>
+          </li>
+          <li>
+            <a href="https://www.bbc.com/news/election/us2020/results" class="underline hover:text-white">US Election 2020</a>
+          </li>
+          <li>
+            <a href="https://www.reuters.com/article/uk-fact-check-debunking-italy-gate/fact-check-evidence-disproves-claims-of-italian-conspiracy-to-meddle-in-u-s-election-idUSKBN29K2N8?edition-redirect=in" class="underline hover:text-white">Fact check: Evidence disproves claims of Italian conspiracy to meddle in U.S. election (known as #ItalyGate)</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-------------------------->
+  <!-- BLUE STARTS HERE -->
+  <!-------------------------->
+  <div id="blueZoom" class="zoom-in relative flex h-screen w-full lg:p-20 p-4 text-center bg-gray-200">
+    <h2 class="my-auto mx-auto lg:text-6xl md:text-5xl text-3xl z-10">
+      Fact<br/>
+      vs<br/>
+      Opinion
+    </h2>
+    <div class="absolute inset-0 lg:p-20 overflow-hidden">
+      <img id="blueZoomImg" src="assets/svg/greysec2-bluestar.svg" alt="star" class="h-full w-full"/>
+    </div>
+  </div>
+  <div id="yellow-end" class="relative flex h-screen w-full lg:p-20 px-4 text-left bg-dreamdarkblue">
+    <p class="lg:text-3xl md:text-5xl text-lg z-10 my-auto">
+      In these videos people show what they consider as evidence and proofs. Most of the time, even if they show
+      <span class="border-2 border-black rounded-2xl px-2 whitespace-nowrap">real facts and numbers,</span>
+      they give those elements a
+      <span class="border-2 border-black rounded-2xl px-2 whitespace-nowrap">personal interpretation</span>
+      giving them a meaning that they actually don’t have.
+    </p>
+  </div>
+  <div class="relative flex h-screen w-full lg:p-20 bg-dreamdarkblue panel" data-ending="blue-end">
+    <div class="video mx-auto z-10">
+      <video class="h-full mx-auto" controls="controls" preload="auto">
+        <source src="./assets/video/child_opinion.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="absolute lg:bottom-0 bottom-28 right-24 lg:p-20">
+      <img src="assets/svg/factssec_roundedstar.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+    <div class="absolute inset-x-0 lg:top-0 top-28 left-24 lg:p-20">
+      <img src="assets/svg/factssec_roundedstar.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+  </div>
+  <div class=" flex w-full h-screen lg:p-20 px-4 panel" data-ending="blue-end">
+    <div class="my-auto mx-auto p-10 lg:w-2/3 w-full">
+      <div class="my-auto mx-auto lg:w-4/5 lg:text-2xl md:text-xl sm:text-base lg:p-10 p-4 bg-dreamdarkblue border-2 border-black transform -rotate-6">
+        <h2>
+          You can clarify what is a fact and what is an opinion about the topics mentioned in the video by reading these articles:
+        </h2>
+        <ul class="list-outside">
+          <li>
+            <a href="https://eu.usatoday.com/story/news/factcheck/2020/08/13/fact-check-tom-hanks-greek-citizen-but-pedophilia-claim-false/3353055001/" class="underline hover:text-white">Fact check: Tom Hanks is now a Greek citizen, but pedophilia has nothing to do with it</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class=" flex w-full h-screen lg:p-20 px-4 panel" data-ending="blue-end">
+    <div class="my-auto mx-auto p-10 lg:w-2/3 w-full">
+      <div class="my-auto mx-auto lg:w-4/5 lg:text-2xl md:text-xl sm:text-base lg:p-10 p-4 bg-dreamdarkblue border-2 border-black transform rotate-6">
+        <ul class="list-outside">
+          <li>
+            <a href="https://www.reuters.com/article/uk-factcheck-wayfair-human-trafficking-idUSKCN24E2M2" class="underline hover:text-white">Fact check: No evidence linking Wayfair to human trafficking operation</a>
+          </li>
+          <li>
+            <a href="https://economictimes.indiatimes.com/magazines/panache/is-the-glee-curse-real-twitter-flooded-with-conspiracies-about-popular-tv-show-after-naya-rivera-disappears/articleshow/76887810.cms?from=mdr" class="underline hover:text-white">Is the ‘Glee curse’ real? Twitter flooded with conspiracies about TV show after actress Naya Rivera disappears</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-------------------------->
+  <!--- GREEN STARTS HERE ---->
+  <!-------------------------->
+  <div id="greenZoom" class="zoom-in relative flex h-screen w-full lg:p-20 p-4 text-center bg-gray-200">
+    <h2 class="my-auto mx-auto lg:text-6xl md:text-5xl text-3xl z-10">
+      Bias<br/>
+      and<br/>
+      fears
+    </h2>
+    <div class="absolute inset-0 lg:p-20 overflow-hidden">
+      <img id="greenZoomImg" src="assets/svg/greysec1-greensquare.svg" alt="star" class="h-full w-full"/>
+    </div>
+  </div>
+  <div id="blue-end" class="relative flex h-screen w-full lg:p-20 px-4 text-left bg-dreamgreen">
+    <p class="lg:text-3xl md:text-5xl text-lg z-10 my-auto">
+      By leveraging on sensitive topics, conspiracy theory videos often focus on
+      <span class="border-2 border-black rounded-2xl px-2 whitespace-nowrap">common anxieties</span>
+      to instill or feed our fears.
+    </p>
+  </div>
+  <div class="relative flex h-screen w-full lg:p-20 bg-dreamgreen panel" data-ending="end-green">
+    <div class="video mx-auto z-10">
+      <video id="video_2" class="h-full mx-auto" controls="controls" preload="auto">
+        <source src="./assets/video/covid_bias.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="absolute lg:bottom-0 bottom-28 right-24 lg:p-20">
+      <img src="assets/svg/greysec1-square.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+    <div class="absolute inset-x-0 lg:top-0 top-28 left-24 lg:p-20">
+      <img src="assets/svg/greysec1-square.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+  </div>
+  <div class=" flex w-full h-screen lg:p-20 px-4 panel" data-ending="end-green">
+    <div class="my-auto mx-auto p-10 lg:w-2/3 w-full">
+      <div class="my-auto mx-auto lg:w-4/5 lg:text-2xl md:text-xl sm:text-base lg:p-10 p-4 bg-dreamgreen border-2 border-black transform -rotate-6">
+        <h2>
+          You can overcome your bias and fears by reading these articles:
+        </h2>
+        <ul class="list-outside">
+          <li>
+            <a href="https://www.bbc.com/news/53191523" class="underline hover:text-white">Coronavirus: 5G and microchip conspiracies around the world</a>
+          </li>
+          <li>
+            <a href="https://eu.usatoday.com/story/news/factcheck/2020/03/17/fact-check-coronavirus-spread-not-anti-trump-conspiracy/5065736002/" class="underline hover:text-white">Fact check: Coronavirus did not spread in the US because of an anti-Trump conspiracy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class=" flex w-full h-screen lg:p-20 px-4 panel" data-ending="end-green">
+    <div class="my-auto mx-auto p-10 lg:w-2/3 w-full">
+      <div class="my-auto mx-auto lg:w-4/5 lg:text-2xl md:text-xl sm:text-base lg:p-10 p-4 bg-dreamgreen border-2 border-black transform rotate-6">
+        <ul class="list-outside">
+          <li>
+            <a href="https://www.reuters.com/article/uk-factcheck-microchip-not-injected-covi-idUSKBN28O1TM" class="underline hover:text-white">Fact check: COVID-19 vaccine labels would not microchip or track individuals, but serve logistical purpose</a>
+          </li>
+          <li>
+            <a href="https://www.reuters.com/article/uk-factcheck-viral-post-idUSKBN28S2V1" class="underline hover:text-white">Fact check: COVID-19 vaccines won't alter recipient DNA; frontline workers have suffered directly from the virus</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class=" flex w-full h-screen lg:p-20 px-4 panel" data-ending="end-green">
+    <div class="my-auto mx-auto p-10 lg:w-2/3 w-full">
+      <div class="my-auto mx-auto lg:w-4/5 lg:text-2xl md:text-xl sm:text-base lg:p-10 p-4 bg-dreamgreen border-2 border-black transform -rotate-6">
+        <ul class="list-outside">
+          <li>
+            <a href="https://www.bbc.com/news/54893437" class="underline hover:text-white">Vaccine rumours debunked: Microchips, 'altered DNA' and more</a>
+          </li>
+          <li>
+            <a href="https://www.reuters.com/article/uk-factcheck-masks-coronavirus-preventio-idUSKBN25T21B" class="underline hover:text-white">Fact check: Masks are a coronavirus prevention method when used alongside other precautions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="separator3" class="relative flex h-screen w-full lg:p-20 p-4 text-center bg-black">
+    <div class="relative my-auto">
+      <h2 class="text-left my-auto lg:mx-24 lg:text-6xl md:text-5xl text-3xl border-2 border-gray-200 text-gray-200 rounded-3xl lg:py-24 py-8 px-12">
+        And now you’re probably asking yourself “what’s so wrong about that?!”
+      </h2>
+      <div class="absolute -bottom-20 right-0">
+        <img src="assets/svg/blacksec2-redstar.svg" alt="star" class="h-auto lg:w-64 w-32 mx-auto transform rotate-12 z-10"/>
+      </div>
+    </div>
+  </div>
+
+  <div id="end-green" class="relative flex h-screen w-full lg:p-20 p-4 text-center bg-black">
+    <h2 class="uppercase my-auto lg:text-6xl md:text-5xl text-3xl z-10 text-gray-200">
+      conspiracy theories on tiktok could have dangerous consequences in real life
+    </h2>
+    <div class="absolute inset-x-0 inset-y-0  lg:p-20 w-screen">
+      <img src="assets/svg/blacksec2-redtriangle.svg" alt="star" class="h-full w-full m-auto"/>
+    </div>
+  </div>
+
+  <div class="relative flex h-screen w-full lg:p-20 p-4 text-center bg-black">
+    <div class="flex justify-between flex-row w-full mx-auto my-30 flex-wrap text-sm">
+      <h3 class="uppercase absolute top-24 lg:text-4xl md:text-5xl text-3xl text-center pb-1/2 flex z-10 text-gray-200 left-1/2" style="transform:translate(-50%,-50%)">
+        click to discover them
+      </h3>
+      <div class="mx-auto my-auto">
+        <div class="rounded-xl w-auto border-2 border-gray-200 m-5 transform lg:translate-y-40 lg:translate-x-40">
+          <button onclick="showDivPol()" class="rounded-lg show-modal transform translate-x-2 translate-y-2 hover:translate-y-0 hover:translate-x-0 text-center h-24 px-8 lg:w-64 uppercase border-2 border-gray-200 bg-gray-200">
+            Politics
+          </button>
+        </div>
+      </div>
+      <div class="mx-auto my-auto">
+        <div class="rounded-xl border-2 border-gray-200 m-5 transform lg:-translate-y-40 lg:-translate-x-40">
+          <button onclick="showDivHealth()" class="rounded-lg transform translate-x-2 translate-y-2 hover:translate-y-0 hover:translate-x-0 text-center h-24 px-8 lg:w-64 uppercase border-2 border-gray-200 bg-gray-200">
+            Health
+          </button>
+        </div>
+      </div>
+      <div class="mx-auto my-auto">
+        <div class="rounded-xl border-2 border-gray-200 m-5 transform lg:-translate-x-40">
+          <button onclick="showDivViolence()" class="rounded-lg transform translate-x-2 translate-y-2 hover:translate-y-0 hover:translate-x-0 text-center h-24 px-8 lg:w-64 uppercase border-2 border-gray-200 bg-gray-200">
+            Violence
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="PolCard" class="modal h-screen lg:p-20 p-4 w-full fixed left-0 top-0 flex justify-center items-center bg-black bg-opacity-50 hidden">
+    <!-- modal -->
+    <div class="bg-gray-200 h-full w-full rounded-3xl shadow-lg">
+      <!-- modal header -->
+      <div class="px-4 py-2 flex justify-end items-center">
+        <h1 class="mx-auto lg:text-2xl pl-20">
+          POLITICS
+        </h1>
+        <button onclick="hideDiv()">
+          <img style="height:6vh" class="lg:m-3 my-12" src="assets/svg/close_cross.svg"></img>
+        </button>
+      </div>
+      <!-- modal body -->
+      <div class="p-3 flex flex-col items-stretch	h-full text-left">
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-12 ">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            Trump supporters protest and riot in
+            <a href="https://www.nbcnews.com/tech/internet/online-far-right-movements-fracture-wake-capitol-riot-n1254459" class="underline" target="_blank">Capitol</a>
+          </p>
+        </div>
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-24 lg:bottom-6">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            Qanon conspiracy theory affects how
+            <a href="https://www.bbc.com/news/blogs-trending-54440973" class="underline" target="_blank">
+              young people vote
+            </a>
+          </p>
+        </div>
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-1/2 lg:bottom-1/3">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            Qanon undermines democracy and
+            <a href="https://time.com/5887437/conspiracy-theories-2020-election/" class="underline" target="_blank">
+              shapes elections
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="HealthCard" class="modal h-screen lg:p-20 p-4 w-full fixed left-0 top-0 flex justify-center items-center bg-black bg-opacity-50 hidden">
+    <!-- modal -->
+    <div class="bg-gray-200 h-full w-full rounded-3xl shadow-lg">
+      <!-- modal header -->
+      <div class="px-4 py-2 flex justify-end items-center">
+        <h1 class="mx-auto lg:text-2xl pl-20">
+          HEALTH
+        </h1>
+        <button onclick="hideDiv()">
+          <img style="height:6vh" class="lg:m-3 my-12" src="assets/svg/close_cross.svg"></img>
+        </button>
+      </div>
+      <!-- modal body -->
+      <div class="p-3 flex flex-col items-stretch	h-full text-left">
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-64">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            Young people get Covid by
+            <a href="https://globalnews.ca/news/6718358/tiktok-toilet-seat-lick-coronavirus/" class="underline" target="_blank">
+              licking toilet bars
+            </a>
+          </p>
+        </div>
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-36 lg:bottom-0">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            People
+            <a href="https://www.thedailybeast.com/how-wearing-a-face-mask-or-not-became-the-dumbest-culture-war" class="underline" target="_blank">
+              refuse to wear masks
+            </a>
+          </p>
+        </div>
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-1/2 lg:bottom-1/3">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            Antivaxers
+            <a href="https://www.insider.com/tiktok-roelplayers-pretend-side-effects-covid-vaccine-2020-10" class="underline" target="_blank">
+              refuse to get vaccinated
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="ViolenceCard" class="modal h-screen lg:p-20 p-4 w-full fixed left-0 top-0 flex justify-center items-center bg-black bg-opacity-50 hidden">
+    <!-- modal -->
+    <div class="bg-gray-200 h-full w-full rounded-3xl shadow-lg">
+      <!-- modal header -->
+      <div class="px-4 py-2 flex justify-end items-center">
+        <h1 class="mx-auto lg:text-2xl pl-20">
+          VIOLENCE
+        </h1>
+        <button onclick="hideDiv()">
+          <img style="height:6vh" class="lg:m-3 my-12" src="assets/svg/close_cross.svg"></img>
+        </button>
+      </div>
+      <!-- modal body -->
+      <div class="p-3 flex flex-col items-stretch	h-full text-left">
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-24">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            People burn down
+            <a href="https://www.cnet.com/news/fake-5g-coronavirus-theories-have-real-world-consequences/" class="underline" target="_blank">
+              5G towers
+            </a>
+          </p>
+        </div>
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-36 lg:top-0">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            Qanon members
+            <a href="https://www.theguardian.com/us-news/2020/oct/15/qanon-violence-crimes-timeline" class="underline" target="_blank">
+              threaten politicians
+            </a>
+          </p>
+        </div>
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:left-1/2 lg:bottom-80">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            Trump's supporters get involved in an
+            <a href="https://www.theguardian.com/us-news/2020/oct/15/qanon-violence-crimes-timeline" class="underline" target="_blank">
+              armed standoff
+            </a>
+          </p>
+        </div>
+        <div class="lg:w-1/3 sm:w-2/3 m-1 relative lg:ml-40 lg:left-96 lg:bottom-2/3">
+          <p class="p-10 border-black border-2 lg:text-2xl bg-gray-200">
+            Qanon seems linked to
+            <a href="https://www.theguardian.com/us-news/2020/oct/15/qanon-violence-crimes-timeline" class="underline" target="_blank">
+              kidnapping plots
+            </a>
+            and
+            <a href="https://www.theguardian.com/us-news/2020/oct/15/qanon-violence-crimes-timeline">a murder
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="separator4" class="relative flex h-screen w-full lg:p-20">
+    <div class="video mx-auto z-10">
+      <video class="h-full mx-auto" controls="controls" preload="auto">
+        <source src="./assets/video/new_conclusion.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="absolute lg:bottom-0 top-28 right-24 lg:p-20">
+      <img src="assets/svg/factssec_roundedstar.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+    <div class="absolute inset-x-0 lg:top-0 bottom-28 left-24 lg:p-20">
+      <img src="assets/svg/unverifiedsec_star.svg" alt="star" class="lg:h-96 h-32"/>
+    </div>
+  </div>
+
+  <div class="relative flex w-full h-screen lg:p-20 text-center lg:pb-50 pb-40 p-4">
+    <h2 class="uppercase my-auto mx-auto lg:text-6xl md:text-5xl text-3xl z-10">
+      It’s not gonna be easy to navigate tiktok world consciously, but don't worry: there are some simple tips that you can follow
+    </h2>
+    <div class="absolute inset-x-0 bottom-1/4 lg:-bottom-0 lg:p-10 w-1/2 mx-auto">
+      <img src="assets/svg/greysec3-pinkellipse.svg" alt="star" class="h-full w-full"/>
+    </div>
+  </div>
+
+  <div id ="separator5" class="colorChange" data-default-bg-color="rgb(229, 231, 235)" data-default-text-color="black" data-bg-color="black" data-text-color="white">
+    <div class="relative flex w-full h-screen lg:p-20 text-center p-4 panel" data-ending="end-cards">
+      <h2 class="uppercase my-auto mx-auto lg:text-6xl md:text-5xl text-3xl z-10">
+       when you watch a video on tiktok you should always ask yourself…
+      </h2>
+    </div>
+    <div class=" flex w-full h-screen lg:p-20 p-4 text-left panel z-10" data-ending="end-cards">
+      <h2 class="my-auto mx-auto lg:w-1/2 lg:text-5xl md:text-xl sm:text-base p-20 text-gray-200 bg-black border-2 border-gray-200 transform rotate-3">
+        Is the source reliable and reputable?
+      </h2>
+    </div>
+    <div class=" flex w-full h-screen lg:p-20 p-4 text-left panel z-20" data-ending="end-cards">
+      <h2 class="my-auto mx-auto lg:w-1/2 lg:text-5xl md:text-xl sm:text-base p-20  text-gray-200 bg-black border-2 border-gray-200 transform -rotate-6">
+        Is it an opinion or a fact?
+      </h2>
+    </div>
+    <div class=" flex w-full h-screen lg:p-20 p-4 text-left panel z-30" data-ending="end-cards">
+      <h2 class="my-auto mx-auto lg:w-1/2 lg:text-5xl md:text-xl sm:text-base p-20 text-gray-200 bg-black border-2 border-gray-200 transform rotate-12">
+        Does it leverage my fears?
+      </h2>
+    </div>
+    <div class=" flex w-full h-screen lg:p-20 p-4 text-left panel z-30" data-ending="end-cards">
+      <h2 class="my-auto mx-auto lg:w-1/2 lg:text-5xl md:text-xl sm:text-base p-20 text-gray-200 bg-red-500 border-2 border-gray-200 transform rotate-3">
+        Is it a conspiracy theory?
+      </h2>
+    </div>
+    <div class=" flex w-full h-screen lg:p-20 p-4 text-center panel z-40"></div>
+  </div>
+
+  <div id="end-cards" class="relative flex flex-col w-full h-screen lg:p-20 p-4 text-center bg-black">
+    <div>
+      <h2 class="my-auto mx-auto lg:text-6xl md:text-5xl sm:text-2xl z-10 text-gray-200 pt-0 uppercase">
+        For more suggestions
+      </h2>
+    </div>
+    <div class="flex justify-between flex-row w-full mx-auto my-auto flex-wrap text-sm">
+      <div class="mx-auto">
+        <div class="w-auto border-2 border-gray-200 m-5 transform lg:translate-y-40 lg:translate-x-40 rounded-xl">
+          <button
+            onclick="window.open('https://www.tiktok.com/@mediawise?source=h5_t','_blank')"
+            class="transform translate-x-2 translate-y-2 hover:translate-y-0 hover:translate-x-0 text-center h-24 px-8 lg:w-64 uppercase border-2 border-gray-200 bg-gray-200 rounded-lg">
+            @mediawise
+          </button>
+        </div>
+      </div>
+      <div class="mx-auto">
+        <div class=" rounded-xl border-2 border-gray-200 m-5 transform lg:-translate-y-40 lg:-translate-x-40">
+          <button
+            onclick="window.open('https://www.tiktok.com/@tofology?lang=en','_blank')"
+            class="rounded-lg transform translate-x-2 translate-y-2 hover:translate-y-0 hover:translate-x-0 text-center h-24 px-8 lg:w-64 uppercase border-2 border-gray-200 bg-gray-200">
+            @tofology
+          </button>
+        </div>
+      </div>
+      <div class="mx-auto">
+        <div class="rounded-xl border-2 border-gray-200 m-5 transform lg:-translate-x-40">
+          <button
+            onclick="window.open('https://www.tiktok.com/@tiktoktips?lang=en','_blank')"
+            class="rounded-lg transform translate-x-2 translate-y-2 hover:translate-y-0 hover:translate-x-0 text-center h-24 px-8 lg:w-64 uppercase border-2 border-gray-200 bg-gray-200">
+            @tiktoktips
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/animation.gsap.js'></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous"></script>
+<script src="./js/function.js" type="text/javascript"></script>
+</body>
+
+</html>
