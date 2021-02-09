@@ -9,7 +9,7 @@ let mapOptions = {}
 
 /*IF atom live-server
 let prefix "/pages/";*/
-let prefix = "/group04/pages/";
+let prefix = "/teaching-dd16/course-results/es03/group04/pages/";
 
 switch (document.location.pathname) {
   case prefix + "belly.html":

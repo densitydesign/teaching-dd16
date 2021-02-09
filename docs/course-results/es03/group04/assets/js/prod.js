@@ -1,6 +1,6 @@
 let cardOptions = {}
 
-let pref = document.location.hostname === "federicopozzi.github.io" ? "/ItsCheaperAbroad/pages/" : "/group04/pages/";
+let pref = "/teaching-dd16/course-results/es03/group04/pages/";
 
 switch (document.location.pathname) {
   case pref + "bellyOp01.html":
