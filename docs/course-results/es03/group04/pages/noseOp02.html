@@ -1,0 +1,344 @@
+<html lang=eng>
+
+<head>
+  <!-- metatag -->
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Group 04 - DD16">
+  <!-- Primary Meta Tags -->
+  <title>ItsCheaperAbroad</title>
+  <meta name="title" content="ItsCheaperAbroad">
+  <meta name="description" content="Transposing medical tourism promos on Instagram into a digital catalogue. Exposing mass marketing language and objectification through real online content.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ItsCheaperAbroad">
+  <meta property="og:description" content="Transposing medical tourism promos on Instagram into a digital catalogue. Exposing mass marketing language and objectification through real online content.">
+  <meta property="og:image" content="../assets/img/cover-img.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="ItsCheaperAbroad">
+  <meta property="twitter:description" content="Transposing medical tourism promos on Instagram into a digital catalogue. Exposing mass marketing language and objectification through real online content.">
+  <meta property="twitter:image" content="../assets/img/cover-img.png">
+
+  <title>ItsCheaperAbroad</title>
+
+  <!-- responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="all">
+  <!-- favicon -->
+  <link rel="icon" sizes="192x192" href="../assets/favicon/Fav.ico">
+  <!-- Navcollapse -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  <!-- Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- style -->
+  <link rel="stylesheet" href="../assets/css/main.css">
+
+</head>
+
+<body>
+  <div class="sticky-top">
+    <header id="header"></header>
+  </div>
+
+  <section class="websiteMargin pb-4">
+    <div class="container-fluid pt-5">
+      <div id="nosebtn">
+      </div>
+      <div class="row pt-5">
+        <div>
+          <span id="titlePage" class="mainTitleSection"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="displayDesk">
+    <section class="websiteMargin">
+      <div class="container-fluid">
+        <div class="row pt-3">
+          <div class="col-lg-5">
+            <div class="w3-content w3-display-container">
+              <img id="firstImg" class="mySlides imgCarouselProduct" style="width:100%">
+              <img id="secondImg" class="mySlides imgCarouselProduct" style="width:100%">
+              <img id="thirdImg" class="mySlides imgCarouselProduct" style="width:100%">
+
+
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" onclick="plusDivs(-1)" href="#" uk-slideshow-item="previous"><i class="fas fa-chevron-left freccia"></i></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" onclick="plusDivs(1)" href="#" uk-slideshow-item="next"><i class="fas fa-chevron-right freccia"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-7 pl-5">
+            <div class="row">
+              <div class="row pb-3 pt-3 borderInfo d-flex justify-content-center" style="position: absolute; top:0; width: 95%">
+                <div class="row pt-2 pb-2">
+                  <div class="col-lg-2 d-flex align-items-center">
+                    <img id="igImg" class="img-fluid rounded-circle" alt="Responsive image">
+                  </div>
+                  <div class="col-lg-10">
+
+                    <div class="d-flex justify-content-between"><span id="profile" class="profileName "></span><span class="followers"><strong id="follower"></strong> followers</span></div>
+                    <div class="d-flex justify-content-between"><span id="secondLine" class="clinicName"></span><span class="followers"><strong id="posts"></strong> posts</span></div>
+
+
+
+                  </div>
+                </div>
+                <div class="row pb-4">
+                  <div class="col-lg-12">
+                    <span id="firstBio" class="website"></span>
+                  </div>
+                  <div class="col-lg-8">
+                    <span><a id="secondBio" target="_blank"></a></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <span id="country" class="countryClinic"></span>
+                    </div>
+                    <div>
+                      <a id="viewProfile" target="_blank"><span class="profileView"><i class="fab fa-instagram"></i> VIEW PROFILE</span></a>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+              <div class="row pb-3 pt-3 borderPrice d-flex justify-content-center mt-4" style="position: absolute; bottom:0; width: 95%">
+
+                <div class="row pb-4">
+                  <div class="col-lg-12">
+                    <span id="typeOp" class="typeOperation"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span id="price" class="price"></span>
+                    </div>
+                    <div>
+                      <a id="viewDeal" target="_blank"><span class="deal"><i class="fab fa-instagram"></i> VIEW DEAL</span></a>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <div class="displayMobile">
+    <section class="websiteMargin">
+      <div class="row borderInfo" style="margin-left:5px; margin-right:5px;">
+        <div class="col-2 pt-2">
+          <img id="igImgMob" class="img-fluid rounded-circle" alt="Responsive image">
+        </div>
+        <div class="col-10 pt-2">
+          <div class="d-flex justify-content-between"><span id="profileMob" class="profileName "></span></div>
+          <div class="d-flex justify-content-between"><span id="secondLineMob" class="clinicName">Plastic & Bariatric Surgery</span></div>
+          <!-- <div class="d-flex justify-content-between"><span class="followers"><strong id="followerMob"></strong> followers</span></div>
+         <div class="d-flex justify-content-between"><span class="followers"><strong id="postsMob"></strong> posts</span></div>-->
+        </div>
+
+        <div class="col-12 mt-2" style="padding: 0">
+          <img id="firstImgMob" class="" style="width:100%;">
+
+        </div>
+
+
+
+        <div class="col-12 mt-2">
+          <span id="firstBioMob" class="website"></span>
+        </div>
+        <div class="col-8">
+          <span><a id="secondBioMob" target="_blank"></a></span>
+        </div>
+        <div class="col-12 mt-4 mb-4">
+          <div class="d-flex justify-content-between">
+            <div>
+              <span id="countryMob" class="countryClinic"></span>
+            </div>
+            <div>
+              <a id="viewProfileMob" target="_blank"><span class="profileView"><i class="fab fa-instagram" style="transform: scale(1.5)"></i>&nbsp; VIEW PROFILE</span></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row borderPrice d-flex justify-content-center mt-2" style="margin-left:5px; margin-right:5px;">
+        <div class="row pb-3 pt-3">
+          <div class="col-lg-12">
+            <span id="typeOpMob" class="typeOperation"></span>
+          </div>
+        </div>
+        <div class="col-lg-12 pb-3">
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <span id="priceMob" class="price"></span>
+            </div>
+            <div>
+              <a id="viewDealMob" target="_blank"><span class="deal"><i class="fab fa-instagram" style="transform: scale(1.5)"></i> &nbsp; VIEW DEAL</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+  </div>
+
+  <section class="websiteMargin">
+    <div class="container-fluid pt-5">
+
+      <div class="row pt-5">
+        <div>
+          <span class="mainTitleSection">LOCATION</span>
+          <div id="map"></div>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = x.length
+      }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex - 1].style.display = "block";
+    }
+  </script>
+
+  <section class="websiteMargin">
+    <div class="container-fluid pt-5">
+
+      <div class="row pt-5">
+        <div>
+          <span class="mainTitleSection">REVIEWS</span>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div class="col-lg-6">
+          <ul>
+            <li class="reviewLine">
+              <span class="username">@user236</span> <span class="review">🤩🤩</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@user237</span> <span class="review">i wanna know the total cost of these surgeries!</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@user238</span> <span class="review">how much cost is it?</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@user239</span> <span class="review">@taggeduser25 depends on areas where it is done. (Zygoma reduction, square jaw reduction, genioplasty). Each area is around 5.800 usd. Many surgeries together have
+                discount</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@user240</span> <span class="review">tell me total cost of this surgery, i’ll do this at all</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <ul>
+            <li class="reviewLine">
+              <span class="username">@user241</span> <span class="review">Plastic Fantastic</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@user242</span> <span class="review">Wow so amazing</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@user243</span> <span class="review">@taggeduser26 ❤️😍</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@user244</span> <span class="review">@taggeduser27 zygoma+square jaw+genioplasty is about 16.000 usd</span>
+            </li>
+            <li class="reviewLine">
+              <span class="username">@user245</span> <span class="review">😍😍</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+
+  <footer id="footer"></footer>
+
+  <script src="../assets/js/header.js"></script>
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
+
+
+
+  <script src="../assets/js/prod.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/myMapProducts.js"></script>
+  <script src="../assets/js/nosebtn.js"></script>
+  <script src="../assets/js/footer.js"></script>
+
+</body>
+
+
+</html>
