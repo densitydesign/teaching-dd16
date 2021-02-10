@@ -1,0 +1,170 @@
+/*人脸图片地址样式*/
+.img1{
+    background-image: url("../img/ye1/12/1.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 310px;
+    top: 485px;
+
+}
+.img2{
+    background-image: url("../img/ye1/12/2.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 581px;
+    top: 485px;
+}
+.img3{
+    background-image: url("../img/ye1/12/3.GIF");
+    position: absolute;
+    width: 274px;
+    height: 312.14px;
+    left: 823px;
+    top: 462px;
+
+}
+.img4{
+    background-image: url("../img/ye1/12/4.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 1123px;
+    top: 485px;
+
+}
+.img5{
+    background-image: url("../img/ye1/12/5.jpg");
+    position: absolute;
+    width: 210px;
+    height: 267.36px;
+    left: 1394px;
+    top: 484px;
+}
+.img6{
+    background-image: url("../img/ye1/12/6.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 310px;
+    top: 832px;
+
+}
+.img7{
+    background-image: url("../img/ye1/12/7.GIF");
+    position: absolute;
+    width: 274px;
+    height: 314.29px;
+    left: 541px;
+    top: 815px;
+}
+.img8{
+    background-image: url("../img/ye1/12/8.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 856px;
+    top: 831px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.img9{
+    background-image: url("../img/ye1/12/9.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 1123px;
+    top: 831px;
+
+}
+.img10{
+    background-image: url("../img/ye1/12/10.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 1393px;
+    top: 833px;
+}
+.img11{
+    background-image: url("../img/ye1/12/11.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 310px;
+    top: 1179px;
+}
+.img12{
+    background-image: url("../img/ye1/12/12.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 581px;
+    top: 1179px;
+}
+.img13{
+    background-image: url("../img/ye1/12/13.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 852px;
+    top: 1177px;
+}
+.img14{
+    background-image: url("../img/ye1/12/14.GIF");
+    position: absolute;
+    width: 274px;
+    height: 314.29px;
+    left: 1091px;
+    top: 1155px;
+}
+.img15{
+    background-image: url("../img/ye1/12/15.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 1393px;
+    top: 1177px;
+}
+.img16{
+    background-image: url("../img/ye1/12/16.GIF");
+    position: absolute;
+    width: 274px;
+    height: 313.29px;
+    left: 278px;
+    top: 1502px;
+
+}
+.img17{
+    background-image: url("../img/ye1/12/17.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 581px;
+    top: 1526px;
+}
+.img18{
+    background-image: url("../img/ye1/12/18.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 852px;
+    top: 1526px;
+}
+.img19{
+    background-image: url("../img/ye1/12/19.jpg");
+    position: absolute;
+    width: 210px;
+    height: 266.92px;
+    left: 1123px;
+    top: 1526px;
+
+}
+.img20{
+    background-image: url("../img/ye1/12/20.GIF");
+    position: absolute;
+    width: 274px;
+    height: 313.29px;
+    left: 1361px;
+    top: 1502px;
+}

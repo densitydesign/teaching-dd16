@@ -1,0 +1,224 @@
+/*第四页样式*/
+.ye4{
+    position: relative;
+    width: 1920px;
+    height: 2763px;
+}
+/*.ye41{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
+}*/
+.ye411{
+    position: absolute;
+    width: 99px;
+    height: 115px;
+    left: 60px;
+    top: 55px;
+
+    background-image: url("../img/ye0/ye01.png");
+}
+.ye412{
+    position: absolute;
+    width: 840.84px;
+    height: 313px;
+    left: 779px;
+    top: 82px;
+    background-image: url("../img/ye4/412.png");
+}
+/*.ye42{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100%
+}
+.ye421{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-left: 10%;
+}*/
+.ye4211{
+    position: absolute;
+    width: 533px;
+    height: 369px;
+    left: 285px;
+    top: 420px;
+
+    background-image: url("../img/ye4/4211.png");
+}
+.ye4212{
+    position: absolute;
+    width: 556px;
+    height: 153px;
+    left: 300px;
+    top: 797px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    line-height: 150%;
+    /* or 36px */
+
+
+    color: #C5C5C5;
+
+}
+.ye4213{
+    position: absolute;
+    width: 718px;
+    height: 140px;
+    left: 295px;
+    top: 975px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.145vw;
+    line-height: 150.19%;
+    /* or 33px */
+
+
+    color: #ABF5FF;
+}
+/*.ye422{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-right: 10%;
+}*/
+.ye4221{
+    position: absolute;
+    width: 547px;
+    height: 366px;
+    left: 1063px;
+    top: 767px;
+
+    background-image: url("../img/ye4/4221.png");
+    z-index: 1;
+}
+/*.ye43{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10vh;
+}*/
+.ye431{
+    position: absolute;
+    width: 510px;
+    height: 150px;
+    left: 295px;
+    top: 1242px;
+    background-image: url("../img/ye4/431.png");
+}
+.ye432{
+    position: absolute;
+    width: 1300px;
+    height: 400px;
+    left: 298px;
+    top: 1491px;
+
+    background-image: url("../img/ye4/432.gif");
+}
+.ye433{
+    position: absolute;
+    width: 1388px;
+    height: 77px;
+    left: 302px;
+    top: 1927px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    line-height: 150%;
+    /* or 36px */
+
+
+    color: #C5C5C5;
+
+}
+/*.ye44{
+    margin-top: 5vh;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    left: 100%;
+    !*flex布局中子元素自定义布局
+    子元素相对于父元素自定义布局
+    父： position: relative;
+    子： position: absolute;
+    *!
+}*/
+.ye441{
+    position: absolute;
+    width: 956px;
+    height: 358px;
+    left: 59px;
+    top: 2105px;
+/*2463*/
+    background-image: url("../img/ye4/441.png");
+}
+.ye442{
+    position: absolute;
+    width: 1005px;
+    height: 120px;
+    left: 1051px;
+    top: 2071px;
+/*2191*/
+    background-image: url("../img/ye4/442.png");
+}
+.ye443{
+    position: absolute;
+    width: 915px;
+    height: 129px;
+    left: 861px;
+    top: 2309px;
+/*2438*/
+    background-image: url("../img/ye4/443.png");
+}
+.ye444{
+    position: absolute;
+    left: 0;
+    top: 2071px;
+    height: 392px;
+    width: 300px;
+    background-color: black;
+    z-index: 1;
+}
+.ye45{
+    position: absolute;
+    width: 1300px;
+    height: 284px;
+    left: 286px;
+    top: 2494px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25vw;
+    line-height: 191.19%;
+    /* or 46px */
+
+    color: #ABF5FF;
+}
+/*.ye451{
+    margin-bottom: 2vh;
+    color: #abf5ff;
+    width: 100%;
+}*/
+.flower41{
+    position: absolute;
+    width: 701px;
+    height: 502px;
+    left: 1209.18px;
+    top: 420px;
+
+    transform: rotate(10.23deg);
+    background-image: url("../img/ye4/flower41.png");
+    opacity: 0.5;
+}

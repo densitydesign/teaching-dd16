@@ -1,0 +1,35 @@
+.ye3{
+    position: relative;
+    width: 1920px;
+    height: 1280px;
+}
+.ye31{
+    position: absolute;
+    width: 99px;
+    height: 115px;
+    left: 58px;
+    top: 55px;
+    background-image: url("../img/ye3/31.png");
+}
+.ye32{
+    position: absolute;
+    width: 1466px;
+    height: 220px;
+    left: 274px;
+    top: 88px;
+
+    background-image: url("../img/ye3/32.png");
+}
+.ye33{
+    position: absolute;
+    width: 1415px;
+    height: 778px;
+    left: 298px;
+    top: 384px;
+
+    outline: none;
+
+    object-fit: fill;
+    background: black;
+    z-index: 1000;
+}

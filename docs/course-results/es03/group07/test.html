@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>测试</title>
+
+   <!-- <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('div1').addEventListener('click', function() {
+                document.getElementById('img1').src = document.getElementById('img1').src
+            });
+        }
+    </script>-->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .one{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+        }
+        .two{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top:200px;
+        }
+        .three{
+            width: 250px;
+            height: 250px;
+            background-color: gold;
+            position: absolute;
+            top: 400px;
+        }
+    </style>
+</head>
+<body>
+<!--<div id="div1" style="width: 100px; height: 100px;background-color:#eeffee;">
+    点击测试</div>
+<img id="img1" src="https://img-blog.csdnimg.cn/20190616203502503.gif"></img>-->
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    $(function (){
+        $("div").width(function (index,currentwidth) {
+
+            let top1=$("div").eq(index).position().top;
+            let top2=parseInt(top1)/19.2;
+            $("div").eq(index).css("top",top2+"vw");
+
+            let left1=$("div").eq(index).position().left;
+            let left2=parseInt(left1)/19.2;
+            $("div").eq(index).css("left",left2+"vw");
+
+            return currentwidth/1920*$(window).width();
+        });
+        $("div").height(function (index,currentwidth) {
+            return currentwidth/1920*$(window).width();
+        });
+    });
+</script>
+</body>
+</html>

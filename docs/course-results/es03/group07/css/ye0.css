@@ -1,0 +1,38 @@
+/*Ê×Ò³ÑùÊ½*/
+.ye0{
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../img/ye0/bgc.gif");
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.ye01{
+    background-image: url("../img/ye0/ye01.png");
+    position: absolute;
+
+    width: 99px;
+    height: 115px;
+    left: 61px;
+    top: 56px;
+}
+.ye02{
+    background-image: url("../img/ye0/ye02.png");
+    position: absolute;
+    width: 939px;
+    height: 669px;
+    left: 798px;
+    top: 206px;
+}
+.ye03{
+    background-image: url("../img/ye0/ye03.png");
+    position: absolute;
+    width: 170px;
+    height: 230px;
+    left: 1600px;
+    top:600px;
+}
+.ye03:hover{
+    cursor: pointer;
+}

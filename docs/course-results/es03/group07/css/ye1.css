@@ -1,0 +1,259 @@
+/*第一页样式*/
+.ye1{
+    width: 1920px;
+    height: 2974px;
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+.ye110{
+    /*display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;*/
+    position: absolute;
+    background-image: url("../img/ye1/110.png");
+
+    width: 99px;
+    height: 115px;
+    left: 60px;
+    top: 55px;
+}
+.ye111{
+    background-image: url("../img/ye1/111.png");
+    position: absolute;
+
+    width: 485.23px;
+    height: 326px;
+    left: 326.77px;
+    top: 84px;
+}
+.ye112{
+    position: absolute;
+    width: 24.27vw;
+    height: 7.45vw;
+    left: 41.51vw;
+    top: 12.14vw;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.15vw;
+    line-height: 150.19%;
+    /* or 33px */
+
+    color: #ABF5FF;
+
+    width: 466px;
+    height: 143px;
+    left: 797px;
+    top: 233px;
+}
+.ye113{
+    background-image: url("../img/ye1/113.png");
+
+    position: absolute;
+    width: 27.86vw;
+    height: 27.86vw;
+    left: 76.67vw;
+    top: -3.23vw;
+
+    opacity: 0.3;
+
+    width: 535px;
+    height: 535px;
+    left: 1472px;
+    top: -62px;
+}
+/*.ye12{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}*/
+/*.ye121{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+}*/
+/*.ye1211{
+    flex: 1;
+    margin:0 0.5%;
+}*/
+/*.ye13{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.ye131{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+    z-index: 1;
+}*/
+.ye1311{
+    background-image: url("../img/ye1/1311.png");
+    position: absolute;
+    height: 150px;
+    width: 600px;
+    left: 310px;
+    top: 1964px;
+}
+.ye1312{
+    position: absolute;
+    width: 415px;
+    height: 143px;
+    left: 1084px;
+    top: 2063px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.145vw;
+    line-height: 150.19%;
+    /* or 33px */
+
+
+    color: #ABF5FF;
+}
+/*.ye132{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 18vh;
+    margin-top: 5vh;
+    z-index: 1;
+}*/
+.ye1321{
+    background-image: url("../img/ye1/1321.png");
+    position: absolute;
+    height: 186.27px;
+    width: 416px;
+    left: 310px;
+    top: 2243px;
+}
+.ye1322{
+    background-image: url("../img/ye1/1322.png");
+    position: absolute;
+    width: 416px;
+    height: 186px;
+    left: 752px;
+    top: 2243px;
+}
+.ye1323{
+    background-image: url("../img/ye1/1323.png");
+    position: absolute;
+    width: 416px;
+    height: 186px;
+    left: 1194px;
+    top: 2243px;
+}
+/*.ye133{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    margin-top: 4vh;
+    width: 100%;
+}*/
+.ye1331{
+    background-image: url("../img/ye1/1331.png");
+    position: absolute;
+    height: 114px;
+    width: 274px;
+    left: 381px;
+    top: 2507px;
+}
+.ye1332{
+    background-image: url("../img/ye1/1332.png");
+    position: absolute;
+    height: 107px;
+    width: 221px;
+    left: 853px;
+    top: 2514.243408203125px;
+
+}
+.ye1333{
+    background-image: url("../img/ye1/1333.png");
+    position: absolute;
+    height: 125px;
+    width: 285px;
+    left: 1260px;
+    top: 2507px;
+}
+/*.ye134{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3vh;
+}*/
+.ye1341{
+    position: absolute;
+    width: 328px;
+    height: 203px;
+    left: 354px;
+    top: 2654px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.145vw;
+    line-height: 150.19%;
+    /* or 33px */
+
+    text-align: center;
+
+    color: #ABF5FF;
+}
+.ye1342{
+    position: absolute;
+    width: 343px;
+    height: 204px;
+    left: 789px;
+    top: 2650px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.45vw;
+    line-height: 150.19%;
+    /* or 33px */
+
+    text-align: center;
+
+    color: #ABF5FF;
+
+}
+.ye1343{
+    position: absolute;
+    width: 297px;
+    height: 235px;
+    left: 1254px;
+    top: 2650px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.145vw;
+    line-height: 150.19%;
+    /* or 33px */
+
+    text-align: center;
+
+    color: #ABF5FF;
+}
+.flower11{
+    position: absolute;
+    top: 1708px;
+    left: -193px;
+    background-image: url("../img/ye1/flower.png");
+    width: 711px;
+    height: 808px;
+    opacity: 0.5;
+}
+
