@@ -1,0 +1,471 @@
+a:hover, a:focus {
+  color: #fff;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hidden {
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+/* SLIDERSSSS */
+.style-menu2 {
+  position: absolute;
+  right: 45%;
+  top: 30%;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px #191819;
+  z-index: 30;
+}
+
+.menu2 {
+  /* per avere l'adesivo che non sborda, usare relative */
+  /* position: relative; */
+  max-height: 100%;
+  max-width: 90%;
+  overflow: hidden;
+}
+
+.hide::-webkit-scrollbar {
+  display: none;
+}
+
+.style-menu3 {
+  position: absolute;
+  right: 30%;
+  top: 20%;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px #191819;
+  z-index: 20;
+}
+
+.menu3 {
+  /* position: relative; */
+  max-height: 100%;
+  max-width: 90%;
+  overflow: hidden;
+}
+
+.style-menu4 {
+  position: absolute;
+  right: 15%;
+  top: 10%;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px #191819;
+  z-index: 10;
+}
+
+.menu4 {
+  /* position: relative; */
+  max-height: 100%;
+  max-width: 90%;
+  overflow: hidden;
+}
+
+.style-menu5 {
+  position: absolute;
+  right: 0%;
+  /* top: 25%; */
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px #191819;
+  z-index: 1;
+
+}
+
+.menu5 {
+  /* position: relative; */
+  max-height: 100%;
+  max-width: 90%;
+  overflow-y: auto;
+}
+
+#c1:hover {
+  /* transform: translate(60%, -30%); */
+  /* transition: all 0.5s;
+  transition-delay: 0.5s; */
+}
+
+#c2:hover {
+  /* transform: translate(40%, -20%);
+  transition: all 0.5s;
+  transition-delay: 0.5s;
+  z-index: 100 */
+}
+
+#c3:hover {
+  /* transform: translate(20%, -10%);
+  transition: all 0.5s;
+  transition-delay: 0.5s;
+  z-index: 100 */
+}
+
+#c4:hover {
+  /* transform: translate(0%, 0%);
+  transition: all 0.5s;
+  transition-delay: 0.5s;
+  z-index: 100 */
+}
+
+#c1 {
+  background-color: #0023f5;
+}
+
+#c2 {
+  background-color: #f2f2f2;
+}
+
+#c3 {
+  background-color: #76fa5a;
+}
+
+#c4 {
+  background-color: #191819;
+}
+
+.blacktxt {
+  color: black;
+}
+
+.title-about {
+  padding: 5% 5% 5% 20%;
+  font-size: 4em;
+  color: #f2f2f2;
+  font-family: 'Staff X Wide' !important;
+}
+
+.title-about-b {
+  padding: 5% 5% 5% 20%;
+  font-size: 4em;
+  color: #191819;
+  font-family: 'Staff X Wide' !important;
+}
+
+.subtitle-about {
+  padding: 2% 5% 2% 20%;
+  font-size: 3em;
+  color: #f2f2f2;
+  font-family: 'favorit_probook_italic' !important;
+}
+
+.dd16{
+  padding: 2% 5% 2% 20%;
+  font-size: 1em;
+}
+
+.provapd {
+  width: 70%;
+  margin-left: 20% !important;
+}
+
+.padddd{
+  margin-left: 0% !important;
+}
+
+.padddd-2{
+  margin-left: 19% !important;
+}
+
+.pad2 {
+  margin-left: 20% !important;
+  padding-top: 0% !important;
+padding-bottom: 4% !important;
+}
+
+.subtitle-about-b {
+  padding: 2% 5% 2% 20%;
+  font-size: 3em;
+  color: #191819;
+  font-family: 'favorit_probook_italic' !important;
+}
+
+.txt-about {
+  padding: 0% 5% 0% 20%;
+  font-size: 2rem;
+  color: #f2f2f2;
+  font-family: 'favorit_probook';
+  line-height: 1.3;
+}
+
+.txt-about-b {
+  padding: 0% 5% 5% 20%;
+  font-size: 2rem;
+  color: #191819;
+  font-family: 'favorit_probook';
+  line-height: 1.3;
+}
+
+.p-about {
+  padding: 10% 5% 2% 5%;
+}
+
+.box-content {
+  width: 1000px;
+  height: 1080px;
+  margin: auto;
+  border: 1px solid #efefef;
+}
+
+/* Content */
+.content {
+  position: relative;
+}
+
+.content--blended p {
+  padding: 0 0 2em 0;
+  max-width: 65vw;
+  margin: 0 0 0 auto;
+  text-align: justify;
+  font-size: 1.65em;
+  line-height: 1.5;
+}
+
+.content--blended p:nth-of-type(even) {
+  margin: 0 auto 0 0;
+}
+
+/* Related demos */
+@media screen and (max-width: 50em) {
+  .codrops-header__title {
+    font-size: 1.5em;
+  }
+
+  .content--blended p,
+  .content--blended p:nth-of-type(even),
+  .content--related {
+    font-size: 1.15em;
+    text-align: left;
+    margin: 0;
+    padding: 1em 0;
+    max-width: none;
+  }
+
+  .media-item {
+    width: calc(50% - 0.5em);
+    margin: 0;
+    padding: 0;
+    font-size: 0.65em;
+  }
+}
+
+.pop-media {
+  position: absolute;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  pointer-events: none;
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: hue-rotate(-0.25turn);
+  /* mix-blend-mode: difference; */
+}
+
+/* testi particolari nelle tende */
+.pop-text {
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  color: #76FA5A;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pop-text:hover {
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  color: #76FA5A;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+.pop-text-1 {
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  color: #76FA5A;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: -0%;
+  background-image: linear-gradient(transparent 52%, #76FA5A 50%);
+  transition: background 500ms ease;
+  background-size: 10%;
+  background-size: auto 175%;
+}
+
+.pop-text-1:hover {
+  color: #191819;
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: 100%;
+}
+
+.pop-text-2 {
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  color: #76FA5A;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: -0%;
+  background-image: linear-gradient(transparent 40%, #76FA5A 40%);
+  transition: background 500ms ease;
+  background-size: 1%;
+  background-size: auto 220%;
+}
+
+.pop-text-3 {
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  color: #0023F5;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: -0%;
+  background-image: linear-gradient(transparent 52%, #0023F5 50%);
+  transition: background 500ms ease;
+  background-size: 1%;
+  background-size: auto 175%;
+}
+
+.pop-text-3:hover {
+  color: #fff;
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: 100%;
+}
+
+.pop-text-2:hover {
+  color: #191819;
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: 100%;
+}
+
+.color-info {
+  color: #191819;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+/* cambiamento testo senza immagine  */
+.ab-img {
+  display: block;
+  padding-top: 5%;
+  padding-bottom: 5%;
+margin-left: 40%;
+}
+
+#diverso {
+margin-left: 25%;
+}
+
+#protocol {
+  display: block;
+  width: 65%;
+  margin: auto;
+  padding-left: 10%;
+}
+
+#protocol2 {
+  /* display: block;
+  width: 80%;
+  margin-left: 15%;
+  margin-right: 50%; */
+}
+
+
+.high {
+  font-size: 2rem;
+  color: white;
+  font-family: 'favorit_probook_italic';
+  line-height: 1.3;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.start-scrolling {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* !SVG ANIMATI! */
+.inline-photo {
+  box-shadow: 1em 1em 2em .25em rgba(0, 0, 0, .2);
+  margin: 2em auto;
+  opacity: 0;
+  transform: translateY(4em);
+  transition: transform 1.5s .25s cubic-bezier(0, 1, .3, 1),
+    opacity .3s .25s ease-out;
+  max-width: 600px;
+  width: 90%;
+  will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+  opacity: 1;
+  transform: rotateZ(-0deg);
+}
+
+
+.hey {
+  animation: hey 1s ease-in-out infinite alternate;
+}
+
+@keyframes hey {
+  0% {
+    transform: scale(1) rotate(8deg);
+  }
+
+  100% {
+    transform: scale(0.8) rotate(8deg);
+  }
+}
