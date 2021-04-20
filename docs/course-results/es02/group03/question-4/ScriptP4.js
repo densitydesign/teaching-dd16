@@ -68,16 +68,16 @@ Promise.all([
 
     const CoronaChan = d3.selectAll("#CoronaChan>g")
     const Carray = [
-      ["CChan", "with chan"],
+      ["Cchan", "with chan"],
       ["CCharacters", "with characters"],
       ["CBeer", "with corona beer"],
       ["CDarkEvil", "dark / evil"],
-      ["CErotic", "erotic"],
+      ["Cerotic", "erotic"],
       ["CFlat", "flat"],
-      ["CGraphic", "graphic / text"],
-      ["CHazmat", "hazmat suit"],
+      ["Cgraphic", "graphic / text"],
+      ["Chazmat", "hazmat suit"],
       ["CCounter", "death counter"],
-      ["CMono", "monochromatic"],
+      ["Cmono", "monochromatic"],
       ["CPhotomontage", "photomontage"],
       ["CShaded", "shaded"]
     ]
