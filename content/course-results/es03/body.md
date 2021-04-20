@@ -4,31 +4,31 @@ layout: es03
 groups:
 - group: group01
   title: "The Wild Stream"
-  names: "Della Pepa Gabriele, Febres Medina Andrea, Ghio Caterina, Granzotto Francesca, Rondi Paola, Stefani Elena"
+  names: "Claudia Maria Cutrupi, Sara Ferrini, Beatrice Maggi, Gaia Panfoli, Isabella Possaghi, Virgilia Ramella"
   image: "../../assets/img/es03/cover-g01.gif"
   desc: "Kids are avid consumers of Youtube. To gain popularity, some creators hide inappropriate contents in kids' most loved cartoons, manipulating them, while also eluding YouTube’s supervising systems. This phenomenon, born in 2014 and still ongoing, is called ElsaGate."
 
 - group: group02
   title: "The hijacker's guide to digital activism"
-  names: "Cristina Pita da Veiga, Evansha Agrawal, Guilherme Appolinario, Maria Almeida, Natalia Malaver, Rebeca Vittorazo"
+  names: "Caterina Comini, Lorenzo Di Leonardo, Francesca Maria Mauri, Virginia Migliorini, Fabiola Papini, Sofia Peracchi, Emily Maria Salmaso"
   image: "../../assets/img/es03/cover-g02.png"
   desc: "Hashtag hijacking has become an important phenomenon in digital activism, yet many online users don’t know their way around it. This project provides aims to understand these collective actions and encourages the audience to participate in online conversations."
 
 - group: group03
   title: "The Hunt"
-  names: "Valentina Caiola, Davide Formenti, Riccardo Fuccelli, Diego Morra, Francesco Mugnaini, Andrea Pronzati"
+  names: "Elisa Finesso, Elena Gibelli, Federica Laurencio Tacoronte, Andrea Mario Morandini, Jacopo Sironi, Marco Valli"
   image: "../../assets/img/es03/cover-g03.gif"
   desc: "The Hunt consists in a series of recorded videos of our journey through Instagram influencers’ conspiratorial content. The goal of the research is to inform the audience of the existence of verified profiles sharing misleading or false information."
 
 - group: group04
   title: ""
-  names: "Beatrice Bazzan, Allegra Colombo, Martina Giordano, Gianluca Misto, Ludovica Piro, Irina Stojsic"
+  names: "Martina Andreotti, Elena Buttolo, Marco Gabriele, Alessandro Parca, Federico Pozzi, Andrea Silvano"
   image: "../../assets/img/es03/cover-g04.png"
   desc: "People going to visit movie or TV series' locations bring a growth in tourism, but they can also have a negative impact on the environment and residents. Since they aren’t meant to be tourist places, they are not prepared for the masses of people and their peculiar behaviours."
 
 - group: group05
   title: "USER IN WONDER TUBE"
-  names: "Sneha Baliga, Julia Chlastacz, Dang Trung Nguyen, Marijan Nikolic, Bogdan Novakovic, Preeti Puri, Chenyun Zeng"
+  names: "Sneha Baliga, Julia Chlastacz, Dang Trung Nguyen, Marija Nikolic, Bogdan Novakovic, Preeti Puri, Chenyun Zeng"
   desc: "Instagram proposes itself as an open-minded platform, but through the use of policies about nudity, it denies its users' freedom of expression. Our communication aim is to inform, making the users reflect: which vision of our society do we have according Instagram policies?"
   image: "../../assets/img/es03/cover-g05.png"
 

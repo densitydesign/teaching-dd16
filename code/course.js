@@ -34,7 +34,7 @@ const Home = ({ _body, _relativeURL, _ID }) => (
 					</div>
 				</a>
 				<a href={ _relativeURL( `/course-results/es03`, _ID ) }>
-					<div id="phase3" className="link--phase" style={{ opacity: 0.5 }}>
+					<div id="phase3" className="link--phase" >
 					<img src={ _relativeURL( '/assets/img/phase-glyphs/stroke_phase_3.png', _ID)}
 					style={{ width: "180px", position: "absolute" }}/>
 					<img className="hover--accent" src={ _relativeURL( '/assets/img/phase-glyphs/phase_3_hover.png', _ID)}
