@@ -43,16 +43,13 @@ if (questions.size() > 0) {
 
       const introText = intro.selectAll("div").data([info]).enter().append("div");
       introText.append("p").text(d => d.description);
-      introText.append("a").html(l => l.link);
-
-
 
       const question =
         questions.selectAll('div').data(questionsData).enter().append('div').classed("question__card", true);
       question.append('h2').text(d => d.index + ". " + d.title).classed("question__title", true);
       question.append('img').attr('src', d => `./${d.folder}/${d.cover}`);
       const questionMeta = question.append("div").classed("question__info", true);
-      questionMeta.append('p').text(d => d.description)
+      questionMeta.append('p').text(d => d.description);
 
       question.on("click", (e, d) => {
         window.location.href = d.folder;
