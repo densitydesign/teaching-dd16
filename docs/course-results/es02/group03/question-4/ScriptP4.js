@@ -1,4 +1,7 @@
-Promise.all([d3.html("./question.html"), d3.html("./scroll1.svg")]).then(function([html, svgDocument]) {
+Promise.all([
+  d3.html("./question.html"), 
+  d3.html("./scroll1.svg")
+]).then(function([html, svgDocument]) {
   const questionContent = d3.select(html).selectAll('body > *');
   questionContent.each(function(d) {
     d3.select("#question-container").node().appendChild(this);
@@ -46,7 +49,7 @@ Promise.all([d3.html("./question.html"), d3.html("./scroll1.svg")]).then(functio
     const Wojak = d3.selectAll("#Wojak>g")
     const Warray = [
       ["WBrainlet", "Brainlet"],
-      ["Wgrug", "Grug"],
+      ["WGrug", "Grug"],
       ["WMask", "mask"],
       ["WMilitary", "Military"],
       ["Wnorf", "Norf F. C."],
@@ -65,16 +68,16 @@ Promise.all([d3.html("./question.html"), d3.html("./scroll1.svg")]).then(functio
 
     const CoronaChan = d3.selectAll("#CoronaChan>g")
     const Carray = [
-      ["Cchan", "with chan"],
+      ["CChan", "with chan"],
       ["CCharacters", "with characters"],
       ["CBeer", "with corona beer"],
       ["CDarkEvil", "dark / evil"],
-      ["Cerotic", "erotic"],
+      ["CErotic", "erotic"],
       ["CFlat", "flat"],
-      ["Cgraphic", "graphic / text"],
-      ["Chazmat", "hazmat suit"],
+      ["CGraphic", "graphic / text"],
+      ["CHazmat", "hazmat suit"],
       ["CCounter", "death counter"],
-      ["Cmono", "monochromatic"],
+      ["CMono", "monochromatic"],
       ["CPhotomontage", "photomontage"],
       ["CShaded", "shaded"]
     ]
