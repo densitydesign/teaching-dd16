@@ -23,7 +23,7 @@ groups:
 - group: group04
   title: ""
   names: "Martina Andreotti, Elena Buttolo, Marco Gabriele, Alessandro Parca, Federico Pozzi, Andrea Silvano"
-  image: "../../assets/img/es03/cover-g04.png"
+  image: "../../assets/img/es03/cover-g04.gif"
   desc: "People going to visit movie or TV series' locations bring a growth in tourism, but they can also have a negative impact on the environment and residents. Since they aren’t meant to be tourist places, they are not prepared for the masses of people and their peculiar behaviours."
 
 - group: group05
