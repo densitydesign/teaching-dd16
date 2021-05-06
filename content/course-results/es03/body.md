@@ -24,7 +24,7 @@ groups:
   title: ""
   names: "Martina Andreotti, Elena Buttolo, Marco Gabriele, Alessandro Parca, Federico Pozzi, Andrea Silvano"
   image: "../../assets/img/es03/cover-g04.gif"
-  desc: "People going to visit movie or TV series' locations bring a growth in tourism, but they can also have a negative impact on the environment and residents. Since they aren’t meant to be tourist places, they are not prepared for the masses of people and their peculiar behaviours."
+  desc: "This is a collection of medical procedures that aims to show real deals and promos on cosmetic surgeries in order to expose its mass marketing approach and objectification. Every bit of information manipulated by the platform serves its scope: selling a product."
 
 - group: group05
   title: "USER IN WONDER TUBE"
