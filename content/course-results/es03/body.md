@@ -21,7 +21,7 @@ groups:
   desc: "The Hunt consists in a series of recorded videos of our journey through Instagram influencers’ conspiratorial content. The goal of the research is to inform the audience of the existence of verified profiles sharing misleading or false information."
 
 - group: group04
-  title: ""
+  title: "It's Cheaper Abroad"
   names: "Martina Andreotti, Elena Buttolo, Marco Gabriele, Alessandro Parca, Federico Pozzi, Andrea Silvano"
   image: "../../assets/img/es03/cover-g04.gif"
   desc: "This is a collection of medical procedures that aims to show real deals and promos on cosmetic surgeries in order to expose its mass marketing approach and objectification. Every bit of information manipulated by the platform serves its scope: selling a product."
