@@ -33,7 +33,7 @@ groups:
   image: "../../assets/img/es02/cover-g05.gif"
 
 - group: group06
-  title: "Public Opinions of Drones: A Study of Drones' Usage and Portrayal"
+  title: "The Web Cleaners"
   names: ""
   image: "../../assets/img/es02/cover-g06.gif"
   desc: "Content moderator was described as ‘the worst job in the US’. Content moderators are paid to view objectionable posts and decide which need to be removed from digital platforms. This research aims to make people more aware of who content moderators are and how their situation is."
@@ -53,7 +53,7 @@ groups:
 - group: group09
   title: "@conspiracy sent u a pic"
   names: "Giulia Baraldi, Cecilia Gaetarelli, Alia Kaouel, Tim Olbrich, Valentina Pallacci, Alessia Rodler, Vera Salvaderi"
-  image: "../../assets/img/es02/cover-g09.gif"
+  image: "../../assets/img/es02/cover-g09.jpeg"
   desc: "Conspiracy theories are built by a community of people as shared knowledge. Platforms like IG and TikTok are used to create imagery around conspiracy theories. But how does it happen? Group 9 analyze what makes the aesthetic of conspiracy theories so catchy on Social Media. "
 
 ---

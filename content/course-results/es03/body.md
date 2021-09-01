@@ -33,10 +33,10 @@ groups:
   image: "../../assets/img/es03/cover-g05.png"
 
 - group: group06
-  title: "Before You Fly"
+  title: "I, Web Cleaner"
   names: ""
   image: "../../assets/img/es03/cover-g06.png"
-  desc: "Drone is becoming increasingly common in the consumer market. However, many drone owners are not aware of its basic laws and regulations. Our goal is to inform and raise awareness about the regulations of drone flying for the owners."
+  desc: "The content moderator is a group of people who are on the front lines of the never-ending battle to keep the Internet safe. How is their life? What are they facing?"
 
 - group: group07
   title: "The Ideal Face"
